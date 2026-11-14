@@ -1,0 +1,213 @@
+---
+import Layout from '../layouts/Layout.astro'
+import CohortExplorer from '../components/cohort/CohortExplorer.vue'
+import StatCard from '../components/shared/StatCard.vue'
+import summariesJson from '../data/student-summaries.json'
+import { site } from '../data/site'
+import type { StudentSummariesFile } from '../types/student.types'
+
+const data = summariesJson as StudentSummariesFile
+const totalStudents = data.students.length
+const activeStudents = data.students.filter((student) => student.aktif).length
+
+const snapshotModules = import.meta.glob('../data/students/*.json', { eager: true })
+const distinctProblems = new Set<string>()
+
+for (const path in snapshotModules) {
+  const mod = snapshotModules[path] as any
+  const platforms = mod.platforms || {}
+
+  for (const item of platforms.tlx?.recentSolved || []) {
+    if (item.title) distinctProblems.add(`tlx:${item.title.trim().toLowerCase()}`)
+  }
+
+  for (const item of platforms.codeforces?.recentSolved || []) {
+    const key =
+      item.url ? item.url.replace(/\/$/, '').toLowerCase() : `cf:${item.title.trim().toLowerCase()}`
+    distinctProblems.add(key)
+  }
+
+  for (const item of platforms.leetcode?.recentSolved || []) {
+    const key =
+      item.url ? item.url.replace(/\/$/, '').toLowerCase() : `lc:${item.title.trim().toLowerCase()}`
+    distinctProblems.add(key)
+  }
+}
+
+const totalDistinctProblems = distinctProblems.size
+
+const activeSolvedList = data.students
+  .filter((student) => student.aktif)
+  .map((student) => student.totalSolved)
+  .sort((a, b) => a - b)
+
+const medianSolved = (() => {
+  if (activeSolvedList.length === 0) return 0
+  const mid = Math.floor(activeSolvedList.length / 2)
+  return activeSolvedList.length % 2 !== 0 ?
+      activeSolvedList[mid]
+    : Math.round((activeSolvedList[mid - 1] + activeSolvedList[mid]) / 2)
+})()
+
+const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000
+const recentlyActive = data.students.filter(
+  (student) => student.lastSolvedAt && new Date(student.lastSolvedAt).getTime() >= thirtyDaysAgo
+).length
+
+const numberFormat = new Intl.NumberFormat('id-ID')
+const formatNumber = (value: number) => numberFormat.format(value)
+
+const lastSynced =
+  data.updatedAt ?
+    new Date(data.updatedAt).toLocaleString('id-ID', {
+      dateStyle: 'medium',
+      timeStyle: 'short',
+    })
+  : 'Belum ada data'
+---
+
+<Layout
+  title={`${site.name} — Monitoring Latihan Competitive Programming`}
+  description="Monitoring aktivitas dan capaian latihan competitive programming mahasiswa JTK di TLX, Codeforces, dan LeetCode.">
+  <main class="cohort-page">
+    <section class="cohort-hero">
+      <div class="cohort-hero__inner">
+        <h1>Monitoring Latihan Competitive Programming</h1>
+        <p class="cohort-hero__lead">
+          Aktivitas dan capaian problem-solving mahasiswa di TLX, Codeforces, dan LeetCode.
+        </p>
+
+        <div class="hero-stats">
+          <StatCard
+            label="Mahasiswa Aktif"
+            variant="sky"
+            helper="Aktif kuliah dari total terdaftar">
+            <span slot="value">
+              {activeStudents}
+              <span class="stat-secondary"> / {totalStudents}</span>
+            </span>
+          </StatCard>
+
+          <StatCard
+            label="Distinct Problems Solved"
+            value={formatNumber(totalDistinctProblems)}
+            variant="emerald"
+            helper="Bank soal unik selesai di 3 platform"
+          />
+
+          <StatCard
+            label="Median Solved"
+            value={formatNumber(medianSolved)}
+            variant="purple"
+            helper="Titik tengah capaian mahasiswa aktif"
+          />
+
+          <StatCard
+            label="Aktif 30 Hari Terakhir"
+            variant="amber"
+            helper="Mahasiswa dengan submisi sebulan terakhir">
+            <span slot="value">
+              {recentlyActive}
+              <span class="stat-secondary"> / {activeStudents}</span>
+            </span>
+          </StatCard>
+        </div>
+
+        <p class="sync-note">Terakhir diperbarui: {lastSynced}</p>
+      </div>
+    </section>
+
+    <section class="cohort-section" id="roster">
+      <div class="section-heading">
+        <h2>Daftar Mahasiswa</h2>
+      </div>
+
+      <CohortExplorer client:load students={data.students} />
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .cohort-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem 5rem;
+  }
+
+  .cohort-hero {
+    padding: clamp(3rem, 7vw, 5.5rem) 0 2.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cohort-hero__inner {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  h1 {
+    margin: 0.85rem 0 0;
+    max-width: 22ch;
+    font-size: clamp(2.1rem, 6vw, 3.6rem);
+    font-weight: 800;
+    line-height: 1.03;
+    letter-spacing: -0.04em;
+    color: var(--text);
+  }
+
+  .cohort-hero__lead {
+    margin: 1.15rem 0 0;
+    max-width: 64ch;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin-top: 1.75rem;
+  }
+
+  .stat-secondary {
+    font-size: 0.65em;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--muted);
+  }
+
+  .sync-note {
+    margin: 1rem 0 0;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .cohort-section {
+    padding-top: 2.5rem;
+  }
+
+  .section-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    font-size: clamp(1.35rem, 3vw, 1.75rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  @media (max-width: 768px) {
+    .hero-stats {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+  }
+</style>

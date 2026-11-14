@@ -1,0 +1,132 @@
+<script setup lang="ts">
+import type { TabItem } from '../../types/ui.types'
+
+defineProps<{
+  item: TabItem
+  active: boolean
+  isId: boolean
+}>()
+
+defineEmits<{
+  (e: 'select'): void
+}>()
+</script>
+
+<template>
+  <button
+    type="button"
+    role="tab"
+    :aria-selected="active"
+    class="tab-btn"
+    :class="{ active }"
+    @click="$emit('select')">
+    <slot :item="item" :active="active">
+      <span v-if="item.logo && item.logoLight" class="tab-logo">
+        <img
+          :src="item.logo"
+          :alt="item.key"
+          width="18"
+          height="18"
+          decoding="async"
+          class="tab-logo-img logo-variant-dark" />
+        <img
+          :src="item.logoLight"
+          :alt="item.key"
+          width="18"
+          height="18"
+          decoding="async"
+          class="tab-logo-img logo-variant-light" />
+      </span>
+      <img
+        v-else-if="item.logo"
+        :src="item.logo"
+        :alt="item.key"
+        width="18"
+        height="18"
+        decoding="async"
+        class="tab-logo-img" />
+
+      <span v-else-if="item.icon" class="tab-icon" v-html="item.icon"></span>
+
+      <span class="tab-name">{{ isId ? item.labelId : item.labelEn }}</span>
+
+      <span
+        v-if="item.count !== undefined && item.count !== null && item.count !== ''"
+        class="tab-badge">
+        {{ item.count }}
+      </span>
+    </slot>
+  </button>
+</template>
+
+<style scoped>
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font-size: var(--type-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  color: var(--text);
+  background: var(--bg-soft);
+}
+
+.tab-btn.active {
+  color: var(--text);
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+
+:root.light .tab-btn {
+  color: var(--muted);
+}
+
+:root.light .tab-btn:hover {
+  color: var(--text);
+  background: var(--bg-soft);
+}
+
+:root.light .tab-btn.active {
+  color: var(--text);
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+
+.tab-logo,
+.tab-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.tab-logo-img {
+  width: 1.15rem;
+  height: 1.15rem;
+  object-fit: contain;
+}
+
+.tab-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab-badge {
+  font-size: var(--type-xs);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-elevated);
+  border: none;
+  font-weight: 700;
+}
+</style>

@@ -1,0 +1,213 @@
+<template>
+  <component
+    :is="url ? 'a' : 'div'"
+    :href="url || undefined"
+    :target="url ? '_blank' : undefined"
+    :rel="url ? 'noopener noreferrer' : undefined"
+    class="platform-detail-card"
+    @click="$emit('select')">
+    <!-- Card Header Shell -->
+    <div class="pcard-header">
+      <div class="pcard-title-group">
+        <div class="pcard-logo-box">
+          <template v-if="logo && logoLight">
+            <img
+              :src="logo"
+              :alt="name"
+              width="22"
+              height="22"
+              decoding="async"
+              class="pcard-img-logo logo-variant-dark" />
+            <img
+              :src="logoLight"
+              :alt="name"
+              width="22"
+              height="22"
+              decoding="async"
+              class="pcard-img-logo logo-variant-light" />
+          </template>
+          <img
+            v-else
+            :src="logo"
+            :alt="name"
+            width="22"
+            height="22"
+            decoding="async"
+            class="pcard-img-logo" />
+        </div>
+        <div class="pcard-title-text">
+          <h4 class="pcard-name">{{ name }}</h4>
+          <span class="pcard-handle">{{
+            handle.startsWith('@') ? handle
+            : handle.includes(' ') ? handle
+            : `@${handle}`
+          }}</span>
+        </div>
+      </div>
+      <div class="pcard-solved-badge">
+        <span class="pcard-solved-num">{{ solvedNum }}</span>
+        <span class="pcard-solved-label">{{ solvedLabel }}</span>
+      </div>
+    </div>
+
+    <!-- Card Body (Yield / Slot for custom platform metrics) -->
+    <div class="pcard-body">
+      <slot />
+    </div>
+
+    <!-- Card Footer Shell -->
+    <div class="pcard-footer">
+      <span class="view-details-link">{{ footerText }}</span>
+    </div>
+  </component>
+</template>
+
+<script setup lang="ts">
+defineProps<{
+  name: string
+  handle: string
+  logo: string
+  logoLight?: string
+  solvedNum: number | string
+  solvedLabel: string
+  footerText: string
+  url?: string
+}>()
+
+defineEmits<{
+  (e: 'select'): void
+}>()
+</script>
+
+<style scoped>
+.platform-detail-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background: var(--bg-soft);
+  border: none;
+  border-radius: var(--radius-xl);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.platform-detail-card:hover {
+  background: var(--bg-elevated);
+  transform: translateY(-2px);
+}
+
+:root.light .platform-detail-card {
+  background: var(--bg-soft);
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+:root.light .platform-detail-card:hover {
+  background: var(--bg-elevated);
+}
+
+.pcard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.pcard-title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.pcard-logo-box {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  border: none;
+}
+
+.pcard-img-logo {
+  width: 1.35rem;
+  height: 1.35rem;
+  object-fit: contain;
+}
+
+.pcard-title-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.pcard-name {
+  font-size: var(--type-base);
+  font-weight: 700;
+  margin: 0;
+  color: var(--text);
+}
+
+.pcard-handle {
+  font-size: var(--type-xs);
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+
+.pcard-solved-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-md);
+  border: none;
+  white-space: nowrap;
+}
+
+.pcard-solved-num {
+  font-size: var(--type-lg);
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.pcard-solved-label {
+  font-size: var(--type-xs);
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.pcard-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: var(--type-sm);
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+/* Slotted styles for custom yield content inside body */
+:slotted(.pcard-meta-row) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+:slotted(.pcard-meta-row strong) {
+  color: var(--text);
+}
+
+.pcard-footer {
+  border-top: none;
+  padding-top: 0.75rem;
+}
+
+.view-details-link {
+  font-size: var(--type-sm);
+  font-weight: 600;
+  color: var(--link);
+}
+</style>

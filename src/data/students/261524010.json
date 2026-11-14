@@ -1,0 +1,998 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-14T08:39:36.028Z",
+    "version": "1",
+    "studentNim": "261524010",
+    "handles": {
+      "tlx": "imfachri",
+      "codeforces": null,
+      "leetcode": null
+    }
+  },
+  "overview": {
+    "totalSolved": 65,
+    "totalSubmissions": 226,
+    "activePlatforms": 1,
+    "heatmap": {
+      "2025-06-22": {
+        "tries": 34,
+        "ac": 7
+      },
+      "2025-06-21": {
+        "tries": 41,
+        "ac": 9
+      },
+      "2025-05-24": {
+        "tries": 42,
+        "ac": 10
+      },
+      "2025-05-20": {
+        "tries": 52,
+        "ac": 10
+      },
+      "2025-05-19": {
+        "tries": 28,
+        "ac": 9
+      },
+      "2025-05-18": {
+        "tries": 29,
+        "ac": 19
+      }
+    },
+    "topLanguage": {
+      "name": "C++20",
+      "count": 226
+    }
+  },
+  "platforms": {
+    "tlx": {
+      "handle": "imfachri",
+      "url": "https://tlx.toki.id/profiles/imfachri",
+      "totalSolved": 65,
+      "totalSubmissions": 226,
+      "totalAcSubmissions": 64,
+      "uniqueProblemsSolved": 44,
+      "languages": {
+        "C++20": 226
+      },
+      "dailyCalendar": {
+        "2025-06-22": {
+          "tries": 34,
+          "ac": 7
+        },
+        "2025-06-21": {
+          "tries": 41,
+          "ac": 9
+        },
+        "2025-05-24": {
+          "tries": 42,
+          "ac": 10
+        },
+        "2025-05-20": {
+          "tries": 52,
+          "ac": 10
+        },
+        "2025-05-19": {
+          "tries": 28,
+          "ac": 9
+        },
+        "2025-05-18": {
+          "tries": 29,
+          "ac": 19
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "tlx-3832240",
+          "platform": "tlx",
+          "title": "Tipe Data std::vector",
+          "category": "Tipe Data Lainnya",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3832240",
+          "solvedAt": "2025-06-22T08:19:01.864Z"
+        },
+        {
+          "id": "tlx-3831883",
+          "platform": "tlx",
+          "title": "Operasi Tipe Data char",
+          "category": "Tipe Data Lainnya",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3831883",
+          "solvedAt": "2025-06-22T07:39:49.983Z"
+        },
+        {
+          "id": "tlx-3831733",
+          "platform": "tlx",
+          "title": "Tipe Data char",
+          "category": "Tipe Data Lainnya",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3831733",
+          "solvedAt": "2025-06-22T07:18:09.217Z"
+        },
+        {
+          "id": "tlx-3831690",
+          "platform": "tlx",
+          "title": "Tipe Data double",
+          "category": "Tipe Data Lainnya",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3831690",
+          "solvedAt": "2025-06-22T07:11:23.483Z"
+        },
+        {
+          "id": "tlx-3831668",
+          "platform": "tlx",
+          "title": "Tipe Data long long",
+          "category": "Tipe Data Lainnya",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3831668",
+          "solvedAt": "2025-06-22T07:06:35.186Z"
+        },
+        {
+          "id": "tlx-3827553",
+          "platform": "tlx",
+          "title": "\"Pass by Reference\"",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3827553",
+          "solvedAt": "2025-06-21T13:20:38.993Z"
+        },
+        {
+          "id": "tlx-3827273",
+          "platform": "tlx",
+          "title": "Fungsi Anggota",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3827273",
+          "solvedAt": "2025-06-21T12:50:01.478Z"
+        },
+        {
+          "id": "tlx-3827168",
+          "platform": "tlx",
+          "title": "Fungsi Tanpa Nilai Kembalian",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3827168",
+          "solvedAt": "2025-06-21T12:39:19.011Z"
+        },
+        {
+          "id": "tlx-3825792",
+          "platform": "tlx",
+          "title": "0 dan > 1 Parameter",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3825792",
+          "solvedAt": "2025-06-21T08:31:52.519Z"
+        },
+        {
+          "id": "tlx-3825772",
+          "platform": "tlx",
+          "title": "Ruang Lingkup Variabel dan Fungsi",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3825772",
+          "solvedAt": "2025-06-21T08:28:24.393Z"
+        },
+        {
+          "id": "tlx-3825592",
+          "platform": "tlx",
+          "title": "Perkenalan Fungsi",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3825592",
+          "solvedAt": "2025-06-21T08:00:00.610Z"
+        },
+        {
+          "id": "tlx-3825565",
+          "platform": "tlx",
+          "title": "Memborong Bebek",
+          "category": "Fungsi",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3825565",
+          "solvedAt": "2025-06-21T07:52:53.910Z"
+        },
+        {
+          "id": "tlx-3693854",
+          "platform": "tlx",
+          "title": "Menutup Toko",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693854",
+          "solvedAt": "2025-05-24T10:21:16.474Z"
+        },
+        {
+          "id": "tlx-3693806",
+          "platform": "tlx",
+          "title": "Toko Kandang II",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693806",
+          "solvedAt": "2025-05-24T09:56:54.085Z"
+        },
+        {
+          "id": "tlx-3693782",
+          "platform": "tlx",
+          "title": "Bermain Lampu Kandang",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693782",
+          "solvedAt": "2025-05-24T09:50:57.018Z"
+        },
+        {
+          "id": "tlx-3693576",
+          "platform": "tlx",
+          "title": "Jual-Beli Bebek III",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693576",
+          "solvedAt": "2025-05-24T08:41:40.264Z"
+        },
+        {
+          "id": "tlx-3693522",
+          "platform": "tlx",
+          "title": "Kandang Terbesar",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693522",
+          "solvedAt": "2025-05-24T08:24:59.425Z"
+        },
+        {
+          "id": "tlx-3693507",
+          "platform": "tlx",
+          "title": "Perkenalan Larik (Array)",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693507",
+          "solvedAt": "2025-05-24T08:20:01.220Z"
+        },
+        {
+          "id": "tlx-3693492",
+          "platform": "tlx",
+          "title": "Toko Kandang",
+          "category": "Larik (Array)",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3693492",
+          "solvedAt": "2025-05-24T08:16:27.658Z"
+        },
+        {
+          "id": "tlx-3675303",
+          "platform": "tlx",
+          "title": "Mencari Pola III",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3675303",
+          "solvedAt": "2025-05-20T23:33:27.114Z"
+        },
+        {
+          "id": "tlx-3675276",
+          "platform": "tlx",
+          "title": "Mencari Pola II",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3675276",
+          "solvedAt": "2025-05-20T22:58:45.837Z"
+        },
+        {
+          "id": "tlx-3675244",
+          "platform": "tlx",
+          "title": "Mencari Pola I",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3675244",
+          "solvedAt": "2025-05-20T21:59:59.479Z"
+        },
+        {
+          "id": "tlx-3672577",
+          "platform": "tlx",
+          "title": "Perkenalan While",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3672577",
+          "solvedAt": "2025-05-20T07:02:53.467Z"
+        },
+        {
+          "id": "tlx-3666635",
+          "platform": "tlx",
+          "title": "Perkenalan Continue dan Break",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3666635",
+          "solvedAt": "2025-05-19T08:08:10.908Z"
+        },
+        {
+          "id": "tlx-3666625",
+          "platform": "tlx",
+          "title": "Perkenalan Tipe Data Boolean",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3666625",
+          "solvedAt": "2025-05-19T08:07:01.168Z"
+        },
+        {
+          "id": "tlx-3664504",
+          "platform": "tlx",
+          "title": "Perkenalan For",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3664504",
+          "solvedAt": "2025-05-19T06:06:56.510Z"
+        },
+        {
+          "id": "tlx-3660288",
+          "platform": "tlx",
+          "title": "Mengukur Kandang II",
+          "category": "Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660288",
+          "solvedAt": "2025-05-18T10:09:19.386Z"
+        },
+        {
+          "id": "tlx-3660172",
+          "platform": "tlx",
+          "title": "Perkenalan Else If",
+          "category": "Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660172",
+          "solvedAt": "2025-05-18T09:42:18.632Z"
+        },
+        {
+          "id": "tlx-3660146",
+          "platform": "tlx",
+          "title": "Perkenalan Else",
+          "category": "Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660146",
+          "solvedAt": "2025-05-18T09:35:26.216Z"
+        },
+        {
+          "id": "tlx-3660126",
+          "platform": "tlx",
+          "title": "Menggiring Bebek",
+          "category": "Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660126",
+          "solvedAt": "2025-05-18T09:32:14.800Z"
+        },
+        {
+          "id": "tlx-3660053",
+          "platform": "tlx",
+          "title": "Jual-Beli Bebek II",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660053",
+          "solvedAt": "2025-05-18T09:16:29.075Z"
+        },
+        {
+          "id": "tlx-3660024",
+          "platform": "tlx",
+          "title": "Membeli Kandang IV",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3660024",
+          "solvedAt": "2025-05-18T09:09:33.289Z"
+        },
+        {
+          "id": "tlx-3659963",
+          "platform": "tlx",
+          "title": "Membeli Kandang III",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659963",
+          "solvedAt": "2025-05-18T08:54:40.147Z"
+        },
+        {
+          "id": "tlx-3659946",
+          "platform": "tlx",
+          "title": "Membeli Kandang II",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659946",
+          "solvedAt": "2025-05-18T08:51:17.532Z"
+        },
+        {
+          "id": "tlx-3659889",
+          "platform": "tlx",
+          "title": "Membeli Kandang",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659889",
+          "solvedAt": "2025-05-18T08:35:54.948Z"
+        },
+        {
+          "id": "tlx-3659522",
+          "platform": "tlx",
+          "title": "Jual-Beli Bebek",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659522",
+          "solvedAt": "2025-05-18T06:48:31.630Z"
+        },
+        {
+          "id": "tlx-3659474",
+          "platform": "tlx",
+          "title": "Perkenalan Tipe Data String",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659474",
+          "solvedAt": "2025-05-18T06:39:39.450Z"
+        },
+        {
+          "id": "tlx-3659430",
+          "platform": "tlx",
+          "title": "Memperbarui Nilai Variabel",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659430",
+          "solvedAt": "2025-05-18T06:26:33.547Z"
+        },
+        {
+          "id": "tlx-3659421",
+          "platform": "tlx",
+          "title": "Perkenalan Variabel",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659421",
+          "solvedAt": "2025-05-18T06:23:20.543Z"
+        },
+        {
+          "id": "tlx-3659214",
+          "platform": "tlx",
+          "title": "Mengukur Kandang",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659214",
+          "solvedAt": "2025-05-18T05:29:08.188Z"
+        },
+        {
+          "id": "tlx-3659192",
+          "platform": "tlx",
+          "title": "Menjumlahkan Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659192",
+          "solvedAt": "2025-05-18T05:20:38.407Z"
+        },
+        {
+          "id": "tlx-3659183",
+          "platform": "tlx",
+          "title": "Mencetak Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659183",
+          "solvedAt": "2025-05-18T05:18:44.330Z"
+        },
+        {
+          "id": "tlx-3659169",
+          "platform": "tlx",
+          "title": "Mencetak dengan std::cout",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659169",
+          "solvedAt": "2025-05-18T05:15:46.974Z"
+        },
+        {
+          "id": "tlx-3659158",
+          "platform": "tlx",
+          "title": "Program Pertamaku",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3659158",
+          "solvedAt": "2025-05-18T05:12:51.026Z"
+        }
+      ]
+    },
+    "codeforces": {
+      "handle": "",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "unrated",
+      "maxRank": "unrated",
+      "contestsCount": 0,
+      "tagsCount": {},
+      "ratingDistribution": {},
+      "languages": {}
+    },
+    "leetcode": {
+      "handle": "",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "ranking": 0,
+      "easySolved": 0,
+      "mediumSolved": 0,
+      "hardSolved": 0
+    }
+  },
+  "recentGlobalFeed": [
+    {
+      "id": "tlx-3832240",
+      "platform": "tlx",
+      "title": "Tipe Data std::vector",
+      "category": "Tipe Data Lainnya",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3832240",
+      "solvedAt": "2025-06-22T08:19:01.864Z"
+    },
+    {
+      "id": "tlx-3831883",
+      "platform": "tlx",
+      "title": "Operasi Tipe Data char",
+      "category": "Tipe Data Lainnya",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3831883",
+      "solvedAt": "2025-06-22T07:39:49.983Z"
+    },
+    {
+      "id": "tlx-3831733",
+      "platform": "tlx",
+      "title": "Tipe Data char",
+      "category": "Tipe Data Lainnya",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3831733",
+      "solvedAt": "2025-06-22T07:18:09.217Z"
+    },
+    {
+      "id": "tlx-3831690",
+      "platform": "tlx",
+      "title": "Tipe Data double",
+      "category": "Tipe Data Lainnya",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3831690",
+      "solvedAt": "2025-06-22T07:11:23.483Z"
+    },
+    {
+      "id": "tlx-3831668",
+      "platform": "tlx",
+      "title": "Tipe Data long long",
+      "category": "Tipe Data Lainnya",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3831668",
+      "solvedAt": "2025-06-22T07:06:35.186Z"
+    },
+    {
+      "id": "tlx-3827553",
+      "platform": "tlx",
+      "title": "\"Pass by Reference\"",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3827553",
+      "solvedAt": "2025-06-21T13:20:38.993Z"
+    },
+    {
+      "id": "tlx-3827273",
+      "platform": "tlx",
+      "title": "Fungsi Anggota",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3827273",
+      "solvedAt": "2025-06-21T12:50:01.478Z"
+    },
+    {
+      "id": "tlx-3827168",
+      "platform": "tlx",
+      "title": "Fungsi Tanpa Nilai Kembalian",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3827168",
+      "solvedAt": "2025-06-21T12:39:19.011Z"
+    },
+    {
+      "id": "tlx-3825792",
+      "platform": "tlx",
+      "title": "0 dan > 1 Parameter",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3825792",
+      "solvedAt": "2025-06-21T08:31:52.519Z"
+    },
+    {
+      "id": "tlx-3825772",
+      "platform": "tlx",
+      "title": "Ruang Lingkup Variabel dan Fungsi",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3825772",
+      "solvedAt": "2025-06-21T08:28:24.393Z"
+    },
+    {
+      "id": "tlx-3825592",
+      "platform": "tlx",
+      "title": "Perkenalan Fungsi",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3825592",
+      "solvedAt": "2025-06-21T08:00:00.610Z"
+    },
+    {
+      "id": "tlx-3825565",
+      "platform": "tlx",
+      "title": "Memborong Bebek",
+      "category": "Fungsi",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3825565",
+      "solvedAt": "2025-06-21T07:52:53.910Z"
+    },
+    {
+      "id": "tlx-3693854",
+      "platform": "tlx",
+      "title": "Menutup Toko",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693854",
+      "solvedAt": "2025-05-24T10:21:16.474Z"
+    },
+    {
+      "id": "tlx-3693806",
+      "platform": "tlx",
+      "title": "Toko Kandang II",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693806",
+      "solvedAt": "2025-05-24T09:56:54.085Z"
+    },
+    {
+      "id": "tlx-3693782",
+      "platform": "tlx",
+      "title": "Bermain Lampu Kandang",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693782",
+      "solvedAt": "2025-05-24T09:50:57.018Z"
+    },
+    {
+      "id": "tlx-3693576",
+      "platform": "tlx",
+      "title": "Jual-Beli Bebek III",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693576",
+      "solvedAt": "2025-05-24T08:41:40.264Z"
+    },
+    {
+      "id": "tlx-3693522",
+      "platform": "tlx",
+      "title": "Kandang Terbesar",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693522",
+      "solvedAt": "2025-05-24T08:24:59.425Z"
+    },
+    {
+      "id": "tlx-3693507",
+      "platform": "tlx",
+      "title": "Perkenalan Larik (Array)",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693507",
+      "solvedAt": "2025-05-24T08:20:01.220Z"
+    },
+    {
+      "id": "tlx-3693492",
+      "platform": "tlx",
+      "title": "Toko Kandang",
+      "category": "Larik (Array)",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3693492",
+      "solvedAt": "2025-05-24T08:16:27.658Z"
+    },
+    {
+      "id": "tlx-3675303",
+      "platform": "tlx",
+      "title": "Mencari Pola III",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3675303",
+      "solvedAt": "2025-05-20T23:33:27.114Z"
+    },
+    {
+      "id": "tlx-3675276",
+      "platform": "tlx",
+      "title": "Mencari Pola II",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3675276",
+      "solvedAt": "2025-05-20T22:58:45.837Z"
+    },
+    {
+      "id": "tlx-3675244",
+      "platform": "tlx",
+      "title": "Mencari Pola I",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3675244",
+      "solvedAt": "2025-05-20T21:59:59.479Z"
+    },
+    {
+      "id": "tlx-3672577",
+      "platform": "tlx",
+      "title": "Perkenalan While",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3672577",
+      "solvedAt": "2025-05-20T07:02:53.467Z"
+    },
+    {
+      "id": "tlx-3666635",
+      "platform": "tlx",
+      "title": "Perkenalan Continue dan Break",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3666635",
+      "solvedAt": "2025-05-19T08:08:10.908Z"
+    },
+    {
+      "id": "tlx-3666625",
+      "platform": "tlx",
+      "title": "Perkenalan Tipe Data Boolean",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3666625",
+      "solvedAt": "2025-05-19T08:07:01.168Z"
+    },
+    {
+      "id": "tlx-3664504",
+      "platform": "tlx",
+      "title": "Perkenalan For",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3664504",
+      "solvedAt": "2025-05-19T06:06:56.510Z"
+    },
+    {
+      "id": "tlx-3660288",
+      "platform": "tlx",
+      "title": "Mengukur Kandang II",
+      "category": "Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660288",
+      "solvedAt": "2025-05-18T10:09:19.386Z"
+    },
+    {
+      "id": "tlx-3660172",
+      "platform": "tlx",
+      "title": "Perkenalan Else If",
+      "category": "Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660172",
+      "solvedAt": "2025-05-18T09:42:18.632Z"
+    },
+    {
+      "id": "tlx-3660146",
+      "platform": "tlx",
+      "title": "Perkenalan Else",
+      "category": "Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660146",
+      "solvedAt": "2025-05-18T09:35:26.216Z"
+    },
+    {
+      "id": "tlx-3660126",
+      "platform": "tlx",
+      "title": "Menggiring Bebek",
+      "category": "Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660126",
+      "solvedAt": "2025-05-18T09:32:14.800Z"
+    },
+    {
+      "id": "tlx-3660053",
+      "platform": "tlx",
+      "title": "Jual-Beli Bebek II",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660053",
+      "solvedAt": "2025-05-18T09:16:29.075Z"
+    },
+    {
+      "id": "tlx-3660024",
+      "platform": "tlx",
+      "title": "Membeli Kandang IV",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3660024",
+      "solvedAt": "2025-05-18T09:09:33.289Z"
+    },
+    {
+      "id": "tlx-3659963",
+      "platform": "tlx",
+      "title": "Membeli Kandang III",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659963",
+      "solvedAt": "2025-05-18T08:54:40.147Z"
+    },
+    {
+      "id": "tlx-3659946",
+      "platform": "tlx",
+      "title": "Membeli Kandang II",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659946",
+      "solvedAt": "2025-05-18T08:51:17.532Z"
+    },
+    {
+      "id": "tlx-3659889",
+      "platform": "tlx",
+      "title": "Membeli Kandang",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659889",
+      "solvedAt": "2025-05-18T08:35:54.948Z"
+    },
+    {
+      "id": "tlx-3659522",
+      "platform": "tlx",
+      "title": "Jual-Beli Bebek",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659522",
+      "solvedAt": "2025-05-18T06:48:31.630Z"
+    },
+    {
+      "id": "tlx-3659474",
+      "platform": "tlx",
+      "title": "Perkenalan Tipe Data String",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659474",
+      "solvedAt": "2025-05-18T06:39:39.450Z"
+    },
+    {
+      "id": "tlx-3659430",
+      "platform": "tlx",
+      "title": "Memperbarui Nilai Variabel",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659430",
+      "solvedAt": "2025-05-18T06:26:33.547Z"
+    },
+    {
+      "id": "tlx-3659421",
+      "platform": "tlx",
+      "title": "Perkenalan Variabel",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659421",
+      "solvedAt": "2025-05-18T06:23:20.543Z"
+    },
+    {
+      "id": "tlx-3659214",
+      "platform": "tlx",
+      "title": "Mengukur Kandang",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659214",
+      "solvedAt": "2025-05-18T05:29:08.188Z"
+    },
+    {
+      "id": "tlx-3659192",
+      "platform": "tlx",
+      "title": "Menjumlahkan Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659192",
+      "solvedAt": "2025-05-18T05:20:38.407Z"
+    },
+    {
+      "id": "tlx-3659183",
+      "platform": "tlx",
+      "title": "Mencetak Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659183",
+      "solvedAt": "2025-05-18T05:18:44.330Z"
+    },
+    {
+      "id": "tlx-3659169",
+      "platform": "tlx",
+      "title": "Mencetak dengan std::cout",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659169",
+      "solvedAt": "2025-05-18T05:15:46.974Z"
+    },
+    {
+      "id": "tlx-3659158",
+      "platform": "tlx",
+      "title": "Program Pertamaku",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3659158",
+      "solvedAt": "2025-05-18T05:12:51.026Z"
+    }
+  ]
+}

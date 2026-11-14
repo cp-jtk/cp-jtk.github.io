@@ -1,0 +1,4582 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-14T08:39:33.844Z",
+    "version": "1",
+    "studentNim": "241524051",
+    "handles": {
+      "tlx": "fnsd",
+      "codeforces": "finsidemonkey",
+      "leetcode": "finsider"
+    }
+  },
+  "overview": {
+    "totalSolved": 258,
+    "totalSubmissions": 656,
+    "activePlatforms": 3,
+    "heatmap": {
+      "2026-11-10": {
+        "tries": 4,
+        "ac": 4
+      },
+      "2026-11-07": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-11-02": {
+        "tries": 2,
+        "ac": 0
+      },
+      "2026-10-31": {
+        "tries": 8,
+        "ac": 4
+      },
+      "2026-10-17": {
+        "tries": 15,
+        "ac": 5
+      },
+      "2026-10-10": {
+        "tries": 15,
+        "ac": 4
+      },
+      "2026-10-04": {
+        "tries": 9,
+        "ac": 5
+      },
+      "2026-10-03": {
+        "tries": 9,
+        "ac": 2
+      },
+      "2026-09-19": {
+        "tries": 8,
+        "ac": 1
+      },
+      "2026-09-07": {
+        "tries": 3,
+        "ac": 0
+      },
+      "2026-09-06": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2026-08-29": {
+        "tries": 5,
+        "ac": 2
+      },
+      "2026-08-28": {
+        "tries": 7,
+        "ac": 4
+      },
+      "2026-08-27": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2026-08-25": {
+        "tries": 7,
+        "ac": 4
+      },
+      "2026-08-24": {
+        "tries": 13,
+        "ac": 2
+      },
+      "2026-08-20": {
+        "tries": 11,
+        "ac": 1
+      },
+      "2026-08-19": {
+        "tries": 7,
+        "ac": 3
+      },
+      "2026-08-15": {
+        "tries": 16,
+        "ac": 6
+      },
+      "2026-08-06": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-05-15": {
+        "tries": 27,
+        "ac": 1
+      },
+      "2026-05-14": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2026-05-13": {
+        "tries": 14,
+        "ac": 2
+      },
+      "2026-05-01": {
+        "tries": 7,
+        "ac": 0
+      },
+      "2026-04-25": {
+        "tries": 2,
+        "ac": 0
+      },
+      "2026-04-06": {
+        "tries": 4,
+        "ac": 0
+      },
+      "2026-03-03": {
+        "tries": 2,
+        "ac": 1
+      },
+      "2026-02-18": {
+        "tries": 3,
+        "ac": 2
+      },
+      "2026-02-16": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-02-01": {
+        "tries": 2,
+        "ac": 0
+      },
+      "2026-01-31": {
+        "tries": 6,
+        "ac": 1
+      },
+      "2025-11-23": {
+        "tries": 5,
+        "ac": 3
+      },
+      "2025-11-22": {
+        "tries": 17,
+        "ac": 4
+      },
+      "2025-11-21": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2025-11-16": {
+        "tries": 8,
+        "ac": 0
+      },
+      "2025-11-15": {
+        "tries": 11,
+        "ac": 2
+      },
+      "2025-11-12": {
+        "tries": 3,
+        "ac": 1
+      },
+      "2025-11-08": {
+        "tries": 8,
+        "ac": 1
+      },
+      "2025-11-07": {
+        "tries": 3,
+        "ac": 1
+      },
+      "2025-11-03": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2025-10-29": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2025-10-26": {
+        "tries": 2,
+        "ac": 1
+      },
+      "2025-10-25": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2025-10-24": {
+        "tries": 2,
+        "ac": 1
+      },
+      "2025-08-31": {
+        "tries": 4,
+        "ac": 0
+      },
+      "2025-08-29": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2025-08-27": {
+        "tries": 3,
+        "ac": 1
+      },
+      "2025-08-26": {
+        "tries": 3,
+        "ac": 2
+      },
+      "2025-08-24": {
+        "tries": 11,
+        "ac": 1
+      },
+      "2025-07-04": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2025-03-15": {
+        "tries": 4,
+        "ac": 3
+      },
+      "2025-03-14": {
+        "tries": 6,
+        "ac": 0
+      },
+      "2025-03-13": {
+        "tries": 16,
+        "ac": 10
+      },
+      "2025-03-10": {
+        "tries": 3,
+        "ac": 3
+      },
+      "2025-03-09": {
+        "tries": 21,
+        "ac": 4
+      },
+      "2025-03-08": {
+        "tries": 26,
+        "ac": 5
+      },
+      "2024-08-08": {
+        "tries": 1,
+        "ac": 0
+      },
+      "2024-06-30": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-09-26": {
+        "tries": 7,
+        "ac": 4
+      },
+      "2026-08-05": {
+        "tries": 7,
+        "ac": 3
+      },
+      "2026-08-02": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2026-07-29": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-07-28": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-07-25": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2026-07-22": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2026-07-21": {
+        "tries": 10,
+        "ac": 6
+      },
+      "2026-03-11": {
+        "tries": 2,
+        "ac": 1
+      },
+      "2025-12-24": {
+        "tries": 2,
+        "ac": 1
+      },
+      "2025-12-23": {
+        "tries": 7,
+        "ac": 2
+      },
+      "2025-12-22": {
+        "tries": 6,
+        "ac": 2
+      },
+      "2025-11-27": {
+        "tries": 5,
+        "ac": 1
+      },
+      "2025-11-25": {
+        "tries": 4,
+        "ac": 1
+      },
+      "2025-11-20": {
+        "tries": 10,
+        "ac": 1
+      },
+      "2025-11-19": {
+        "tries": 21,
+        "ac": 10
+      },
+      "2025-10-30": {
+        "tries": 5,
+        "ac": 0
+      },
+      "2025-10-28": {
+        "tries": 5,
+        "ac": 2
+      },
+      "2025-10-18": {
+        "tries": 28,
+        "ac": 3
+      },
+      "2025-08-22": {
+        "tries": 5,
+        "ac": 1
+      },
+      "2025-08-15": {
+        "tries": 2,
+        "ac": 0
+      },
+      "2025-08-14": {
+        "tries": 3,
+        "ac": 2
+      },
+      "2025-08-10": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2025-08-09": {
+        "tries": 12,
+        "ac": 5
+      },
+      "2025-08-02": {
+        "tries": 16,
+        "ac": 4
+      },
+      "2025-08-01": {
+        "tries": 18,
+        "ac": 2
+      },
+      "2025-07-21": {
+        "tries": 3,
+        "ac": 3
+      },
+      "2025-07-20": {
+        "tries": 19,
+        "ac": 4
+      },
+      "2025-07-19": {
+        "tries": 32,
+        "ac": 8
+      },
+      "2025-07-18": {
+        "tries": 7,
+        "ac": 3
+      },
+      "2026-10-21": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-10-19": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-10-14": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-10-08": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-09-20": {
+        "tries": 1,
+        "ac": 1
+      },
+      "2026-09-18": {
+        "tries": 2,
+        "ac": 2
+      },
+      "2026-08-22": {
+        "tries": 2,
+        "ac": 2
+      },
+      "2026-08-21": {
+        "tries": 4,
+        "ac": 4
+      },
+      "2026-08-14": {
+        "tries": 2,
+        "ac": 2
+      },
+      "2026-08-13": {
+        "tries": 4,
+        "ac": 4
+      },
+      "2026-08-12": {
+        "tries": 1,
+        "ac": 1
+      }
+    },
+    "topLanguage": {
+      "name": "C++20",
+      "count": 335
+    }
+  },
+  "platforms": {
+    "tlx": {
+      "handle": "fnsd",
+      "url": "https://tlx.toki.id/profiles/fnsd",
+      "totalSolved": 119,
+      "totalSubmissions": 378,
+      "totalAcSubmissions": 96,
+      "uniqueProblemsSolved": 92,
+      "languages": {
+        "C++20": 316,
+        "C": 61,
+        "Java": 1
+      },
+      "dailyCalendar": {
+        "2026-11-10": {
+          "tries": 4,
+          "ac": 4
+        },
+        "2026-11-07": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-11-02": {
+          "tries": 2,
+          "ac": 0
+        },
+        "2026-10-31": {
+          "tries": 8,
+          "ac": 4
+        },
+        "2026-10-17": {
+          "tries": 15,
+          "ac": 5
+        },
+        "2026-10-10": {
+          "tries": 15,
+          "ac": 4
+        },
+        "2026-10-04": {
+          "tries": 5,
+          "ac": 1
+        },
+        "2026-10-03": {
+          "tries": 9,
+          "ac": 2
+        },
+        "2026-09-19": {
+          "tries": 8,
+          "ac": 1
+        },
+        "2026-09-07": {
+          "tries": 3,
+          "ac": 0
+        },
+        "2026-09-06": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2026-08-29": {
+          "tries": 5,
+          "ac": 2
+        },
+        "2026-08-28": {
+          "tries": 7,
+          "ac": 4
+        },
+        "2026-08-27": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2026-08-25": {
+          "tries": 7,
+          "ac": 4
+        },
+        "2026-08-24": {
+          "tries": 13,
+          "ac": 2
+        },
+        "2026-08-20": {
+          "tries": 11,
+          "ac": 1
+        },
+        "2026-08-19": {
+          "tries": 7,
+          "ac": 3
+        },
+        "2026-08-15": {
+          "tries": 16,
+          "ac": 6
+        },
+        "2026-08-06": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-05-15": {
+          "tries": 27,
+          "ac": 1
+        },
+        "2026-05-14": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2026-05-13": {
+          "tries": 14,
+          "ac": 2
+        },
+        "2026-05-01": {
+          "tries": 7,
+          "ac": 0
+        },
+        "2026-04-25": {
+          "tries": 2,
+          "ac": 0
+        },
+        "2026-04-06": {
+          "tries": 4,
+          "ac": 0
+        },
+        "2026-03-03": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2026-02-18": {
+          "tries": 3,
+          "ac": 2
+        },
+        "2026-02-16": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-02-01": {
+          "tries": 2,
+          "ac": 0
+        },
+        "2026-01-31": {
+          "tries": 6,
+          "ac": 1
+        },
+        "2025-11-23": {
+          "tries": 5,
+          "ac": 3
+        },
+        "2025-11-22": {
+          "tries": 17,
+          "ac": 4
+        },
+        "2025-11-21": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2025-11-16": {
+          "tries": 8,
+          "ac": 0
+        },
+        "2025-11-15": {
+          "tries": 11,
+          "ac": 2
+        },
+        "2025-11-12": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2025-11-08": {
+          "tries": 7,
+          "ac": 0
+        },
+        "2025-11-07": {
+          "tries": 3,
+          "ac": 1
+        },
+        "2025-11-03": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2025-10-29": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2025-10-26": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2025-10-25": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2025-10-24": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2025-08-31": {
+          "tries": 4,
+          "ac": 0
+        },
+        "2025-08-29": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2025-08-27": {
+          "tries": 3,
+          "ac": 1
+        },
+        "2025-08-26": {
+          "tries": 3,
+          "ac": 2
+        },
+        "2025-08-24": {
+          "tries": 11,
+          "ac": 1
+        },
+        "2025-07-04": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2025-03-15": {
+          "tries": 4,
+          "ac": 3
+        },
+        "2025-03-14": {
+          "tries": 6,
+          "ac": 0
+        },
+        "2025-03-13": {
+          "tries": 16,
+          "ac": 10
+        },
+        "2025-03-10": {
+          "tries": 3,
+          "ac": 3
+        },
+        "2025-03-09": {
+          "tries": 21,
+          "ac": 4
+        },
+        "2025-03-08": {
+          "tries": 26,
+          "ac": 5
+        },
+        "2024-08-08": {
+          "tries": 1,
+          "ac": 0
+        },
+        "2024-06-30": {
+          "tries": 1,
+          "ac": 1
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "tlx-6286212",
+          "platform": "tlx",
+          "title": "Kompetisi Pemrograman",
+          "category": "GEMASTIK 2023 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6286212",
+          "solvedAt": "2026-11-10T15:04:22.787Z"
+        },
+        {
+          "id": "tlx-6285883",
+          "platform": "tlx",
+          "title": "Zuma Bergembira",
+          "category": "GEMASTIK 2023 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6285883",
+          "solvedAt": "2026-11-10T14:08:19.889Z"
+        },
+        {
+          "id": "tlx-6285712",
+          "platform": "tlx",
+          "title": "Lampu Gemastik",
+          "category": "GEMASTIK 2023 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6285712",
+          "solvedAt": "2026-11-10T13:41:26.071Z"
+        },
+        {
+          "id": "tlx-6285554",
+          "platform": "tlx",
+          "title": "Pesan Berantai",
+          "category": "GEMASTIK 2023 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6285554",
+          "solvedAt": "2026-11-10T13:26:39.553Z"
+        },
+        {
+          "id": "tlx-6272918",
+          "platform": "tlx",
+          "title": "Bilangan Unik",
+          "category": "GEMASTIK 2025 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6272918",
+          "solvedAt": "2026-11-07T07:08:10.489Z"
+        },
+        {
+          "id": "tlx-6241473",
+          "platform": "tlx",
+          "title": "Ai Game",
+          "category": "INC 2026",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6241473",
+          "solvedAt": "2026-10-31T04:28:39.510Z"
+        },
+        {
+          "id": "tlx-6241472",
+          "platform": "tlx",
+          "title": "Can't Let You Through",
+          "category": "INC 2026",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6241472",
+          "solvedAt": "2026-10-31T04:28:30.564Z"
+        },
+        {
+          "id": "tlx-6241470",
+          "platform": "tlx",
+          "title": "Skysplitter",
+          "category": "INC 2026",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6241470",
+          "solvedAt": "2026-10-31T04:28:17.611Z"
+        },
+        {
+          "id": "tlx-6241468",
+          "platform": "tlx",
+          "title": "Call for Tasks",
+          "category": "INC 2026",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6241468",
+          "solvedAt": "2026-10-31T04:27:47.524Z"
+        },
+        {
+          "id": "tlx-6181057",
+          "platform": "tlx",
+          "title": "Stock Market",
+          "category": "INC 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6181057",
+          "solvedAt": "2026-10-17T08:56:27.998Z"
+        },
+        {
+          "id": "tlx-6180634",
+          "platform": "tlx",
+          "title": "Plus or Times",
+          "category": "INC 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6180634",
+          "solvedAt": "2026-10-17T07:54:19.138Z"
+        },
+        {
+          "id": "tlx-6180363",
+          "platform": "tlx",
+          "title": "Obstacle Course",
+          "category": "INC 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6180363",
+          "solvedAt": "2026-10-17T07:19:11.834Z"
+        },
+        {
+          "id": "tlx-6179955",
+          "platform": "tlx",
+          "title": "Cooking Steaks",
+          "category": "INC 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6179955",
+          "solvedAt": "2026-10-17T05:41:56.203Z"
+        },
+        {
+          "id": "tlx-6179750",
+          "platform": "tlx",
+          "title": "Party Medley",
+          "category": "INC 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6179750",
+          "solvedAt": "2026-10-17T05:08:09.250Z"
+        },
+        {
+          "id": "tlx-6150787",
+          "platform": "tlx",
+          "title": "Horse Carts",
+          "category": "INC 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6150787",
+          "solvedAt": "2026-10-10T08:00:54.741Z"
+        },
+        {
+          "id": "tlx-6150672",
+          "platform": "tlx",
+          "title": "Chocolate Bar",
+          "category": "INC 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6150672",
+          "solvedAt": "2026-10-10T07:40:11.416Z"
+        },
+        {
+          "id": "tlx-6150116",
+          "platform": "tlx",
+          "title": "Diet Plan",
+          "category": "INC 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6150116",
+          "solvedAt": "2026-10-10T05:27:58.268Z"
+        },
+        {
+          "id": "tlx-6149993",
+          "platform": "tlx",
+          "title": "Golden Tickets",
+          "category": "INC 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6149993",
+          "solvedAt": "2026-10-10T05:01:39.362Z"
+        },
+        {
+          "id": "tlx-6115527",
+          "platform": "tlx",
+          "title": "A Fate-Defying Chanek",
+          "category": "COMPFEST 18 - Final CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6115527",
+          "solvedAt": "2026-10-04T23:37:13.343Z"
+        },
+        {
+          "id": "tlx-6109024",
+          "platform": "tlx",
+          "title": "Morning Sun",
+          "category": "COMPFEST 18 - Final CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6109024",
+          "solvedAt": "2026-10-03T04:23:15.790Z"
+        },
+        {
+          "id": "tlx-6108785",
+          "platform": "tlx",
+          "title": "Hope from Light of Wisdom",
+          "category": "COMPFEST 18 - Final CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6108785",
+          "solvedAt": "2026-10-03T03:37:18.613Z"
+        },
+        {
+          "id": "tlx-6038381",
+          "platform": "tlx",
+          "title": "The Infinite Divider",
+          "category": "Schematics 2023 - Penyisihan NPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6038381",
+          "solvedAt": "2026-09-19T07:17:55.525Z"
+        },
+        {
+          "id": "tlx-5966561",
+          "platform": "tlx",
+          "title": "Angklung Ajaib",
+          "category": "GEMASTIK 2025 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5966561",
+          "solvedAt": "2026-09-06T02:05:19.442Z"
+        },
+        {
+          "id": "tlx-5912944",
+          "platform": "tlx",
+          "title": "Mengurutkan Karakter",
+          "category": "GEMASTIK 2022 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5912944",
+          "solvedAt": "2026-08-29T13:37:01.393Z"
+        },
+        {
+          "id": "tlx-5912868",
+          "platform": "tlx",
+          "title": "Pecahan",
+          "category": "GEMASTIK 2022 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5912868",
+          "solvedAt": "2026-08-29T13:21:45.642Z"
+        },
+        {
+          "id": "tlx-5906031",
+          "platform": "tlx",
+          "title": "Kolam Ikan",
+          "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5906031",
+          "solvedAt": "2026-08-28T09:51:40.859Z"
+        },
+        {
+          "id": "tlx-5905693",
+          "platform": "tlx",
+          "title": "MinES",
+          "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5905693",
+          "solvedAt": "2026-08-28T08:48:38.436Z"
+        },
+        {
+          "id": "tlx-5905533",
+          "platform": "tlx",
+          "title": "Ringkasan Bilangan",
+          "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5905533",
+          "solvedAt": "2026-08-28T08:27:20.943Z"
+        },
+        {
+          "id": "tlx-5905462",
+          "platform": "tlx",
+          "title": "Es Kopi Boba",
+          "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5905462",
+          "solvedAt": "2026-08-28T08:18:51.274Z"
+        },
+        {
+          "id": "tlx-5882494",
+          "platform": "tlx",
+          "title": "Diskon 50%, S&K Berlaku",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5882494",
+          "solvedAt": "2026-08-25T04:02:12.960Z"
+        },
+        {
+          "id": "tlx-5882282",
+          "platform": "tlx",
+          "title": "Reseller Topi Gemastik",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5882282",
+          "solvedAt": "2026-08-25T03:28:32.087Z"
+        },
+        {
+          "id": "tlx-5882210",
+          "platform": "tlx",
+          "title": "Piknik",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5882210",
+          "solvedAt": "2026-08-25T03:15:24.612Z"
+        },
+        {
+          "id": "tlx-5882158",
+          "platform": "tlx",
+          "title": "Tupai Loncat",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5882158",
+          "solvedAt": "2026-08-25T03:01:40.467Z"
+        },
+        {
+          "id": "tlx-5881355",
+          "platform": "tlx",
+          "title": "Lumpia Rebung",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5881355",
+          "solvedAt": "2026-08-24T14:58:54.637Z"
+        },
+        {
+          "id": "tlx-5876590",
+          "platform": "tlx",
+          "title": "Makan Lumpia",
+          "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5876590",
+          "solvedAt": "2026-08-24T03:41:22.591Z"
+        },
+        {
+          "id": "tlx-5852922",
+          "platform": "tlx",
+          "title": "Kerajaan Karbit",
+          "category": "COMPFEST 17 - Penyisihan CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5852922",
+          "solvedAt": "2026-08-20T04:16:16.896Z"
+        },
+        {
+          "id": "tlx-5848878",
+          "platform": "tlx",
+          "title": "Dango Berkeluarga",
+          "category": "COMPFEST 17 - Penyisihan CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5848878",
+          "solvedAt": "2026-08-19T07:39:33.003Z"
+        },
+        {
+          "id": "tlx-5848541",
+          "platform": "tlx",
+          "title": "Belajar Bit",
+          "category": "COMPFEST 17 - Penyisihan CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5848541",
+          "solvedAt": "2026-08-19T06:35:49.317Z"
+        },
+        {
+          "id": "tlx-5848107",
+          "platform": "tlx",
+          "title": "Asiknya Permainan Kartu",
+          "category": "COMPFEST 17 - Penyisihan CPC Senior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5848107",
+          "solvedAt": "2026-08-19T05:21:28.101Z"
+        },
+        {
+          "id": "tlx-5832559",
+          "platform": "tlx",
+          "title": "Ekspedisi Pengangkut Mobil",
+          "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5832559",
+          "solvedAt": "2026-08-15T08:29:51.209Z"
+        },
+        {
+          "id": "tlx-5832042",
+          "platform": "tlx",
+          "title": "Astik Berkompetisi",
+          "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5832042",
+          "solvedAt": "2026-08-15T07:04:17.538Z"
+        },
+        {
+          "id": "tlx-5831271",
+          "platform": "tlx",
+          "title": "Diskon Beli A Gratis B",
+          "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5831271",
+          "solvedAt": "2026-08-15T04:13:19.507Z"
+        },
+        {
+          "id": "tlx-5831190",
+          "platform": "tlx",
+          "title": "COBOT",
+          "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5831190",
+          "solvedAt": "2026-08-15T03:58:43.472Z"
+        },
+        {
+          "id": "tlx-5831144",
+          "platform": "tlx",
+          "title": "Astik Berkompetisi",
+          "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5831144",
+          "solvedAt": "2026-08-15T03:51:05.834Z"
+        },
+        {
+          "id": "tlx-5781712",
+          "platform": "tlx",
+          "title": "Xordition Robot",
+          "category": "INC 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5781712",
+          "solvedAt": "2026-08-06T01:52:31.334Z"
+        },
+        {
+          "id": "tlx-5389525",
+          "platform": "tlx",
+          "title": "Mencari Kereta",
+          "category": "Find IT 2025 - Penyisihan CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5389525",
+          "solvedAt": "2026-05-15T02:40:45.832Z"
+        },
+        {
+          "id": "tlx-5385482",
+          "platform": "tlx",
+          "title": "Mencari Karakter 2025",
+          "category": "Find IT 2025 - Final CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5385482",
+          "solvedAt": "2026-05-14T03:55:05.341Z"
+        },
+        {
+          "id": "tlx-5383686",
+          "platform": "tlx",
+          "title": "Mencari Listrik 2",
+          "category": "Find IT 2025 - Final CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5383686",
+          "solvedAt": "2026-05-13T13:42:39.865Z"
+        },
+        {
+          "id": "tlx-5383239",
+          "platform": "tlx",
+          "title": "Mencari Bendera",
+          "category": "Find IT 2025 - Final CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/5383239",
+          "solvedAt": "2026-05-13T11:29:32.035Z"
+        },
+        {
+          "id": "tlx-4953342",
+          "platform": "tlx",
+          "title": "Perkenalan Jalur Terpendek dari Satu Sumber: Dijkstra",
+          "category": "Algoritma Graf",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4953342",
+          "solvedAt": "2026-03-03T09:04:06.446Z"
+        },
+        {
+          "id": "tlx-4887917",
+          "platform": "tlx",
+          "title": "Membeli Cokelat",
+          "category": "Arkavidia 8.0 - Penyisihan CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4887917",
+          "solvedAt": "2026-02-18T09:06:51.045Z"
+        },
+        {
+          "id": "tlx-4886734",
+          "platform": "tlx",
+          "title": "Matrix Problem",
+          "category": "Arkavidia 10.0 - Penyisihan CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4886734",
+          "solvedAt": "2026-02-18T05:38:30.819Z"
+        },
+        {
+          "id": "tlx-4814559",
+          "platform": "tlx",
+          "title": "Gerbang Sihir Arkavidia",
+          "category": "Arkavidia 9.0 - Penyisihan CP",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4814559",
+          "solvedAt": "2026-01-31T23:34:00.231Z"
+        },
+        {
+          "id": "tlx-4648828",
+          "platform": "tlx",
+          "title": "A. Nihilation",
+          "category": "ICPC Jakarta 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4648828",
+          "solvedAt": "2025-11-23T15:42:08.241Z"
+        },
+        {
+          "id": "tlx-4648815",
+          "platform": "tlx",
+          "title": "Burning Blocks",
+          "category": "ICPC Jakarta 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4648815",
+          "solvedAt": "2025-11-23T15:38:18.195Z"
+        },
+        {
+          "id": "tlx-4648734",
+          "platform": "tlx",
+          "title": "AND and/or OR",
+          "category": "ICPC Jakarta 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4648734",
+          "solvedAt": "2025-11-23T15:13:48.215Z"
+        },
+        {
+          "id": "tlx-4647334",
+          "platform": "tlx",
+          "title": "Food Rating",
+          "category": "INC 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4647334",
+          "solvedAt": "2025-11-22T22:19:39.856Z"
+        },
+        {
+          "id": "tlx-4646670",
+          "platform": "tlx",
+          "title": "Microwavable Subsequence",
+          "category": "ICPC Jakarta 2024",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4646670",
+          "solvedAt": "2025-11-22T10:24:31.433Z"
+        },
+        {
+          "id": "tlx-4626458",
+          "platform": "tlx",
+          "title": "Mirror Maze",
+          "category": "ICPC Jakarta 2024",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4626458",
+          "solvedAt": "2025-11-15T17:22:38.180Z"
+        },
+        {
+          "id": "tlx-4625220",
+          "platform": "tlx",
+          "title": "Honey Division",
+          "category": "IDEAFUSE 2024 - CP Qualification Round",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4625220",
+          "solvedAt": "2025-11-15T08:43:10.716Z"
+        },
+        {
+          "id": "tlx-4587396",
+          "platform": "tlx",
+          "title": "Construct BFS Graph",
+          "category": "INC 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4587396",
+          "solvedAt": "2025-11-07T17:18:33.265Z"
+        },
+        {
+          "id": "tlx-4548031",
+          "platform": "tlx",
+          "title": "Divido Travel",
+          "category": "INC 2025",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4548031",
+          "solvedAt": "2025-10-26T16:57:59.593Z"
+        },
+        {
+          "id": "tlx-4540296",
+          "platform": "tlx",
+          "title": "Intensive Training",
+          "category": "INC 2024",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4540296",
+          "solvedAt": "2025-10-24T15:29:14.638Z"
+        },
+        {
+          "id": "tlx-4229617",
+          "platform": "tlx",
+          "title": "Triangle Construction",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4229617",
+          "solvedAt": "2025-08-29T02:31:50.811Z"
+        },
+        {
+          "id": "tlx-4216571",
+          "platform": "tlx",
+          "title": "Palindromic Parentheses",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4216571",
+          "solvedAt": "2025-08-27T04:27:33.801Z"
+        },
+        {
+          "id": "tlx-4212100",
+          "platform": "tlx",
+          "title": "Button Pressing",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4212100",
+          "solvedAt": "2025-08-26T09:03:35.355Z"
+        },
+        {
+          "id": "tlx-4210757",
+          "platform": "tlx",
+          "title": "Easy As ABC",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4210757",
+          "solvedAt": "2025-08-26T07:01:01.056Z"
+        },
+        {
+          "id": "tlx-4201024",
+          "platform": "tlx",
+          "title": "Antibakteri",
+          "category": "GEMASTIK 2024 - Final Pemrograman",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4201024",
+          "solvedAt": "2025-08-24T13:12:12.243Z"
+        },
+        {
+          "id": "tlx-3875449",
+          "platform": "tlx",
+          "title": "Perkenalan Pencarian Linear",
+          "category": "Pencarian dan Pengurutan",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3875449",
+          "solvedAt": "2025-07-04T08:31:03.787Z"
+        },
+        {
+          "id": "tlx-3419924",
+          "platform": "tlx",
+          "title": "Permutasi Ekspresi",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3419924",
+          "solvedAt": "2025-03-15T04:14:26.843Z"
+        },
+        {
+          "id": "tlx-3415715",
+          "platform": "tlx",
+          "title": "Mencari Pola III",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415715",
+          "solvedAt": "2025-03-13T10:45:12.434Z"
+        },
+        {
+          "id": "tlx-3415704",
+          "platform": "tlx",
+          "title": "Mencari Pola II",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415704",
+          "solvedAt": "2025-03-13T10:42:48.045Z"
+        },
+        {
+          "id": "tlx-3415702",
+          "platform": "tlx",
+          "title": "Mencari Pola I",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415702",
+          "solvedAt": "2025-03-13T10:42:11.083Z"
+        },
+        {
+          "id": "tlx-3415674",
+          "platform": "tlx",
+          "title": "Perkenalan Continue dan Break",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415674",
+          "solvedAt": "2025-03-13T10:35:59.445Z"
+        },
+        {
+          "id": "tlx-3415664",
+          "platform": "tlx",
+          "title": "Perkenalan Tipe Data Boolean",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415664",
+          "solvedAt": "2025-03-13T10:31:24.736Z"
+        },
+        {
+          "id": "tlx-3415648",
+          "platform": "tlx",
+          "title": "Perkenalan For",
+          "category": "Perulangan & Percabangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415648",
+          "solvedAt": "2025-03-13T10:27:23.798Z"
+        },
+        {
+          "id": "tlx-3415645",
+          "platform": "tlx",
+          "title": "Mengukur Kandang",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415645",
+          "solvedAt": "2025-03-13T10:26:03.050Z"
+        },
+        {
+          "id": "tlx-3415637",
+          "platform": "tlx",
+          "title": "Menjumlahkan Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415637",
+          "solvedAt": "2025-03-13T10:24:22.660Z"
+        },
+        {
+          "id": "tlx-3415635",
+          "platform": "tlx",
+          "title": "Mencetak Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415635",
+          "solvedAt": "2025-03-13T10:24:05.891Z"
+        },
+        {
+          "id": "tlx-3415631",
+          "platform": "tlx",
+          "title": "Mencetak dengan std::cout",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3415631",
+          "solvedAt": "2025-03-13T10:23:47.627Z"
+        },
+        {
+          "id": "tlx-3405032",
+          "platform": "tlx",
+          "title": "Jawbreaker III: Cari Terbesar dan Runtuhkan",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3405032",
+          "solvedAt": "2025-03-10T11:16:23.827Z"
+        },
+        {
+          "id": "tlx-3404978",
+          "platform": "tlx",
+          "title": "Jawbreaker II: Cari Terbesar",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3404978",
+          "solvedAt": "2025-03-10T10:46:50.717Z"
+        },
+        {
+          "id": "tlx-3404952",
+          "platform": "tlx",
+          "title": "Jawbreaker I: Klik!",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3404952",
+          "solvedAt": "2025-03-10T10:33:52.710Z"
+        },
+        {
+          "id": "tlx-3402520",
+          "platform": "tlx",
+          "title": "Permutasi Zig-Zag",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3402520",
+          "solvedAt": "2025-03-09T14:18:01.193Z"
+        },
+        {
+          "id": "tlx-3402176",
+          "platform": "tlx",
+          "title": "Perkenalan Brute Force Rekursif: Backtracking",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3402176",
+          "solvedAt": "2025-03-09T11:10:39.931Z"
+        },
+        {
+          "id": "tlx-3402081",
+          "platform": "tlx",
+          "title": "Perkenalan Brute Force",
+          "category": "Brute Force",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3402081",
+          "solvedAt": "2025-03-09T10:08:14.753Z"
+        },
+        {
+          "id": "tlx-3399773",
+          "platform": "tlx",
+          "title": "Pola String",
+          "category": "Perkenalan Pemrograman Kompetitif",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3399773",
+          "solvedAt": "2025-03-08T10:35:11.032Z"
+        },
+        {
+          "id": "tlx-3399763",
+          "platform": "tlx",
+          "title": "Menyelidiki Pesan",
+          "category": "Perkenalan Pemrograman Kompetitif",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3399763",
+          "solvedAt": "2025-03-08T10:19:19.040Z"
+        },
+        {
+          "id": "tlx-3399697",
+          "platform": "tlx",
+          "title": "Runtuh",
+          "category": "Perkenalan Pemrograman Kompetitif",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3399697",
+          "solvedAt": "2025-03-08T09:24:36.104Z"
+        },
+        {
+          "id": "tlx-3399641",
+          "platform": "tlx",
+          "title": "Operasi Matriks",
+          "category": "Perkenalan Pemrograman Kompetitif",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3399641",
+          "solvedAt": "2025-03-08T08:40:01.752Z"
+        },
+        {
+          "id": "tlx-3398727",
+          "platform": "tlx",
+          "title": "Perkenalan Soal Implementasi",
+          "category": "Perkenalan Pemrograman Kompetitif",
+          "language": "C",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/3398727",
+          "solvedAt": "2025-03-08T04:11:24.307Z"
+        },
+        {
+          "id": "tlx-2065726",
+          "platform": "tlx",
+          "title": "Program Pertamaku",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/2065726",
+          "solvedAt": "2024-06-30T17:21:24.694Z"
+        }
+      ]
+    },
+    "codeforces": {
+      "handle": "finsidemonkey",
+      "url": "https://codeforces.com/profile/finsidemonkey",
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "unrated",
+      "maxRank": "unrated",
+      "contestsCount": 0,
+      "totalSubmissions": 258,
+      "totalSolved": 71,
+      "totalAcSubmissions": 81,
+      "tagsCount": {
+        "dsu": 3,
+        "graphs": 6,
+        "trees": 3,
+        "dfs and similar": 6,
+        "greedy": 13,
+        "math": 13,
+        "sortings": 4,
+        "data structures": 11,
+        "implementation": 16,
+        "two pointers": 3,
+        "brute force": 7,
+        "dp": 20,
+        "divide and conquer": 1,
+        "schedules": 1,
+        "binary search": 3,
+        "strings": 3,
+        "graph matchings": 2,
+        "number theory": 3,
+        "constructive algorithms": 1,
+        "bitmasks": 1,
+        "flows": 1
+      },
+      "ratingDistribution": {
+        "800": 8,
+        "900": 3,
+        "1000": 4,
+        "1100": 3,
+        "1200": 5,
+        "1300": 3,
+        "1400": 7,
+        "1500": 1,
+        "1600": 2,
+        "1700": 1,
+        "1800": 1,
+        "1900": 3,
+        "2000": 1,
+        "2200": 2,
+        "2400": 1
+      },
+      "languages": {
+        "C++17": 221,
+        "GNU C11": 37
+      },
+      "dailyCalendar": {
+        "2026-10-04": {
+          "tries": 4,
+          "ac": 4
+        },
+        "2026-09-26": {
+          "tries": 7,
+          "ac": 4
+        },
+        "2026-08-05": {
+          "tries": 7,
+          "ac": 3
+        },
+        "2026-08-02": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2026-07-29": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-07-28": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-07-25": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2026-07-22": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2026-07-21": {
+          "tries": 10,
+          "ac": 6
+        },
+        "2026-03-11": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2025-12-24": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2025-12-23": {
+          "tries": 7,
+          "ac": 2
+        },
+        "2025-12-22": {
+          "tries": 6,
+          "ac": 2
+        },
+        "2025-11-27": {
+          "tries": 5,
+          "ac": 1
+        },
+        "2025-11-25": {
+          "tries": 4,
+          "ac": 1
+        },
+        "2025-11-20": {
+          "tries": 10,
+          "ac": 1
+        },
+        "2025-11-19": {
+          "tries": 21,
+          "ac": 10
+        },
+        "2025-11-12": {
+          "tries": 2,
+          "ac": 1
+        },
+        "2025-11-08": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2025-10-30": {
+          "tries": 5,
+          "ac": 0
+        },
+        "2025-10-28": {
+          "tries": 5,
+          "ac": 2
+        },
+        "2025-10-18": {
+          "tries": 28,
+          "ac": 3
+        },
+        "2025-08-22": {
+          "tries": 5,
+          "ac": 1
+        },
+        "2025-08-15": {
+          "tries": 2,
+          "ac": 0
+        },
+        "2025-08-14": {
+          "tries": 3,
+          "ac": 2
+        },
+        "2025-08-10": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2025-08-09": {
+          "tries": 12,
+          "ac": 5
+        },
+        "2025-08-02": {
+          "tries": 16,
+          "ac": 4
+        },
+        "2025-08-01": {
+          "tries": 18,
+          "ac": 2
+        },
+        "2025-07-21": {
+          "tries": 3,
+          "ac": 3
+        },
+        "2025-07-20": {
+          "tries": 19,
+          "ac": 4
+        },
+        "2025-07-19": {
+          "tries": 32,
+          "ac": 8
+        },
+        "2025-07-18": {
+          "tries": 7,
+          "ac": 3
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "cf-393134739",
+          "platform": "codeforces",
+          "title": "Roads not only in Berland (25D)",
+          "category": "dsu",
+          "language": "C++17",
+          "difficulty": "1900",
+          "url": "https://codeforces.com/contest/25/problem/D",
+          "solvedAt": "2026-10-04T05:28:43.000Z"
+        },
+        {
+          "id": "cf-393130848",
+          "platform": "codeforces",
+          "title": "New Year Permutation (500B)",
+          "category": "dfs and similar",
+          "language": "C++17",
+          "difficulty": "1600",
+          "url": "https://codeforces.com/contest/500/problem/B",
+          "solvedAt": "2026-10-04T04:16:37.000Z"
+        },
+        {
+          "id": "cf-393127475",
+          "platform": "codeforces",
+          "title": "News Distribution (1167C)",
+          "category": "dfs and similar",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/1167/problem/C",
+          "solvedAt": "2026-10-04T02:59:05.000Z"
+        },
+        {
+          "id": "cf-392115041",
+          "platform": "codeforces",
+          "title": "Good Goalie (106369D)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106369/problem/D",
+          "solvedAt": "2026-09-26T05:51:07.000Z"
+        },
+        {
+          "id": "cf-392106952",
+          "platform": "codeforces",
+          "title": "Snailography (106369C)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106369/problem/C",
+          "solvedAt": "2026-09-26T04:13:09.000Z"
+        },
+        {
+          "id": "cf-392105355",
+          "platform": "codeforces",
+          "title": "We Want You Happy! (106369B)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106369/problem/B",
+          "solvedAt": "2026-09-26T03:40:33.000Z"
+        },
+        {
+          "id": "cf-392104719",
+          "platform": "codeforces",
+          "title": "Lucky 7 (106369A)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106369/problem/A",
+          "solvedAt": "2026-09-26T03:27:33.000Z"
+        },
+        {
+          "id": "cf-385733793",
+          "platform": "codeforces",
+          "title": "Powerful array (86D)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "2200",
+          "url": "https://codeforces.com/contest/86/problem/D",
+          "solvedAt": "2026-08-05T08:35:13.000Z"
+        },
+        {
+          "id": "cf-385229881",
+          "platform": "codeforces",
+          "title": "Lucky Queries (145E)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "2400",
+          "url": "https://codeforces.com/contest/145/problem/E",
+          "solvedAt": "2026-08-02T05:36:47.000Z"
+        },
+        {
+          "id": "cf-384739836",
+          "platform": "codeforces",
+          "title": "Three displays (987C)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/987/problem/C",
+          "solvedAt": "2026-07-29T10:09:29.000Z"
+        },
+        {
+          "id": "cf-384593854",
+          "platform": "codeforces",
+          "title": "Pashmak and Parmida's problem (459D)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1800",
+          "url": "https://codeforces.com/contest/459/problem/D",
+          "solvedAt": "2026-07-28T06:35:22.000Z"
+        },
+        {
+          "id": "cf-384171660",
+          "platform": "codeforces",
+          "title": "Enemy is weak (61E)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1900",
+          "url": "https://codeforces.com/contest/61/problem/E",
+          "solvedAt": "2026-07-25T08:30:13.000Z"
+        },
+        {
+          "id": "cf-383783234",
+          "platform": "codeforces",
+          "title": "Circular RMQ (52C)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "2200",
+          "url": "https://codeforces.com/contest/52/problem/C",
+          "solvedAt": "2026-07-22T05:46:34.000Z"
+        },
+        {
+          "id": "cf-383685272",
+          "platform": "codeforces",
+          "title": "Sereja and Brackets (380C)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "2000",
+          "url": "https://codeforces.com/contest/380/problem/C",
+          "solvedAt": "2026-07-21T09:38:24.000Z"
+        },
+        {
+          "id": "cf-383661441",
+          "platform": "codeforces",
+          "title": "Xenia and Bit Operations (339D)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1700",
+          "url": "https://codeforces.com/contest/339/problem/D",
+          "solvedAt": "2026-07-21T06:29:10.000Z"
+        },
+        {
+          "id": "cf-383653592",
+          "platform": "codeforces",
+          "title": "Karen and Coffee (816B)",
+          "category": "binary search",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/816/problem/B",
+          "solvedAt": "2026-07-21T04:48:58.000Z"
+        },
+        {
+          "id": "cf-383644515",
+          "platform": "codeforces",
+          "title": "Ilya and Queries (313B)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1100",
+          "url": "https://codeforces.com/contest/313/problem/B",
+          "solvedAt": "2026-07-21T02:46:36.000Z"
+        },
+        {
+          "id": "cf-383637075",
+          "platform": "codeforces",
+          "title": "Worms (474B)",
+          "category": "binary search",
+          "language": "C++17",
+          "difficulty": "1200",
+          "url": "https://codeforces.com/contest/474/problem/B",
+          "solvedAt": "2026-07-21T00:17:09.000Z"
+        },
+        {
+          "id": "cf-383636757",
+          "platform": "codeforces",
+          "title": "Interesting drink (706B)",
+          "category": "binary search",
+          "language": "C++17",
+          "difficulty": "1100",
+          "url": "https://codeforces.com/contest/706/problem/B",
+          "solvedAt": "2026-07-21T00:07:03.000Z"
+        },
+        {
+          "id": "cf-366259810",
+          "platform": "codeforces",
+          "title": "1-1 (2207A)",
+          "category": "greedy",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/2207/problem/A",
+          "solvedAt": "2026-03-11T15:11:09.000Z"
+        },
+        {
+          "id": "cf-354978571",
+          "platform": "codeforces",
+          "title": "Good Subarrays (1398C)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1600",
+          "url": "https://codeforces.com/contest/1398/problem/C",
+          "solvedAt": "2025-12-24T18:13:43.000Z"
+        },
+        {
+          "id": "cf-354643084",
+          "platform": "codeforces",
+          "title": "File List (174B)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/174/problem/B",
+          "solvedAt": "2025-12-23T05:40:51.000Z"
+        },
+        {
+          "id": "cf-354637571",
+          "platform": "codeforces",
+          "title": "Boredom (455A)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1500",
+          "url": "https://codeforces.com/contest/455/problem/A",
+          "solvedAt": "2025-12-23T04:30:52.000Z"
+        },
+        {
+          "id": "cf-354551085",
+          "platform": "codeforces",
+          "title": "Bear and Compressing (653B)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1300",
+          "url": "https://codeforces.com/contest/653/problem/B",
+          "solvedAt": "2025-12-22T11:22:15.000Z"
+        },
+        {
+          "id": "cf-354544604",
+          "platform": "codeforces",
+          "title": "Given Length and Sum of Digits... (489C)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/489/problem/C",
+          "solvedAt": "2025-12-22T10:15:52.000Z"
+        },
+        {
+          "id": "cf-350809669",
+          "platform": "codeforces",
+          "title": "Subsequences (597C)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1900",
+          "url": "https://codeforces.com/contest/597/problem/C",
+          "solvedAt": "2025-11-27T05:50:23.000Z"
+        },
+        {
+          "id": "cf-350573073",
+          "platform": "codeforces",
+          "title": "One-Way Abyss (106084C)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106084/problem/C",
+          "solvedAt": "2025-11-25T07:24:07.000Z"
+        },
+        {
+          "id": "cf-349838828",
+          "platform": "codeforces",
+          "title": "Delete Two Elements (1598C)",
+          "category": "data structures",
+          "language": "C++17",
+          "difficulty": "1200",
+          "url": "https://codeforces.com/contest/1598/problem/C",
+          "solvedAt": "2025-11-20T11:55:33.000Z"
+        },
+        {
+          "id": "cf-349737165",
+          "platform": "codeforces",
+          "title": "Spotlights (729B)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1200",
+          "url": "https://codeforces.com/contest/729/problem/B",
+          "solvedAt": "2025-11-19T15:36:25.000Z"
+        },
+        {
+          "id": "cf-349720200",
+          "platform": "codeforces",
+          "title": "The Great Julya Calendar (331C1)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1100",
+          "url": "https://codeforces.com/contest/331/problem/C1",
+          "solvedAt": "2025-11-19T13:33:07.000Z"
+        },
+        {
+          "id": "cf-349709921",
+          "platform": "codeforces",
+          "title": "Santa Claus and Candies (753A)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1000",
+          "url": "https://codeforces.com/contest/753/problem/A",
+          "solvedAt": "2025-11-19T12:21:26.000Z"
+        },
+        {
+          "id": "cf-349705604",
+          "platform": "codeforces",
+          "title": "Ugu (1732B)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "900",
+          "url": "https://codeforces.com/contest/1732/problem/B",
+          "solvedAt": "2025-11-19T11:49:44.000Z"
+        },
+        {
+          "id": "cf-349698962",
+          "platform": "codeforces",
+          "title": "The Way to Home (910A)",
+          "category": "dfs and similar",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/910/problem/A",
+          "solvedAt": "2025-11-19T10:59:17.000Z"
+        },
+        {
+          "id": "cf-349695554",
+          "platform": "codeforces",
+          "title": "Cut Ribbon (189A)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1300",
+          "url": "https://codeforces.com/contest/189/problem/A",
+          "solvedAt": "2025-11-19T10:30:20.000Z"
+        },
+        {
+          "id": "cf-349691040",
+          "platform": "codeforces",
+          "title": "BerSU Ball (489B)",
+          "category": "dfs and similar",
+          "language": "C++17",
+          "difficulty": "1200",
+          "url": "https://codeforces.com/contest/489/problem/B",
+          "solvedAt": "2025-11-19T09:45:32.000Z"
+        },
+        {
+          "id": "cf-349673693",
+          "platform": "codeforces",
+          "title": "Raspberries (1883C)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "1000",
+          "url": "https://codeforces.com/contest/1883/problem/C",
+          "solvedAt": "2025-11-19T07:17:20.000Z"
+        },
+        {
+          "id": "cf-349668725",
+          "platform": "codeforces",
+          "title": "Hit the Lottery (996A)",
+          "category": "dp",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/996/problem/A",
+          "solvedAt": "2025-11-19T06:34:40.000Z"
+        },
+        {
+          "id": "cf-348637018",
+          "platform": "codeforces",
+          "title": "Ksusha and Array (299A)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1000",
+          "url": "https://codeforces.com/contest/299/problem/A",
+          "solvedAt": "2025-11-12T15:19:18.000Z"
+        },
+        {
+          "id": "cf-348031488",
+          "platform": "codeforces",
+          "title": "Two Divisors (1916B)",
+          "category": "constructive algorithms",
+          "language": "C++17",
+          "difficulty": "1000",
+          "url": "https://codeforces.com/contest/1916/problem/B",
+          "solvedAt": "2025-11-08T15:18:54.000Z"
+        },
+        {
+          "id": "cf-346163506",
+          "platform": "codeforces",
+          "title": "Turtle and an Infinite Sequence (1981B)",
+          "category": "bitmasks",
+          "language": "C++17",
+          "difficulty": "1300",
+          "url": "https://codeforces.com/contest/1981/problem/B",
+          "solvedAt": "2025-10-28T12:29:13.000Z"
+        },
+        {
+          "id": "cf-344445884",
+          "platform": "codeforces",
+          "title": "Stapler (106084L)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106084/problem/L",
+          "solvedAt": "2025-10-18T06:48:04.000Z"
+        },
+        {
+          "id": "cf-344428081",
+          "platform": "codeforces",
+          "title": "Twin Guardians (106084B)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106084/problem/B",
+          "solvedAt": "2025-10-18T04:14:10.000Z"
+        },
+        {
+          "id": "cf-344427738",
+          "platform": "codeforces",
+          "title": "Take It or Double It (106084A)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106084/problem/A",
+          "solvedAt": "2025-10-18T04:10:22.000Z"
+        },
+        {
+          "id": "cf-335022990",
+          "platform": "codeforces",
+          "title": "Split (106016F)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106016/problem/F",
+          "solvedAt": "2025-08-22T11:08:46.000Z"
+        },
+        {
+          "id": "cf-333947721",
+          "platform": "codeforces",
+          "title": "Sports Betting (105971F)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/105971/problem/F",
+          "solvedAt": "2025-08-14T14:55:02.000Z"
+        },
+        {
+          "id": "cf-333889322",
+          "platform": "codeforces",
+          "title": "Vadim's Collection (105971H)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105971/problem/H",
+          "solvedAt": "2025-08-14T07:20:57.000Z"
+        },
+        {
+          "id": "cf-333470051",
+          "platform": "codeforces",
+          "title": "Adjacent XOR (2131E)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1400",
+          "url": "https://codeforces.com/contest/2131/problem/E",
+          "solvedAt": "2025-08-10T21:12:59.000Z"
+        },
+        {
+          "id": "cf-333105757",
+          "platform": "codeforces",
+          "title": "GCD MEX (106007A)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106007/problem/A",
+          "solvedAt": "2025-08-09T08:11:03.000Z"
+        },
+        {
+          "id": "cf-333089053",
+          "platform": "codeforces",
+          "title": "And X Elements (106007K)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106007/problem/K",
+          "solvedAt": "2025-08-09T05:36:18.000Z"
+        },
+        {
+          "id": "cf-333083910",
+          "platform": "codeforces",
+          "title": "Minimum Path (106007H)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106007/problem/H",
+          "solvedAt": "2025-08-09T04:28:03.000Z"
+        },
+        {
+          "id": "cf-333079914",
+          "platform": "codeforces",
+          "title": "Meen 3mk? (106007F)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106007/problem/F",
+          "solvedAt": "2025-08-09T03:22:56.000Z"
+        },
+        {
+          "id": "cf-333079812",
+          "platform": "codeforces",
+          "title": "Reverse and Remove (106007I)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106007/problem/I",
+          "solvedAt": "2025-08-09T03:21:19.000Z"
+        },
+        {
+          "id": "cf-332060226",
+          "platform": "codeforces",
+          "title": "Median Gcd (106016H)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106016/problem/H",
+          "solvedAt": "2025-08-02T08:25:47.000Z"
+        },
+        {
+          "id": "cf-332034620",
+          "platform": "codeforces",
+          "title": "Cookies  (106016K)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106016/problem/K",
+          "solvedAt": "2025-08-02T04:45:53.000Z"
+        },
+        {
+          "id": "cf-332034584",
+          "platform": "codeforces",
+          "title": "The Beauty Of Homs  (106016A)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106016/problem/A",
+          "solvedAt": "2025-08-02T04:45:21.000Z"
+        },
+        {
+          "id": "cf-331987566",
+          "platform": "codeforces",
+          "title": "Numbers on the Blackboard (105863B)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105863/problem/B",
+          "solvedAt": "2025-08-01T16:41:39.000Z"
+        },
+        {
+          "id": "cf-331921781",
+          "platform": "codeforces",
+          "title": "Reflecting (105863A)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105863/problem/A",
+          "solvedAt": "2025-08-01T08:09:29.000Z"
+        },
+        {
+          "id": "cf-330094643",
+          "platform": "codeforces",
+          "title": "Gregor and the Pawn Game (1549B)",
+          "category": "dfs and similar",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/1549/problem/B",
+          "solvedAt": "2025-07-21T08:27:32.000Z"
+        },
+        {
+          "id": "cf-330083888",
+          "platform": "codeforces",
+          "title": "Destroying Bridges (1944A)",
+          "category": "graphs",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/1944/problem/A",
+          "solvedAt": "2025-07-21T07:21:32.000Z"
+        },
+        {
+          "id": "cf-330081996",
+          "platform": "codeforces",
+          "title": "Love Triangle (939A)",
+          "category": "graphs",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/939/problem/A",
+          "solvedAt": "2025-07-21T07:08:41.000Z"
+        },
+        {
+          "id": "cf-329989136",
+          "platform": "codeforces",
+          "title": "Bear and Strings (385B)",
+          "category": "brute force",
+          "language": "C++17",
+          "difficulty": "1200",
+          "url": "https://codeforces.com/contest/385/problem/B",
+          "solvedAt": "2025-07-20T13:36:22.000Z"
+        },
+        {
+          "id": "cf-329927903",
+          "platform": "codeforces",
+          "title": "La Vaca Saturno Saturnino (105962H)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/H",
+          "solvedAt": "2025-07-20T05:38:15.000Z"
+        },
+        {
+          "id": "cf-329730377",
+          "platform": "codeforces",
+          "title": "F128 (105962F)",
+          "category": "Problem Solving",
+          "language": "C++17",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/F",
+          "solvedAt": "2025-07-19T07:20:18.000Z"
+        },
+        {
+          "id": "cf-329720542",
+          "platform": "codeforces",
+          "title": "Aura Farming (105962I)",
+          "category": "Problem Solving",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/I",
+          "solvedAt": "2025-07-19T06:05:46.000Z"
+        },
+        {
+          "id": "cf-329716676",
+          "platform": "codeforces",
+          "title": "Esteche vs Yvens (105962E)",
+          "category": "Problem Solving",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/E",
+          "solvedAt": "2025-07-19T05:27:28.000Z"
+        },
+        {
+          "id": "cf-329714243",
+          "platform": "codeforces",
+          "title": "We're Competing (105962B)",
+          "category": "Problem Solving",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/B",
+          "solvedAt": "2025-07-19T05:01:38.000Z"
+        },
+        {
+          "id": "cf-329714216",
+          "platform": "codeforces",
+          "title": "Neymar at Santos (105962A)",
+          "category": "Problem Solving",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/A",
+          "solvedAt": "2025-07-19T05:01:23.000Z"
+        },
+        {
+          "id": "cf-329714190",
+          "platform": "codeforces",
+          "title": "MA141 (105962D)",
+          "category": "Problem Solving",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/105962/problem/D",
+          "solvedAt": "2025-07-19T05:00:56.000Z"
+        },
+        {
+          "id": "cf-329605889",
+          "platform": "codeforces",
+          "title": "Temporarily unavailable (1282A)",
+          "category": "implementation",
+          "language": "GNU C11",
+          "difficulty": "900",
+          "url": "https://codeforces.com/contest/1282/problem/A",
+          "solvedAt": "2025-07-18T09:26:03.000Z"
+        },
+        {
+          "id": "cf-329595791",
+          "platform": "codeforces",
+          "title": "Stickers and Toys (1187A)",
+          "category": "math",
+          "language": "GNU C11",
+          "difficulty": "900",
+          "url": "https://codeforces.com/contest/1187/problem/A",
+          "solvedAt": "2025-07-18T07:49:04.000Z"
+        },
+        {
+          "id": "cf-329595333",
+          "platform": "codeforces",
+          "title": "I'm bored with life (822A)",
+          "category": "implementation",
+          "language": "GNU C11",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/822/problem/A",
+          "solvedAt": "2025-07-18T07:45:01.000Z"
+        }
+      ]
+    },
+    "leetcode": {
+      "handle": "finsider",
+      "url": "https://leetcode.com/u/finsider",
+      "ranking": 2288780,
+      "totalSolved": 68,
+      "easySolved": 33,
+      "mediumSolved": 28,
+      "hardSolved": 7,
+      "totalSubmissions": 20,
+      "dailyCalendar": {
+        "2026-10-21": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-10-19": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-10-14": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-10-08": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-09-20": {
+          "tries": 1,
+          "ac": 1
+        },
+        "2026-09-18": {
+          "tries": 2,
+          "ac": 2
+        },
+        "2026-08-22": {
+          "tries": 2,
+          "ac": 2
+        },
+        "2026-08-21": {
+          "tries": 4,
+          "ac": 4
+        },
+        "2026-08-14": {
+          "tries": 2,
+          "ac": 2
+        },
+        "2026-08-13": {
+          "tries": 4,
+          "ac": 4
+        },
+        "2026-08-12": {
+          "tries": 1,
+          "ac": 1
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "lc-1792562057",
+          "platform": "leetcode",
+          "title": "Car Fleet",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/car-fleet/",
+          "solvedAt": "2026-10-21T05:54:17.000Z"
+        },
+        {
+          "id": "lc-1792408879",
+          "platform": "leetcode",
+          "title": "Find Target Indices After Sorting Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+          "solvedAt": "2026-10-19T11:21:19.000Z"
+        },
+        {
+          "id": "lc-1791959118",
+          "platform": "leetcode",
+          "title": "Roman to Integer",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/roman-to-integer/",
+          "solvedAt": "2026-10-14T06:25:18.000Z"
+        },
+        {
+          "id": "lc-1791428847",
+          "platform": "leetcode",
+          "title": "Add Two Numbers",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/add-two-numbers/",
+          "solvedAt": "2026-10-08T03:07:27.000Z"
+        },
+        {
+          "id": "lc-1789899942",
+          "platform": "leetcode",
+          "title": "Merge Intervals",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/merge-intervals/",
+          "solvedAt": "2026-09-20T10:25:42.000Z"
+        },
+        {
+          "id": "lc-1789714458",
+          "platform": "leetcode",
+          "title": "Find the Difference of Two Arrays",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
+          "solvedAt": "2026-09-18T06:54:18.000Z"
+        },
+        {
+          "id": "lc-1789711929",
+          "platform": "leetcode",
+          "title": "Find Pivot Index",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/find-pivot-index/",
+          "solvedAt": "2026-09-18T06:12:09.000Z"
+        },
+        {
+          "id": "lc-1787390732",
+          "platform": "leetcode",
+          "title": "Number of Islands",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/number-of-islands/",
+          "solvedAt": "2026-08-22T09:25:32.000Z"
+        },
+        {
+          "id": "lc-1787386950",
+          "platform": "leetcode",
+          "title": "Longest Common Subsequence",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/longest-common-subsequence/",
+          "solvedAt": "2026-08-22T08:22:30.000Z"
+        },
+        {
+          "id": "lc-1787323556",
+          "platform": "leetcode",
+          "title": "Valid Sudoku",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/valid-sudoku/",
+          "solvedAt": "2026-08-21T14:45:56.000Z"
+        },
+        {
+          "id": "lc-1787322378",
+          "platform": "leetcode",
+          "title": "Unique Paths II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/unique-paths-ii/",
+          "solvedAt": "2026-08-21T14:26:18.000Z"
+        },
+        {
+          "id": "lc-1787321931",
+          "platform": "leetcode",
+          "title": "Unique Paths",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/unique-paths/",
+          "solvedAt": "2026-08-21T14:18:51.000Z"
+        },
+        {
+          "id": "lc-1787320863",
+          "platform": "leetcode",
+          "title": "Longest Palindromic Subsequence",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+          "solvedAt": "2026-08-21T14:01:03.000Z"
+        },
+        {
+          "id": "lc-1786674515",
+          "platform": "leetcode",
+          "title": "3Sum Closest",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/3sum-closest/",
+          "solvedAt": "2026-08-14T02:28:35.000Z"
+        },
+        {
+          "id": "lc-1786668902",
+          "platform": "leetcode",
+          "title": "3Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/3sum/",
+          "solvedAt": "2026-08-14T00:55:02.000Z"
+        },
+        {
+          "id": "lc-1786631129",
+          "platform": "leetcode",
+          "title": "Same Tree",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/same-tree/",
+          "solvedAt": "2026-08-13T14:25:29.000Z"
+        },
+        {
+          "id": "lc-1786631026",
+          "platform": "leetcode",
+          "title": "Symmetric Tree",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/symmetric-tree/",
+          "solvedAt": "2026-08-13T14:23:46.000Z"
+        },
+        {
+          "id": "lc-1786629766",
+          "platform": "leetcode",
+          "title": "Longest Substring of One Repeating Character",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/",
+          "solvedAt": "2026-08-13T14:02:46.000Z"
+        },
+        {
+          "id": "lc-1786593936",
+          "platform": "leetcode",
+          "title": "Trapping Rain Water",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/trapping-rain-water/",
+          "solvedAt": "2026-08-13T04:05:36.000Z"
+        },
+        {
+          "id": "lc-1786533487",
+          "platform": "leetcode",
+          "title": "Closest Prime Numbers in Range",
+          "category": "Math",
+          "language": "C",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/closest-prime-numbers-in-range/",
+          "solvedAt": "2026-08-12T11:18:07.000Z"
+        }
+      ]
+    }
+  },
+  "recentGlobalFeed": [
+    {
+      "id": "tlx-6286212",
+      "platform": "tlx",
+      "title": "Kompetisi Pemrograman",
+      "category": "GEMASTIK 2023 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6286212",
+      "solvedAt": "2026-11-10T15:04:22.787Z"
+    },
+    {
+      "id": "tlx-6285883",
+      "platform": "tlx",
+      "title": "Zuma Bergembira",
+      "category": "GEMASTIK 2023 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6285883",
+      "solvedAt": "2026-11-10T14:08:19.889Z"
+    },
+    {
+      "id": "tlx-6285712",
+      "platform": "tlx",
+      "title": "Lampu Gemastik",
+      "category": "GEMASTIK 2023 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6285712",
+      "solvedAt": "2026-11-10T13:41:26.071Z"
+    },
+    {
+      "id": "tlx-6285554",
+      "platform": "tlx",
+      "title": "Pesan Berantai",
+      "category": "GEMASTIK 2023 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6285554",
+      "solvedAt": "2026-11-10T13:26:39.553Z"
+    },
+    {
+      "id": "tlx-6272918",
+      "platform": "tlx",
+      "title": "Bilangan Unik",
+      "category": "GEMASTIK 2025 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6272918",
+      "solvedAt": "2026-11-07T07:08:10.489Z"
+    },
+    {
+      "id": "tlx-6241473",
+      "platform": "tlx",
+      "title": "Ai Game",
+      "category": "INC 2026",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6241473",
+      "solvedAt": "2026-10-31T04:28:39.510Z"
+    },
+    {
+      "id": "tlx-6241472",
+      "platform": "tlx",
+      "title": "Can't Let You Through",
+      "category": "INC 2026",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6241472",
+      "solvedAt": "2026-10-31T04:28:30.564Z"
+    },
+    {
+      "id": "tlx-6241470",
+      "platform": "tlx",
+      "title": "Skysplitter",
+      "category": "INC 2026",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6241470",
+      "solvedAt": "2026-10-31T04:28:17.611Z"
+    },
+    {
+      "id": "tlx-6241468",
+      "platform": "tlx",
+      "title": "Call for Tasks",
+      "category": "INC 2026",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6241468",
+      "solvedAt": "2026-10-31T04:27:47.524Z"
+    },
+    {
+      "id": "lc-1792562057",
+      "platform": "leetcode",
+      "title": "Car Fleet",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/car-fleet/",
+      "solvedAt": "2026-10-21T05:54:17.000Z"
+    },
+    {
+      "id": "lc-1792408879",
+      "platform": "leetcode",
+      "title": "Find Target Indices After Sorting Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+      "solvedAt": "2026-10-19T11:21:19.000Z"
+    },
+    {
+      "id": "tlx-6181057",
+      "platform": "tlx",
+      "title": "Stock Market",
+      "category": "INC 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6181057",
+      "solvedAt": "2026-10-17T08:56:27.998Z"
+    },
+    {
+      "id": "tlx-6180634",
+      "platform": "tlx",
+      "title": "Plus or Times",
+      "category": "INC 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6180634",
+      "solvedAt": "2026-10-17T07:54:19.138Z"
+    },
+    {
+      "id": "tlx-6180363",
+      "platform": "tlx",
+      "title": "Obstacle Course",
+      "category": "INC 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6180363",
+      "solvedAt": "2026-10-17T07:19:11.834Z"
+    },
+    {
+      "id": "tlx-6179955",
+      "platform": "tlx",
+      "title": "Cooking Steaks",
+      "category": "INC 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6179955",
+      "solvedAt": "2026-10-17T05:41:56.203Z"
+    },
+    {
+      "id": "tlx-6179750",
+      "platform": "tlx",
+      "title": "Party Medley",
+      "category": "INC 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6179750",
+      "solvedAt": "2026-10-17T05:08:09.250Z"
+    },
+    {
+      "id": "lc-1791959118",
+      "platform": "leetcode",
+      "title": "Roman to Integer",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/roman-to-integer/",
+      "solvedAt": "2026-10-14T06:25:18.000Z"
+    },
+    {
+      "id": "tlx-6150787",
+      "platform": "tlx",
+      "title": "Horse Carts",
+      "category": "INC 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6150787",
+      "solvedAt": "2026-10-10T08:00:54.741Z"
+    },
+    {
+      "id": "tlx-6150672",
+      "platform": "tlx",
+      "title": "Chocolate Bar",
+      "category": "INC 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6150672",
+      "solvedAt": "2026-10-10T07:40:11.416Z"
+    },
+    {
+      "id": "tlx-6150116",
+      "platform": "tlx",
+      "title": "Diet Plan",
+      "category": "INC 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6150116",
+      "solvedAt": "2026-10-10T05:27:58.268Z"
+    },
+    {
+      "id": "tlx-6149993",
+      "platform": "tlx",
+      "title": "Golden Tickets",
+      "category": "INC 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6149993",
+      "solvedAt": "2026-10-10T05:01:39.362Z"
+    },
+    {
+      "id": "lc-1791428847",
+      "platform": "leetcode",
+      "title": "Add Two Numbers",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "solvedAt": "2026-10-08T03:07:27.000Z"
+    },
+    {
+      "id": "tlx-6115527",
+      "platform": "tlx",
+      "title": "A Fate-Defying Chanek",
+      "category": "COMPFEST 18 - Final CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6115527",
+      "solvedAt": "2026-10-04T23:37:13.343Z"
+    },
+    {
+      "id": "cf-393134739",
+      "platform": "codeforces",
+      "title": "Roads not only in Berland (25D)",
+      "category": "dsu",
+      "language": "C++17",
+      "difficulty": "1900",
+      "url": "https://codeforces.com/contest/25/problem/D",
+      "solvedAt": "2026-10-04T05:28:43.000Z"
+    },
+    {
+      "id": "cf-393130848",
+      "platform": "codeforces",
+      "title": "New Year Permutation (500B)",
+      "category": "dfs and similar",
+      "language": "C++17",
+      "difficulty": "1600",
+      "url": "https://codeforces.com/contest/500/problem/B",
+      "solvedAt": "2026-10-04T04:16:37.000Z"
+    },
+    {
+      "id": "cf-393127475",
+      "platform": "codeforces",
+      "title": "News Distribution (1167C)",
+      "category": "dfs and similar",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/1167/problem/C",
+      "solvedAt": "2026-10-04T02:59:05.000Z"
+    },
+    {
+      "id": "tlx-6109024",
+      "platform": "tlx",
+      "title": "Morning Sun",
+      "category": "COMPFEST 18 - Final CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6109024",
+      "solvedAt": "2026-10-03T04:23:15.790Z"
+    },
+    {
+      "id": "tlx-6108785",
+      "platform": "tlx",
+      "title": "Hope from Light of Wisdom",
+      "category": "COMPFEST 18 - Final CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6108785",
+      "solvedAt": "2026-10-03T03:37:18.613Z"
+    },
+    {
+      "id": "cf-392115041",
+      "platform": "codeforces",
+      "title": "Good Goalie (106369D)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106369/problem/D",
+      "solvedAt": "2026-09-26T05:51:07.000Z"
+    },
+    {
+      "id": "cf-392106952",
+      "platform": "codeforces",
+      "title": "Snailography (106369C)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106369/problem/C",
+      "solvedAt": "2026-09-26T04:13:09.000Z"
+    },
+    {
+      "id": "cf-392105355",
+      "platform": "codeforces",
+      "title": "We Want You Happy! (106369B)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106369/problem/B",
+      "solvedAt": "2026-09-26T03:40:33.000Z"
+    },
+    {
+      "id": "cf-392104719",
+      "platform": "codeforces",
+      "title": "Lucky 7 (106369A)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106369/problem/A",
+      "solvedAt": "2026-09-26T03:27:33.000Z"
+    },
+    {
+      "id": "lc-1789899942",
+      "platform": "leetcode",
+      "title": "Merge Intervals",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "solvedAt": "2026-09-20T10:25:42.000Z"
+    },
+    {
+      "id": "tlx-6038381",
+      "platform": "tlx",
+      "title": "The Infinite Divider",
+      "category": "Schematics 2023 - Penyisihan NPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6038381",
+      "solvedAt": "2026-09-19T07:17:55.525Z"
+    },
+    {
+      "id": "lc-1789714458",
+      "platform": "leetcode",
+      "title": "Find the Difference of Two Arrays",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
+      "solvedAt": "2026-09-18T06:54:18.000Z"
+    },
+    {
+      "id": "lc-1789711929",
+      "platform": "leetcode",
+      "title": "Find Pivot Index",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-pivot-index/",
+      "solvedAt": "2026-09-18T06:12:09.000Z"
+    },
+    {
+      "id": "tlx-5966561",
+      "platform": "tlx",
+      "title": "Angklung Ajaib",
+      "category": "GEMASTIK 2025 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5966561",
+      "solvedAt": "2026-09-06T02:05:19.442Z"
+    },
+    {
+      "id": "tlx-5912944",
+      "platform": "tlx",
+      "title": "Mengurutkan Karakter",
+      "category": "GEMASTIK 2022 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5912944",
+      "solvedAt": "2026-08-29T13:37:01.393Z"
+    },
+    {
+      "id": "tlx-5912868",
+      "platform": "tlx",
+      "title": "Pecahan",
+      "category": "GEMASTIK 2022 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5912868",
+      "solvedAt": "2026-08-29T13:21:45.642Z"
+    },
+    {
+      "id": "tlx-5906031",
+      "platform": "tlx",
+      "title": "Kolam Ikan",
+      "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5906031",
+      "solvedAt": "2026-08-28T09:51:40.859Z"
+    },
+    {
+      "id": "tlx-5905693",
+      "platform": "tlx",
+      "title": "MinES",
+      "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5905693",
+      "solvedAt": "2026-08-28T08:48:38.436Z"
+    },
+    {
+      "id": "tlx-5905533",
+      "platform": "tlx",
+      "title": "Ringkasan Bilangan",
+      "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5905533",
+      "solvedAt": "2026-08-28T08:27:20.943Z"
+    },
+    {
+      "id": "tlx-5905462",
+      "platform": "tlx",
+      "title": "Es Kopi Boba",
+      "category": "GEMASTIK 2023 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5905462",
+      "solvedAt": "2026-08-28T08:18:51.274Z"
+    },
+    {
+      "id": "tlx-5882494",
+      "platform": "tlx",
+      "title": "Diskon 50%, S&K Berlaku",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5882494",
+      "solvedAt": "2026-08-25T04:02:12.960Z"
+    },
+    {
+      "id": "tlx-5882282",
+      "platform": "tlx",
+      "title": "Reseller Topi Gemastik",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5882282",
+      "solvedAt": "2026-08-25T03:28:32.087Z"
+    },
+    {
+      "id": "tlx-5882210",
+      "platform": "tlx",
+      "title": "Piknik",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5882210",
+      "solvedAt": "2026-08-25T03:15:24.612Z"
+    },
+    {
+      "id": "tlx-5882158",
+      "platform": "tlx",
+      "title": "Tupai Loncat",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5882158",
+      "solvedAt": "2026-08-25T03:01:40.467Z"
+    },
+    {
+      "id": "tlx-5881355",
+      "platform": "tlx",
+      "title": "Lumpia Rebung",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5881355",
+      "solvedAt": "2026-08-24T14:58:54.637Z"
+    },
+    {
+      "id": "tlx-5876590",
+      "platform": "tlx",
+      "title": "Makan Lumpia",
+      "category": "GEMASTIK 2024 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5876590",
+      "solvedAt": "2026-08-24T03:41:22.591Z"
+    },
+    {
+      "id": "lc-1787390732",
+      "platform": "leetcode",
+      "title": "Number of Islands",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-islands/",
+      "solvedAt": "2026-08-22T09:25:32.000Z"
+    },
+    {
+      "id": "lc-1787386950",
+      "platform": "leetcode",
+      "title": "Longest Common Subsequence",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-common-subsequence/",
+      "solvedAt": "2026-08-22T08:22:30.000Z"
+    },
+    {
+      "id": "lc-1787323556",
+      "platform": "leetcode",
+      "title": "Valid Sudoku",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/valid-sudoku/",
+      "solvedAt": "2026-08-21T14:45:56.000Z"
+    },
+    {
+      "id": "lc-1787322378",
+      "platform": "leetcode",
+      "title": "Unique Paths II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/unique-paths-ii/",
+      "solvedAt": "2026-08-21T14:26:18.000Z"
+    },
+    {
+      "id": "lc-1787321931",
+      "platform": "leetcode",
+      "title": "Unique Paths",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/unique-paths/",
+      "solvedAt": "2026-08-21T14:18:51.000Z"
+    },
+    {
+      "id": "lc-1787320863",
+      "platform": "leetcode",
+      "title": "Longest Palindromic Subsequence",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+      "solvedAt": "2026-08-21T14:01:03.000Z"
+    },
+    {
+      "id": "tlx-5852922",
+      "platform": "tlx",
+      "title": "Kerajaan Karbit",
+      "category": "COMPFEST 17 - Penyisihan CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5852922",
+      "solvedAt": "2026-08-20T04:16:16.896Z"
+    },
+    {
+      "id": "tlx-5848878",
+      "platform": "tlx",
+      "title": "Dango Berkeluarga",
+      "category": "COMPFEST 17 - Penyisihan CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5848878",
+      "solvedAt": "2026-08-19T07:39:33.003Z"
+    },
+    {
+      "id": "tlx-5848541",
+      "platform": "tlx",
+      "title": "Belajar Bit",
+      "category": "COMPFEST 17 - Penyisihan CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5848541",
+      "solvedAt": "2026-08-19T06:35:49.317Z"
+    },
+    {
+      "id": "tlx-5848107",
+      "platform": "tlx",
+      "title": "Asiknya Permainan Kartu",
+      "category": "COMPFEST 17 - Penyisihan CPC Senior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5848107",
+      "solvedAt": "2026-08-19T05:21:28.101Z"
+    },
+    {
+      "id": "tlx-5832559",
+      "platform": "tlx",
+      "title": "Ekspedisi Pengangkut Mobil",
+      "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5832559",
+      "solvedAt": "2026-08-15T08:29:51.209Z"
+    },
+    {
+      "id": "tlx-5832042",
+      "platform": "tlx",
+      "title": "Astik Berkompetisi",
+      "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5832042",
+      "solvedAt": "2026-08-15T07:04:17.538Z"
+    },
+    {
+      "id": "tlx-5831271",
+      "platform": "tlx",
+      "title": "Diskon Beli A Gratis B",
+      "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5831271",
+      "solvedAt": "2026-08-15T04:13:19.507Z"
+    },
+    {
+      "id": "tlx-5831190",
+      "platform": "tlx",
+      "title": "COBOT",
+      "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5831190",
+      "solvedAt": "2026-08-15T03:58:43.472Z"
+    },
+    {
+      "id": "tlx-5831144",
+      "platform": "tlx",
+      "title": "Astik Berkompetisi",
+      "category": "GEMASTIK 2025 - Penyisihan Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5831144",
+      "solvedAt": "2026-08-15T03:51:05.834Z"
+    },
+    {
+      "id": "lc-1786674515",
+      "platform": "leetcode",
+      "title": "3Sum Closest",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/3sum-closest/",
+      "solvedAt": "2026-08-14T02:28:35.000Z"
+    },
+    {
+      "id": "lc-1786668902",
+      "platform": "leetcode",
+      "title": "3Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/3sum/",
+      "solvedAt": "2026-08-14T00:55:02.000Z"
+    },
+    {
+      "id": "lc-1786631129",
+      "platform": "leetcode",
+      "title": "Same Tree",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/same-tree/",
+      "solvedAt": "2026-08-13T14:25:29.000Z"
+    },
+    {
+      "id": "lc-1786631026",
+      "platform": "leetcode",
+      "title": "Symmetric Tree",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/symmetric-tree/",
+      "solvedAt": "2026-08-13T14:23:46.000Z"
+    },
+    {
+      "id": "lc-1786629766",
+      "platform": "leetcode",
+      "title": "Longest Substring of One Repeating Character",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/",
+      "solvedAt": "2026-08-13T14:02:46.000Z"
+    },
+    {
+      "id": "lc-1786593936",
+      "platform": "leetcode",
+      "title": "Trapping Rain Water",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/trapping-rain-water/",
+      "solvedAt": "2026-08-13T04:05:36.000Z"
+    },
+    {
+      "id": "lc-1786533487",
+      "platform": "leetcode",
+      "title": "Closest Prime Numbers in Range",
+      "category": "Math",
+      "language": "C",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/closest-prime-numbers-in-range/",
+      "solvedAt": "2026-08-12T11:18:07.000Z"
+    },
+    {
+      "id": "tlx-5781712",
+      "platform": "tlx",
+      "title": "Xordition Robot",
+      "category": "INC 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5781712",
+      "solvedAt": "2026-08-06T01:52:31.334Z"
+    },
+    {
+      "id": "cf-385733793",
+      "platform": "codeforces",
+      "title": "Powerful array (86D)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "2200",
+      "url": "https://codeforces.com/contest/86/problem/D",
+      "solvedAt": "2026-08-05T08:35:13.000Z"
+    },
+    {
+      "id": "cf-385229881",
+      "platform": "codeforces",
+      "title": "Lucky Queries (145E)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "2400",
+      "url": "https://codeforces.com/contest/145/problem/E",
+      "solvedAt": "2026-08-02T05:36:47.000Z"
+    },
+    {
+      "id": "cf-384739836",
+      "platform": "codeforces",
+      "title": "Three displays (987C)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/987/problem/C",
+      "solvedAt": "2026-07-29T10:09:29.000Z"
+    },
+    {
+      "id": "cf-384593854",
+      "platform": "codeforces",
+      "title": "Pashmak and Parmida's problem (459D)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1800",
+      "url": "https://codeforces.com/contest/459/problem/D",
+      "solvedAt": "2026-07-28T06:35:22.000Z"
+    },
+    {
+      "id": "cf-384171660",
+      "platform": "codeforces",
+      "title": "Enemy is weak (61E)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1900",
+      "url": "https://codeforces.com/contest/61/problem/E",
+      "solvedAt": "2026-07-25T08:30:13.000Z"
+    },
+    {
+      "id": "cf-383783234",
+      "platform": "codeforces",
+      "title": "Circular RMQ (52C)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "2200",
+      "url": "https://codeforces.com/contest/52/problem/C",
+      "solvedAt": "2026-07-22T05:46:34.000Z"
+    },
+    {
+      "id": "cf-383685272",
+      "platform": "codeforces",
+      "title": "Sereja and Brackets (380C)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "2000",
+      "url": "https://codeforces.com/contest/380/problem/C",
+      "solvedAt": "2026-07-21T09:38:24.000Z"
+    },
+    {
+      "id": "cf-383661441",
+      "platform": "codeforces",
+      "title": "Xenia and Bit Operations (339D)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1700",
+      "url": "https://codeforces.com/contest/339/problem/D",
+      "solvedAt": "2026-07-21T06:29:10.000Z"
+    },
+    {
+      "id": "cf-383653592",
+      "platform": "codeforces",
+      "title": "Karen and Coffee (816B)",
+      "category": "binary search",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/816/problem/B",
+      "solvedAt": "2026-07-21T04:48:58.000Z"
+    },
+    {
+      "id": "cf-383644515",
+      "platform": "codeforces",
+      "title": "Ilya and Queries (313B)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1100",
+      "url": "https://codeforces.com/contest/313/problem/B",
+      "solvedAt": "2026-07-21T02:46:36.000Z"
+    },
+    {
+      "id": "cf-383637075",
+      "platform": "codeforces",
+      "title": "Worms (474B)",
+      "category": "binary search",
+      "language": "C++17",
+      "difficulty": "1200",
+      "url": "https://codeforces.com/contest/474/problem/B",
+      "solvedAt": "2026-07-21T00:17:09.000Z"
+    },
+    {
+      "id": "cf-383636757",
+      "platform": "codeforces",
+      "title": "Interesting drink (706B)",
+      "category": "binary search",
+      "language": "C++17",
+      "difficulty": "1100",
+      "url": "https://codeforces.com/contest/706/problem/B",
+      "solvedAt": "2026-07-21T00:07:03.000Z"
+    },
+    {
+      "id": "tlx-5389525",
+      "platform": "tlx",
+      "title": "Mencari Kereta",
+      "category": "Find IT 2025 - Penyisihan CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5389525",
+      "solvedAt": "2026-05-15T02:40:45.832Z"
+    },
+    {
+      "id": "tlx-5385482",
+      "platform": "tlx",
+      "title": "Mencari Karakter 2025",
+      "category": "Find IT 2025 - Final CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5385482",
+      "solvedAt": "2026-05-14T03:55:05.341Z"
+    },
+    {
+      "id": "tlx-5383686",
+      "platform": "tlx",
+      "title": "Mencari Listrik 2",
+      "category": "Find IT 2025 - Final CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5383686",
+      "solvedAt": "2026-05-13T13:42:39.865Z"
+    },
+    {
+      "id": "tlx-5383239",
+      "platform": "tlx",
+      "title": "Mencari Bendera",
+      "category": "Find IT 2025 - Final CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/5383239",
+      "solvedAt": "2026-05-13T11:29:32.035Z"
+    },
+    {
+      "id": "cf-366259810",
+      "platform": "codeforces",
+      "title": "1-1 (2207A)",
+      "category": "greedy",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/2207/problem/A",
+      "solvedAt": "2026-03-11T15:11:09.000Z"
+    },
+    {
+      "id": "tlx-4953342",
+      "platform": "tlx",
+      "title": "Perkenalan Jalur Terpendek dari Satu Sumber: Dijkstra",
+      "category": "Algoritma Graf",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4953342",
+      "solvedAt": "2026-03-03T09:04:06.446Z"
+    },
+    {
+      "id": "tlx-4887917",
+      "platform": "tlx",
+      "title": "Membeli Cokelat",
+      "category": "Arkavidia 8.0 - Penyisihan CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4887917",
+      "solvedAt": "2026-02-18T09:06:51.045Z"
+    },
+    {
+      "id": "tlx-4886734",
+      "platform": "tlx",
+      "title": "Matrix Problem",
+      "category": "Arkavidia 10.0 - Penyisihan CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4886734",
+      "solvedAt": "2026-02-18T05:38:30.819Z"
+    },
+    {
+      "id": "tlx-4814559",
+      "platform": "tlx",
+      "title": "Gerbang Sihir Arkavidia",
+      "category": "Arkavidia 9.0 - Penyisihan CP",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4814559",
+      "solvedAt": "2026-01-31T23:34:00.231Z"
+    },
+    {
+      "id": "cf-354978571",
+      "platform": "codeforces",
+      "title": "Good Subarrays (1398C)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1600",
+      "url": "https://codeforces.com/contest/1398/problem/C",
+      "solvedAt": "2025-12-24T18:13:43.000Z"
+    },
+    {
+      "id": "cf-354643084",
+      "platform": "codeforces",
+      "title": "File List (174B)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/174/problem/B",
+      "solvedAt": "2025-12-23T05:40:51.000Z"
+    },
+    {
+      "id": "cf-354637571",
+      "platform": "codeforces",
+      "title": "Boredom (455A)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1500",
+      "url": "https://codeforces.com/contest/455/problem/A",
+      "solvedAt": "2025-12-23T04:30:52.000Z"
+    },
+    {
+      "id": "cf-354551085",
+      "platform": "codeforces",
+      "title": "Bear and Compressing (653B)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1300",
+      "url": "https://codeforces.com/contest/653/problem/B",
+      "solvedAt": "2025-12-22T11:22:15.000Z"
+    },
+    {
+      "id": "cf-354544604",
+      "platform": "codeforces",
+      "title": "Given Length and Sum of Digits... (489C)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/489/problem/C",
+      "solvedAt": "2025-12-22T10:15:52.000Z"
+    },
+    {
+      "id": "cf-350809669",
+      "platform": "codeforces",
+      "title": "Subsequences (597C)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1900",
+      "url": "https://codeforces.com/contest/597/problem/C",
+      "solvedAt": "2025-11-27T05:50:23.000Z"
+    },
+    {
+      "id": "cf-350573073",
+      "platform": "codeforces",
+      "title": "One-Way Abyss (106084C)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106084/problem/C",
+      "solvedAt": "2025-11-25T07:24:07.000Z"
+    },
+    {
+      "id": "tlx-4648828",
+      "platform": "tlx",
+      "title": "A. Nihilation",
+      "category": "ICPC Jakarta 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4648828",
+      "solvedAt": "2025-11-23T15:42:08.241Z"
+    },
+    {
+      "id": "tlx-4648815",
+      "platform": "tlx",
+      "title": "Burning Blocks",
+      "category": "ICPC Jakarta 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4648815",
+      "solvedAt": "2025-11-23T15:38:18.195Z"
+    },
+    {
+      "id": "tlx-4648734",
+      "platform": "tlx",
+      "title": "AND and/or OR",
+      "category": "ICPC Jakarta 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4648734",
+      "solvedAt": "2025-11-23T15:13:48.215Z"
+    },
+    {
+      "id": "tlx-4647334",
+      "platform": "tlx",
+      "title": "Food Rating",
+      "category": "INC 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4647334",
+      "solvedAt": "2025-11-22T22:19:39.856Z"
+    },
+    {
+      "id": "tlx-4646670",
+      "platform": "tlx",
+      "title": "Microwavable Subsequence",
+      "category": "ICPC Jakarta 2024",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4646670",
+      "solvedAt": "2025-11-22T10:24:31.433Z"
+    },
+    {
+      "id": "cf-349838828",
+      "platform": "codeforces",
+      "title": "Delete Two Elements (1598C)",
+      "category": "data structures",
+      "language": "C++17",
+      "difficulty": "1200",
+      "url": "https://codeforces.com/contest/1598/problem/C",
+      "solvedAt": "2025-11-20T11:55:33.000Z"
+    },
+    {
+      "id": "cf-349737165",
+      "platform": "codeforces",
+      "title": "Spotlights (729B)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1200",
+      "url": "https://codeforces.com/contest/729/problem/B",
+      "solvedAt": "2025-11-19T15:36:25.000Z"
+    },
+    {
+      "id": "cf-349720200",
+      "platform": "codeforces",
+      "title": "The Great Julya Calendar (331C1)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1100",
+      "url": "https://codeforces.com/contest/331/problem/C1",
+      "solvedAt": "2025-11-19T13:33:07.000Z"
+    },
+    {
+      "id": "cf-349709921",
+      "platform": "codeforces",
+      "title": "Santa Claus and Candies (753A)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1000",
+      "url": "https://codeforces.com/contest/753/problem/A",
+      "solvedAt": "2025-11-19T12:21:26.000Z"
+    },
+    {
+      "id": "cf-349705604",
+      "platform": "codeforces",
+      "title": "Ugu (1732B)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "900",
+      "url": "https://codeforces.com/contest/1732/problem/B",
+      "solvedAt": "2025-11-19T11:49:44.000Z"
+    },
+    {
+      "id": "cf-349698962",
+      "platform": "codeforces",
+      "title": "The Way to Home (910A)",
+      "category": "dfs and similar",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/910/problem/A",
+      "solvedAt": "2025-11-19T10:59:17.000Z"
+    },
+    {
+      "id": "cf-349695554",
+      "platform": "codeforces",
+      "title": "Cut Ribbon (189A)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1300",
+      "url": "https://codeforces.com/contest/189/problem/A",
+      "solvedAt": "2025-11-19T10:30:20.000Z"
+    },
+    {
+      "id": "cf-349691040",
+      "platform": "codeforces",
+      "title": "BerSU Ball (489B)",
+      "category": "dfs and similar",
+      "language": "C++17",
+      "difficulty": "1200",
+      "url": "https://codeforces.com/contest/489/problem/B",
+      "solvedAt": "2025-11-19T09:45:32.000Z"
+    },
+    {
+      "id": "cf-349673693",
+      "platform": "codeforces",
+      "title": "Raspberries (1883C)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "1000",
+      "url": "https://codeforces.com/contest/1883/problem/C",
+      "solvedAt": "2025-11-19T07:17:20.000Z"
+    },
+    {
+      "id": "cf-349668725",
+      "platform": "codeforces",
+      "title": "Hit the Lottery (996A)",
+      "category": "dp",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/996/problem/A",
+      "solvedAt": "2025-11-19T06:34:40.000Z"
+    },
+    {
+      "id": "tlx-4626458",
+      "platform": "tlx",
+      "title": "Mirror Maze",
+      "category": "ICPC Jakarta 2024",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4626458",
+      "solvedAt": "2025-11-15T17:22:38.180Z"
+    },
+    {
+      "id": "tlx-4625220",
+      "platform": "tlx",
+      "title": "Honey Division",
+      "category": "IDEAFUSE 2024 - CP Qualification Round",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4625220",
+      "solvedAt": "2025-11-15T08:43:10.716Z"
+    },
+    {
+      "id": "cf-348637018",
+      "platform": "codeforces",
+      "title": "Ksusha and Array (299A)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1000",
+      "url": "https://codeforces.com/contest/299/problem/A",
+      "solvedAt": "2025-11-12T15:19:18.000Z"
+    },
+    {
+      "id": "cf-348031488",
+      "platform": "codeforces",
+      "title": "Two Divisors (1916B)",
+      "category": "constructive algorithms",
+      "language": "C++17",
+      "difficulty": "1000",
+      "url": "https://codeforces.com/contest/1916/problem/B",
+      "solvedAt": "2025-11-08T15:18:54.000Z"
+    },
+    {
+      "id": "tlx-4587396",
+      "platform": "tlx",
+      "title": "Construct BFS Graph",
+      "category": "INC 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4587396",
+      "solvedAt": "2025-11-07T17:18:33.265Z"
+    },
+    {
+      "id": "cf-346163506",
+      "platform": "codeforces",
+      "title": "Turtle and an Infinite Sequence (1981B)",
+      "category": "bitmasks",
+      "language": "C++17",
+      "difficulty": "1300",
+      "url": "https://codeforces.com/contest/1981/problem/B",
+      "solvedAt": "2025-10-28T12:29:13.000Z"
+    },
+    {
+      "id": "tlx-4548031",
+      "platform": "tlx",
+      "title": "Divido Travel",
+      "category": "INC 2025",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4548031",
+      "solvedAt": "2025-10-26T16:57:59.593Z"
+    },
+    {
+      "id": "tlx-4540296",
+      "platform": "tlx",
+      "title": "Intensive Training",
+      "category": "INC 2024",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4540296",
+      "solvedAt": "2025-10-24T15:29:14.638Z"
+    },
+    {
+      "id": "cf-344445884",
+      "platform": "codeforces",
+      "title": "Stapler (106084L)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106084/problem/L",
+      "solvedAt": "2025-10-18T06:48:04.000Z"
+    },
+    {
+      "id": "cf-344428081",
+      "platform": "codeforces",
+      "title": "Twin Guardians (106084B)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106084/problem/B",
+      "solvedAt": "2025-10-18T04:14:10.000Z"
+    },
+    {
+      "id": "cf-344427738",
+      "platform": "codeforces",
+      "title": "Take It or Double It (106084A)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106084/problem/A",
+      "solvedAt": "2025-10-18T04:10:22.000Z"
+    },
+    {
+      "id": "tlx-4229617",
+      "platform": "tlx",
+      "title": "Triangle Construction",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4229617",
+      "solvedAt": "2025-08-29T02:31:50.811Z"
+    },
+    {
+      "id": "tlx-4216571",
+      "platform": "tlx",
+      "title": "Palindromic Parentheses",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4216571",
+      "solvedAt": "2025-08-27T04:27:33.801Z"
+    },
+    {
+      "id": "tlx-4212100",
+      "platform": "tlx",
+      "title": "Button Pressing",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4212100",
+      "solvedAt": "2025-08-26T09:03:35.355Z"
+    },
+    {
+      "id": "tlx-4210757",
+      "platform": "tlx",
+      "title": "Easy As ABC",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4210757",
+      "solvedAt": "2025-08-26T07:01:01.056Z"
+    },
+    {
+      "id": "tlx-4201024",
+      "platform": "tlx",
+      "title": "Antibakteri",
+      "category": "GEMASTIK 2024 - Final Pemrograman",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4201024",
+      "solvedAt": "2025-08-24T13:12:12.243Z"
+    },
+    {
+      "id": "cf-335022990",
+      "platform": "codeforces",
+      "title": "Split (106016F)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106016/problem/F",
+      "solvedAt": "2025-08-22T11:08:46.000Z"
+    },
+    {
+      "id": "cf-333947721",
+      "platform": "codeforces",
+      "title": "Sports Betting (105971F)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/105971/problem/F",
+      "solvedAt": "2025-08-14T14:55:02.000Z"
+    },
+    {
+      "id": "cf-333889322",
+      "platform": "codeforces",
+      "title": "Vadim's Collection (105971H)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105971/problem/H",
+      "solvedAt": "2025-08-14T07:20:57.000Z"
+    },
+    {
+      "id": "cf-333470051",
+      "platform": "codeforces",
+      "title": "Adjacent XOR (2131E)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1400",
+      "url": "https://codeforces.com/contest/2131/problem/E",
+      "solvedAt": "2025-08-10T21:12:59.000Z"
+    },
+    {
+      "id": "cf-333105757",
+      "platform": "codeforces",
+      "title": "GCD MEX (106007A)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106007/problem/A",
+      "solvedAt": "2025-08-09T08:11:03.000Z"
+    },
+    {
+      "id": "cf-333089053",
+      "platform": "codeforces",
+      "title": "And X Elements (106007K)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106007/problem/K",
+      "solvedAt": "2025-08-09T05:36:18.000Z"
+    },
+    {
+      "id": "cf-333083910",
+      "platform": "codeforces",
+      "title": "Minimum Path (106007H)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106007/problem/H",
+      "solvedAt": "2025-08-09T04:28:03.000Z"
+    },
+    {
+      "id": "cf-333079914",
+      "platform": "codeforces",
+      "title": "Meen 3mk? (106007F)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106007/problem/F",
+      "solvedAt": "2025-08-09T03:22:56.000Z"
+    },
+    {
+      "id": "cf-333079812",
+      "platform": "codeforces",
+      "title": "Reverse and Remove (106007I)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106007/problem/I",
+      "solvedAt": "2025-08-09T03:21:19.000Z"
+    },
+    {
+      "id": "cf-332060226",
+      "platform": "codeforces",
+      "title": "Median Gcd (106016H)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106016/problem/H",
+      "solvedAt": "2025-08-02T08:25:47.000Z"
+    },
+    {
+      "id": "cf-332034620",
+      "platform": "codeforces",
+      "title": "Cookies  (106016K)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106016/problem/K",
+      "solvedAt": "2025-08-02T04:45:53.000Z"
+    },
+    {
+      "id": "cf-332034584",
+      "platform": "codeforces",
+      "title": "The Beauty Of Homs  (106016A)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106016/problem/A",
+      "solvedAt": "2025-08-02T04:45:21.000Z"
+    },
+    {
+      "id": "cf-331987566",
+      "platform": "codeforces",
+      "title": "Numbers on the Blackboard (105863B)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105863/problem/B",
+      "solvedAt": "2025-08-01T16:41:39.000Z"
+    },
+    {
+      "id": "cf-331921781",
+      "platform": "codeforces",
+      "title": "Reflecting (105863A)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105863/problem/A",
+      "solvedAt": "2025-08-01T08:09:29.000Z"
+    },
+    {
+      "id": "cf-330094643",
+      "platform": "codeforces",
+      "title": "Gregor and the Pawn Game (1549B)",
+      "category": "dfs and similar",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/1549/problem/B",
+      "solvedAt": "2025-07-21T08:27:32.000Z"
+    },
+    {
+      "id": "cf-330083888",
+      "platform": "codeforces",
+      "title": "Destroying Bridges (1944A)",
+      "category": "graphs",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/1944/problem/A",
+      "solvedAt": "2025-07-21T07:21:32.000Z"
+    },
+    {
+      "id": "cf-330081996",
+      "platform": "codeforces",
+      "title": "Love Triangle (939A)",
+      "category": "graphs",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/939/problem/A",
+      "solvedAt": "2025-07-21T07:08:41.000Z"
+    },
+    {
+      "id": "cf-329989136",
+      "platform": "codeforces",
+      "title": "Bear and Strings (385B)",
+      "category": "brute force",
+      "language": "C++17",
+      "difficulty": "1200",
+      "url": "https://codeforces.com/contest/385/problem/B",
+      "solvedAt": "2025-07-20T13:36:22.000Z"
+    },
+    {
+      "id": "cf-329927903",
+      "platform": "codeforces",
+      "title": "La Vaca Saturno Saturnino (105962H)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/H",
+      "solvedAt": "2025-07-20T05:38:15.000Z"
+    },
+    {
+      "id": "cf-329730377",
+      "platform": "codeforces",
+      "title": "F128 (105962F)",
+      "category": "Problem Solving",
+      "language": "C++17",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/F",
+      "solvedAt": "2025-07-19T07:20:18.000Z"
+    },
+    {
+      "id": "cf-329720542",
+      "platform": "codeforces",
+      "title": "Aura Farming (105962I)",
+      "category": "Problem Solving",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/I",
+      "solvedAt": "2025-07-19T06:05:46.000Z"
+    },
+    {
+      "id": "cf-329716676",
+      "platform": "codeforces",
+      "title": "Esteche vs Yvens (105962E)",
+      "category": "Problem Solving",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/E",
+      "solvedAt": "2025-07-19T05:27:28.000Z"
+    },
+    {
+      "id": "cf-329714243",
+      "platform": "codeforces",
+      "title": "We're Competing (105962B)",
+      "category": "Problem Solving",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/B",
+      "solvedAt": "2025-07-19T05:01:38.000Z"
+    },
+    {
+      "id": "cf-329714216",
+      "platform": "codeforces",
+      "title": "Neymar at Santos (105962A)",
+      "category": "Problem Solving",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/A",
+      "solvedAt": "2025-07-19T05:01:23.000Z"
+    },
+    {
+      "id": "cf-329714190",
+      "platform": "codeforces",
+      "title": "MA141 (105962D)",
+      "category": "Problem Solving",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/105962/problem/D",
+      "solvedAt": "2025-07-19T05:00:56.000Z"
+    },
+    {
+      "id": "cf-329605889",
+      "platform": "codeforces",
+      "title": "Temporarily unavailable (1282A)",
+      "category": "implementation",
+      "language": "GNU C11",
+      "difficulty": "900",
+      "url": "https://codeforces.com/contest/1282/problem/A",
+      "solvedAt": "2025-07-18T09:26:03.000Z"
+    },
+    {
+      "id": "cf-329595791",
+      "platform": "codeforces",
+      "title": "Stickers and Toys (1187A)",
+      "category": "math",
+      "language": "GNU C11",
+      "difficulty": "900",
+      "url": "https://codeforces.com/contest/1187/problem/A",
+      "solvedAt": "2025-07-18T07:49:04.000Z"
+    },
+    {
+      "id": "cf-329595333",
+      "platform": "codeforces",
+      "title": "I'm bored with life (822A)",
+      "category": "implementation",
+      "language": "GNU C11",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/822/problem/A",
+      "solvedAt": "2025-07-18T07:45:01.000Z"
+    },
+    {
+      "id": "tlx-3875449",
+      "platform": "tlx",
+      "title": "Perkenalan Pencarian Linear",
+      "category": "Pencarian dan Pengurutan",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3875449",
+      "solvedAt": "2025-07-04T08:31:03.787Z"
+    },
+    {
+      "id": "tlx-3419924",
+      "platform": "tlx",
+      "title": "Permutasi Ekspresi",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3419924",
+      "solvedAt": "2025-03-15T04:14:26.843Z"
+    },
+    {
+      "id": "tlx-3415715",
+      "platform": "tlx",
+      "title": "Mencari Pola III",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415715",
+      "solvedAt": "2025-03-13T10:45:12.434Z"
+    },
+    {
+      "id": "tlx-3415704",
+      "platform": "tlx",
+      "title": "Mencari Pola II",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415704",
+      "solvedAt": "2025-03-13T10:42:48.045Z"
+    },
+    {
+      "id": "tlx-3415702",
+      "platform": "tlx",
+      "title": "Mencari Pola I",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415702",
+      "solvedAt": "2025-03-13T10:42:11.083Z"
+    },
+    {
+      "id": "tlx-3415674",
+      "platform": "tlx",
+      "title": "Perkenalan Continue dan Break",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415674",
+      "solvedAt": "2025-03-13T10:35:59.445Z"
+    },
+    {
+      "id": "tlx-3415664",
+      "platform": "tlx",
+      "title": "Perkenalan Tipe Data Boolean",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415664",
+      "solvedAt": "2025-03-13T10:31:24.736Z"
+    },
+    {
+      "id": "tlx-3415648",
+      "platform": "tlx",
+      "title": "Perkenalan For",
+      "category": "Perulangan & Percabangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415648",
+      "solvedAt": "2025-03-13T10:27:23.798Z"
+    },
+    {
+      "id": "tlx-3415645",
+      "platform": "tlx",
+      "title": "Mengukur Kandang",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415645",
+      "solvedAt": "2025-03-13T10:26:03.050Z"
+    },
+    {
+      "id": "tlx-3415637",
+      "platform": "tlx",
+      "title": "Menjumlahkan Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415637",
+      "solvedAt": "2025-03-13T10:24:22.660Z"
+    },
+    {
+      "id": "tlx-3415635",
+      "platform": "tlx",
+      "title": "Mencetak Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415635",
+      "solvedAt": "2025-03-13T10:24:05.891Z"
+    },
+    {
+      "id": "tlx-3415631",
+      "platform": "tlx",
+      "title": "Mencetak dengan std::cout",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3415631",
+      "solvedAt": "2025-03-13T10:23:47.627Z"
+    },
+    {
+      "id": "tlx-3405032",
+      "platform": "tlx",
+      "title": "Jawbreaker III: Cari Terbesar dan Runtuhkan",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3405032",
+      "solvedAt": "2025-03-10T11:16:23.827Z"
+    },
+    {
+      "id": "tlx-3404978",
+      "platform": "tlx",
+      "title": "Jawbreaker II: Cari Terbesar",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3404978",
+      "solvedAt": "2025-03-10T10:46:50.717Z"
+    },
+    {
+      "id": "tlx-3404952",
+      "platform": "tlx",
+      "title": "Jawbreaker I: Klik!",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3404952",
+      "solvedAt": "2025-03-10T10:33:52.710Z"
+    },
+    {
+      "id": "tlx-3402520",
+      "platform": "tlx",
+      "title": "Permutasi Zig-Zag",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3402520",
+      "solvedAt": "2025-03-09T14:18:01.193Z"
+    },
+    {
+      "id": "tlx-3402176",
+      "platform": "tlx",
+      "title": "Perkenalan Brute Force Rekursif: Backtracking",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3402176",
+      "solvedAt": "2025-03-09T11:10:39.931Z"
+    },
+    {
+      "id": "tlx-3402081",
+      "platform": "tlx",
+      "title": "Perkenalan Brute Force",
+      "category": "Brute Force",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3402081",
+      "solvedAt": "2025-03-09T10:08:14.753Z"
+    },
+    {
+      "id": "tlx-3399773",
+      "platform": "tlx",
+      "title": "Pola String",
+      "category": "Perkenalan Pemrograman Kompetitif",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3399773",
+      "solvedAt": "2025-03-08T10:35:11.032Z"
+    },
+    {
+      "id": "tlx-3399763",
+      "platform": "tlx",
+      "title": "Menyelidiki Pesan",
+      "category": "Perkenalan Pemrograman Kompetitif",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3399763",
+      "solvedAt": "2025-03-08T10:19:19.040Z"
+    },
+    {
+      "id": "tlx-3399697",
+      "platform": "tlx",
+      "title": "Runtuh",
+      "category": "Perkenalan Pemrograman Kompetitif",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3399697",
+      "solvedAt": "2025-03-08T09:24:36.104Z"
+    },
+    {
+      "id": "tlx-3399641",
+      "platform": "tlx",
+      "title": "Operasi Matriks",
+      "category": "Perkenalan Pemrograman Kompetitif",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3399641",
+      "solvedAt": "2025-03-08T08:40:01.752Z"
+    },
+    {
+      "id": "tlx-3398727",
+      "platform": "tlx",
+      "title": "Perkenalan Soal Implementasi",
+      "category": "Perkenalan Pemrograman Kompetitif",
+      "language": "C",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/3398727",
+      "solvedAt": "2025-03-08T04:11:24.307Z"
+    },
+    {
+      "id": "tlx-2065726",
+      "platform": "tlx",
+      "title": "Program Pertamaku",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/2065726",
+      "solvedAt": "2024-06-30T17:21:24.694Z"
+    }
+  ]
+}

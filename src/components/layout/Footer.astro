@@ -1,0 +1,27 @@
+---
+import { site } from '../../data/site'
+---
+
+<footer class="site-footer">
+  <p class="site-footer__name">
+    © {new Date().getFullYear()} {site.name}
+  </p>
+</footer>
+
+<style>
+  .site-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 3rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .site-footer__name {
+    margin: 0;
+    color: var(--text);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>

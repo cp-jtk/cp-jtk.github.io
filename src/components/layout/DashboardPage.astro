@@ -1,0 +1,99 @@
+---
+import type { LocaleText } from '../../types/profile.types'
+import Layout from '../../layouts/Layout.astro'
+import type { JsonLd } from '../../utils/seo'
+import { localeFromPath, localizePath } from '../../utils/routing'
+import PageHeader from './PageHeader.astro'
+
+type Props = {
+  metaTitle: string
+  metaDescription?: string
+  metaImage?: string
+  metaType?: 'website' | 'article'
+  metaNoindex?: boolean
+  metaJsonLd?: JsonLd | JsonLd[]
+  heading: LocaleText
+  description: LocaleText
+  backHref: string
+  backLabel: LocaleText
+  headerClass?: string
+  headerVariant?: 'default' | 'compact' | 'flush'
+  contentWidth?: string
+  contentPadding?: boolean
+  bottomPad?: string
+  responsiveTop?: boolean
+}
+
+const {
+  metaTitle,
+  metaDescription,
+  metaImage,
+  metaType,
+  metaNoindex,
+  metaJsonLd,
+  heading,
+  description,
+  backHref,
+  backLabel,
+  headerClass = '',
+  headerVariant = 'default',
+  contentWidth = '1200px',
+  contentPadding = true,
+  bottomPad = '5rem',
+  responsiveTop = true,
+}: Props = Astro.props
+
+const currentLocale = localeFromPath(Astro.url.pathname)
+---
+
+<Layout
+  title={metaTitle}
+  description={metaDescription ?? description[currentLocale]}
+  image={metaImage}
+  type={metaType}
+  noindex={metaNoindex}
+  jsonLd={metaJsonLd}>
+  <main
+    class:list={[
+      'dashboard-page',
+      responsiveTop && 'dashboard-page--responsive-top',
+      contentPadding && 'dashboard-page--padded',
+    ]}
+    style={`--dashboard-width: ${contentWidth}; --dashboard-bottom: ${bottomPad}`}>
+    <PageHeader
+      class={headerClass}
+      variant={headerVariant}
+      backHref={localizePath(backHref, currentLocale)}
+      backLabel={backLabel}
+      title={heading}
+      description={description}
+    />
+
+    <div class="dashboard-content">
+      <slot />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .dashboard-page {
+    width: 100%;
+    max-width: var(--dashboard-width, 1200px);
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: var(--dashboard-bottom, 5rem);
+  }
+
+  .dashboard-page--padded {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .dashboard-page--responsive-top {
+    padding-top: clamp(2.5rem, 6vw, 4rem);
+  }
+
+  .dashboard-content {
+    width: 100%;
+  }
+</style>

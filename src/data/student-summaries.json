@@ -1,0 +1,101 @@
+{
+  "updatedAt": "2026-11-14T08:39:36.152Z",
+  "students": [
+    {
+      "nim": "261524010",
+      "nama": "Fachri Andhara Putra",
+      "kelasHuruf": "A",
+      "kelas": "1A-D4",
+      "aktif": true,
+      "totalSolved": 65,
+      "totalSubmissions": 226,
+      "lastSolvedAt": "2025-06-22T08:19:01.864Z",
+      "updatedAt": "2026-11-14T08:39:36.028Z",
+      "sync": "ok",
+      "platforms": {
+        "tlx": {
+          "handle": "imfachri",
+          "solved": 65,
+          "submissions": 226
+        },
+        "codeforces": {
+          "handle": null,
+          "solved": 0,
+          "submissions": 0,
+          "rating": 0,
+          "rank": "unrated"
+        },
+        "leetcode": {
+          "handle": null,
+          "solved": 0,
+          "submissions": 0,
+          "ranking": 0
+        }
+      }
+    },
+    {
+      "nim": "241511002",
+      "nama": "Arief F-sa Wijaya",
+      "kelasHuruf": "A",
+      "kelas": "3A-D3",
+      "aktif": true,
+      "totalSolved": 674,
+      "totalSubmissions": 1337,
+      "lastSolvedAt": "2026-11-13T09:59:02.037Z",
+      "updatedAt": "2026-11-14T04:49:18.865Z",
+      "sync": "ok",
+      "platforms": {
+        "tlx": {
+          "handle": "aycaaa",
+          "solved": 469,
+          "submissions": 941
+        },
+        "codeforces": {
+          "handle": "feeera",
+          "solved": 68,
+          "submissions": 259,
+          "rating": 1874,
+          "rank": "expert"
+        },
+        "leetcode": {
+          "handle": "fsaree",
+          "solved": 137,
+          "submissions": 137,
+          "ranking": 1303454
+        }
+      }
+    },
+    {
+      "nim": "241524051",
+      "nama": "Muhammad Azzar Mannal Hadi",
+      "kelasHuruf": "B",
+      "kelas": "3B-D4",
+      "aktif": true,
+      "totalSolved": 258,
+      "totalSubmissions": 656,
+      "lastSolvedAt": "2026-11-10T15:04:22.787Z",
+      "updatedAt": "2026-11-14T08:39:33.844Z",
+      "sync": "ok",
+      "platforms": {
+        "tlx": {
+          "handle": "fnsd",
+          "solved": 119,
+          "submissions": 378
+        },
+        "codeforces": {
+          "handle": "finsidemonkey",
+          "solved": 71,
+          "submissions": 258,
+          "rating": 0,
+          "rank": "unrated"
+        },
+        "leetcode": {
+          "handle": "finsider",
+          "solved": 68,
+          "submissions": 20,
+          "ranking": 2288780
+        }
+      }
+    }
+  ]
+}

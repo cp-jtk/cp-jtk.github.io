@@ -1,0 +1,101 @@
+---
+import { site } from '../../data/site'
+import { buildWebSiteSchema, normalizeSiteUrl, type JsonLd } from '../../utils/seo'
+
+export interface Props {
+  title?: string
+  description?: string
+  image?: string
+  type?: 'website' | 'article'
+  noindex?: boolean
+  jsonLd?: JsonLd | JsonLd[]
+}
+
+const fontHref =
+  'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap'
+
+const {
+  title = `${site.name} — Monitoring Latihan Competitive Programming`,
+  description = site.description,
+  image = '/og.png',
+  type = 'website',
+  noindex = false,
+  jsonLd,
+} = Astro.props
+
+const siteUrl = normalizeSiteUrl(Astro.site ?? new URL(Astro.url.origin))
+const canonical = new URL(Astro.url.pathname, `${siteUrl}/`)
+const ogImage = image ? new URL(image, `${siteUrl}/`) : null
+const robots = noindex ? 'noindex, nofollow' : 'index, follow'
+const schemas = [
+  buildWebSiteSchema(siteUrl),
+  ...(Array.isArray(jsonLd) ? jsonLd
+  : jsonLd ? [jsonLd]
+  : []),
+]
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+<link rel="icon" type="image/png" sizes="144x144" href="/favicon-144.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href={fontHref} />
+<link rel="stylesheet" href={fontHref} media="print" onload="this.removeAttribute('media')" />
+<noscript>
+  <link rel="stylesheet" href={fontHref} />
+</noscript>
+
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link rel="canonical" href={canonical} />
+<meta name="robots" content={robots} />
+<meta name="generator" content={Astro.generator} />
+
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content={site.name} />
+<meta property="og:locale" content="id_ID" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+{ogImage && <meta property="og:image" content={ogImage.toString()} />}
+{ogImage && <meta property="og:image:width" content="1200" />}
+{ogImage && <meta property="og:image:height" content="630" />}
+{ogImage && <meta property="og:image:alt" content={title} />}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{ogImage && <meta name="twitter:image" content={ogImage.toString()} />}
+
+<script type="application/ld+json" set:html={JSON.stringify(schemas)} />
+<script is:inline define:vars={{ themeStorageKey: site.themeStorageKey }}>
+  ;(() => {
+    let initial = 'light'
+    try {
+      const stored = localStorage.getItem(themeStorageKey)
+      if (stored) {
+        initial = stored
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        initial = 'dark'
+      }
+    } catch (err) {
+      initial = 'light'
+    }
+    if (initial === 'dark') {
+      document.documentElement.classList.add('dark')
+      document.documentElement.classList.remove('light')
+    } else {
+      document.documentElement.classList.add('light')
+      document.documentElement.classList.remove('dark')
+    }
+  })()
+</script>

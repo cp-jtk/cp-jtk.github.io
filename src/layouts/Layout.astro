@@ -1,0 +1,172 @@
+---
+import '../styles/global.css'
+import BaseHead from '../components/layout/BaseHead.astro'
+import Footer from '../components/layout/Footer.astro'
+import ThemeToggle from '../components/layout/ThemeToggle.astro'
+import { site } from '../data/site'
+import type { JsonLd } from '../utils/seo'
+
+type LayoutProps = {
+  title?: string
+  description?: string
+  image?: string
+  type?: 'website' | 'article'
+  noindex?: boolean
+  jsonLd?: JsonLd | JsonLd[]
+}
+
+const {
+  title = `${site.name} — Monitoring Latihan Competitive Programming`,
+  description = site.description,
+  image = '/og.png',
+  type,
+  noindex,
+  jsonLd,
+}: LayoutProps = Astro.props
+---
+
+<!doctype html>
+<html lang={site.locale}>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      image={image}
+      type={type}
+      noindex={noindex}
+      jsonLd={jsonLd}
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#konten-utama">
+      Lewati ke konten
+    </a>
+    <div class="app-shell">
+      <header class="app-header">
+        <a class="app-brand" href="/">
+          <span class="app-brand__mark" aria-hidden="true">
+            <img
+              src="/jtk-polban-light.png"
+              alt=""
+              class="app-brand__logo logo-variant-dark"
+              width="42"
+              height="42"
+            />
+            <img
+              src="/jtk-polban-dark.png"
+              alt=""
+              class="app-brand__logo logo-variant-light"
+              width="42"
+              height="42"
+            />
+          </span>
+          <span class="app-brand__text">
+            <strong>{site.name}</strong>
+            <small>Monitoring latihan competitive programming</small>
+          </span>
+        </a>
+        <div class="app-actions">
+          <ThemeToggle />
+        </div>
+      </header>
+      <main id="konten-utama" class="app-main">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+    <script>
+      import { initHeaderControls } from '../scripts/header-controls'
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initHeaderControls, { once: true })
+      } else {
+        initHeaderControls()
+      }
+    </script>
+  </body>
+</html>
+
+<style>
+  .app-shell {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.9rem 1.25rem;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+  }
+
+  .app-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text);
+    text-decoration: none;
+    min-width: 0;
+  }
+
+  .app-brand__mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .app-brand__logo {
+    width: 2.65rem;
+    height: 2.65rem;
+    object-fit: contain;
+  }
+
+  .app-brand__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    min-width: 0;
+  }
+
+  .app-brand__text strong {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .app-brand__text small {
+    color: var(--muted);
+    font-size: 0.72rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .app-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+  }
+
+  .app-main {
+    flex: 1;
+    width: 100%;
+  }
+
+  @media (max-width: 720px) {
+    .app-header {
+      gap: 0.75rem;
+    }
+
+    .app-brand__text small {
+      display: none;
+    }
+  }
+</style>
