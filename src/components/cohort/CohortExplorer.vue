@@ -116,9 +116,25 @@
       </div>
     </div>
 
-    <p class="cohort-count">
-      Menampilkan {{ filtered.length }} dari {{ students.length }} mahasiswa
-    </p>
+    <div class="cohort-table-meta-bar">
+      <p class="cohort-count">
+        Menampilkan {{ filtered.length }} dari {{ students.length }} mahasiswa
+      </p>
+
+      <div v-if="filtered.length > 0" class="cohort-swipe-hint">
+        <svg
+          class="swipe-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+        <span>Geser untuk melihat seluruh tabel</span>
+      </div>
+    </div>
 
     <div v-if="filtered.length > 0" class="cohort-table-wrap">
       <table class="cohort-table">
@@ -420,21 +436,7 @@
       </table>
     </div>
 
-    <div v-if="filtered.length > 0" class="cohort-swipe-hint">
-      <svg
-        class="swipe-icon"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round">
-        <path d="M15 6l-6 6 6 6" />
-      </svg>
-      <span>Geser untuk melihat seluruh tabel</span>
-    </div>
-
-    <div v-else class="cohort-empty">
+    <div v-if="filtered.length === 0" class="cohort-empty">
       <p>Tidak ada mahasiswa yang cocok dengan pencarian.</p>
       <button type="button" class="cohort-reset" @click="reset">Reset filter</button>
     </div>
@@ -934,6 +936,14 @@ const reset = () => {
   border-color: var(--muted);
 }
 
+.cohort-table-meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .cohort-count {
   margin: 0;
   font-size: 0.78rem;
@@ -1215,41 +1225,23 @@ const reset = () => {
 }
 
 @media (max-width: 768px) {
-  .cohort-table-wrap {
-    overflow-x: scroll;
-    padding-bottom: 4px;
-    box-shadow: inset -12px 0 10px -10px rgba(0, 0, 0, 0.2);
+  .cohort-swipe-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    color: var(--accent);
+    font-weight: 600;
   }
 
-  .cohort-table-wrap::-webkit-scrollbar {
-    height: 8px;
-    display: block;
-  }
-
-  .cohort-table-wrap::-webkit-scrollbar-thumb {
-    background: color-mix(in srgb, var(--accent) 65%, var(--muted));
-    border-radius: 999px;
+  .swipe-icon {
+    width: 0.95rem;
+    height: 0.95rem;
+    flex-shrink: 0;
   }
 
   .student-name {
     max-width: 135px;
-  }
-
-  .cohort-swipe-hint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.35rem;
-    margin-top: 0.5rem;
-    font-size: 0.72rem;
-    color: var(--muted);
-    opacity: 0.8;
-  }
-
-  .swipe-icon {
-    width: 0.9rem;
-    height: 0.9rem;
-    flex-shrink: 0;
   }
 }
 

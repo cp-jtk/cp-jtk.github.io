@@ -1,5 +1,19 @@
 <template>
   <div class="cp-table-container">
+    <div class="table-swipe-hint">
+      <svg
+        class="swipe-icon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M5 12h14M13 6l6 6-6 6" />
+      </svg>
+      <span>{{ isId ? 'Geser untuk melihat seluruh tabel' : 'Swipe to see the full table' }}</span>
+    </div>
+
     <div class="cp-table-wrapper" :class="{ 'is-bare': bare }">
       <table class="cp-table">
         <thead>
@@ -116,20 +130,6 @@
         </tbody>
       </table>
     </div>
-
-    <div class="table-swipe-hint">
-      <svg
-        class="swipe-icon"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round">
-        <path d="M15 6l-6 6 6 6" />
-      </svg>
-      <span>{{ isId ? 'Geser untuk melihat seluruh tabel' : 'Swipe to see the full table' }}</span>
-    </div>
   </div>
 </template>
 
@@ -233,19 +233,18 @@ const getItemTags = (item: SubmissionItem): string[] => {
 
 @media (max-width: 768px) {
   .table-swipe-hint {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 0.35rem;
-    margin-top: 0.5rem;
+    margin-bottom: 0.45rem;
     font-size: var(--type-xs, 0.72rem);
-    color: var(--muted);
-    opacity: 0.8;
+    color: var(--accent);
+    font-weight: 600;
   }
 
   .swipe-icon {
-    width: 0.9rem;
-    height: 0.9rem;
+    width: 0.95rem;
+    height: 0.95rem;
     flex-shrink: 0;
   }
 }
