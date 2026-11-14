@@ -6,7 +6,7 @@
   "aktif": true,
   "platforms": {
     "tlx": "imfachri",
-    "leetcode": null,
-    "codeforces": null
+    "leetcode": "imfachri",
+    "codeforces": "imfachri"
   }
 }

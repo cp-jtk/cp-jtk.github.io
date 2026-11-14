@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-14T18:12:44.630Z",
+    "version": "1",
+    "studentNim": "261524023",
+    "handles": {
+      "tlx": "Naphoryn",
+      "codeforces": "Naphoryn",
+      "leetcode": "Naphoryn"
+    }
+  },
+  "overview": {
+    "totalSolved": 7,
+    "totalSubmissions": 5,
+    "activePlatforms": 3,
+    "heatmap": {
+      "2026-11-14": {
+        "tries": 5,
+        "ac": 5
+      }
+    },
+    "topLanguage": {
+      "name": "C++20",
+      "count": 5
+    }
+  },
+  "platforms": {
+    "tlx": {
+      "handle": "Naphoryn",
+      "url": "https://tlx.toki.id/profiles/Naphoryn",
+      "totalSolved": 7,
+      "totalSubmissions": 5,
+      "totalAcSubmissions": 7,
+      "uniqueProblemsSolved": 5,
+      "languages": {
+        "C++20": 5
+      },
+      "dailyCalendar": {
+        "2026-11-14": {
+          "tries": 5,
+          "ac": 5
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "tlx-6303162",
+          "platform": "tlx",
+          "title": "Mengukur Kandang",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6303162",
+          "solvedAt": "2026-11-14T13:15:17.377Z"
+        },
+        {
+          "id": "tlx-6302987",
+          "platform": "tlx",
+          "title": "Menjumlahkan Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6302987",
+          "solvedAt": "2026-11-14T12:25:22.856Z"
+        },
+        {
+          "id": "tlx-6302986",
+          "platform": "tlx",
+          "title": "Mencetak Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6302986",
+          "solvedAt": "2026-11-14T12:24:49.072Z"
+        },
+        {
+          "id": "tlx-6302980",
+          "platform": "tlx",
+          "title": "Mencetak dengan std::cout",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6302980",
+          "solvedAt": "2026-11-14T12:23:48.357Z"
+        },
+        {
+          "id": "tlx-6302971",
+          "platform": "tlx",
+          "title": "Program Pertamaku",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6302971",
+          "solvedAt": "2026-11-14T12:22:29.124Z"
+        }
+      ]
+    },
+    "codeforces": {
+      "handle": "Naphoryn",
+      "url": "https://codeforces.com/profile/Naphoryn",
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "unrated",
+      "maxRank": "unrated",
+      "contestsCount": 0,
+      "totalSubmissions": 0,
+      "totalSolved": 0,
+      "totalAcSubmissions": 0,
+      "tagsCount": {},
+      "ratingDistribution": {},
+      "languages": {},
+      "dailyCalendar": {},
+      "recentSolved": []
+    },
+    "leetcode": {
+      "handle": "Naphoryn",
+      "url": "https://leetcode.com/u/Naphoryn",
+      "ranking": 5000001,
+      "totalSolved": 0,
+      "easySolved": 0,
+      "mediumSolved": 0,
+      "hardSolved": 0,
+      "totalSubmissions": 0,
+      "dailyCalendar": {},
+      "recentSolved": []
+    }
+  },
+  "recentGlobalFeed": [
+    {
+      "id": "tlx-6303162",
+      "platform": "tlx",
+      "title": "Mengukur Kandang",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6303162",
+      "solvedAt": "2026-11-14T13:15:17.377Z"
+    },
+    {
+      "id": "tlx-6302987",
+      "platform": "tlx",
+      "title": "Menjumlahkan Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6302987",
+      "solvedAt": "2026-11-14T12:25:22.856Z"
+    },
+    {
+      "id": "tlx-6302986",
+      "platform": "tlx",
+      "title": "Mencetak Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6302986",
+      "solvedAt": "2026-11-14T12:24:49.072Z"
+    },
+    {
+      "id": "tlx-6302980",
+      "platform": "tlx",
+      "title": "Mencetak dengan std::cout",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6302980",
+      "solvedAt": "2026-11-14T12:23:48.357Z"
+    },
+    {
+      "id": "tlx-6302971",
+      "platform": "tlx",
+      "title": "Program Pertamaku",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6302971",
+      "solvedAt": "2026-11-14T12:22:29.124Z"
+    }
+  ]
+}
