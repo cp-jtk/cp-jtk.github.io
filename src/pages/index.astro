@@ -59,10 +59,11 @@ const formatNumber = (value: number) => numberFormat.format(value)
 
 const lastSynced =
   data.updatedAt ?
-    new Date(data.updatedAt).toLocaleString('id-ID', {
+    `${new Date(data.updatedAt).toLocaleString('id-ID', {
       dateStyle: 'medium',
       timeStyle: 'short',
-    })
+      timeZone: 'Asia/Jakarta',
+    })} WIB`
   : 'Belum ada data'
 ---
 

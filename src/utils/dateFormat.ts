@@ -13,6 +13,7 @@ export const formatRelativeTime = (isoString?: string, isId: boolean = false): s
     month: 'short',
     day: 'numeric',
     year: 'numeric',
+    timeZone: 'Asia/Jakarta',
   })
 }
 
@@ -23,6 +24,7 @@ export const formatTooltipHeaderDate = (dateStr: string, isId: boolean = false):
     day: 'numeric',
     month: 'short',
     year: 'numeric',
+    timeZone: 'Asia/Jakarta',
   })
 }
 
@@ -33,5 +35,6 @@ export const formatExactDate = (isoString?: string, isId: boolean = false): stri
     day: 'numeric',
     month: 'short',
     year: 'numeric',
+    timeZone: 'Asia/Jakarta',
   })
 }

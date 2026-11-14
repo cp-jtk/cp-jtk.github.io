@@ -48,13 +48,13 @@
             <div class="popover-list">
               <button
                 v-for="opt in sortOptions"
-                :key="opt.value"
+                :key="opt.key"
                 type="button"
                 class="popover-item"
-                :class="{ 'is-selected': sortBy === opt.value }"
-                @click="sortBy = opt.value">
+                :class="{ 'is-selected': sortKey === opt.key && sortDir === opt.dir }"
+                @click="applyPopoverSort(opt)">
                 <span class="item-check" aria-hidden="true">{{
-                  sortBy === opt.value ? '✓' : ''
+                  sortKey === opt.key && sortDir === opt.dir ? '✓' : ''
                 }}</span>
                 <span class="item-label">{{ opt.label }}</span>
               </button>
@@ -124,37 +124,280 @@
       <table class="cohort-table">
         <thead>
           <tr>
-            <th class="col-student">Mahasiswa</th>
-            <th v-for="key in platformKeys" :key="key" class="col-platform">
-              <span class="platform-head">
-                <template v-if="CP_PLATFORMS[key].logoLight">
-                  <img
-                    :src="CP_PLATFORMS[key].logo"
-                    alt=""
-                    class="platform-logo logo-variant-dark" />
-                  <img
-                    :src="CP_PLATFORMS[key].logoLight"
-                    alt=""
-                    class="platform-logo logo-variant-light" />
-                </template>
-                <img v-else :src="CP_PLATFORMS[key].logo" alt="" class="platform-logo" />
-                {{ CP_PLATFORMS[key].short }}
-              </span>
+            <th
+              class="col-student col-sortable"
+              :class="{ 'is-sorted': sortKey === 'nama' }"
+              :aria-sort="
+                sortKey === 'nama' ?
+                  sortDir === 'asc' ?
+                    'ascending'
+                  : 'descending'
+                : 'none'
+              "
+              tabindex="0"
+              role="columnheader"
+              @click="handleSort('nama')"
+              @keydown.enter="handleSort('nama')"
+              @keydown.space.prevent="handleSort('nama')">
+              <div class="th-sort-content">
+                <span>Mahasiswa</span>
+                <span class="sort-icon-wrap" aria-hidden="true">
+                  <svg
+                    v-if="sortKey === 'nama' && sortDir === 'asc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M18 15l-6-6-6 6" />
+                  </svg>
+                  <svg
+                    v-else-if="sortKey === 'nama' && sortDir === 'desc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                  <svg
+                    v-else
+                    class="sort-icon is-inactive"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M8 9l4-4 4 4M16 15l-4 4-4-4" />
+                  </svg>
+                </span>
+              </div>
             </th>
-            <th class="col-total">Total Solved</th>
-            <th class="col-last-submission">Last Submission</th>
+
+            <th
+              class="col-kelas col-sortable"
+              :class="{ 'is-sorted': sortKey === 'kelas' }"
+              :aria-sort="
+                sortKey === 'kelas' ?
+                  sortDir === 'asc' ?
+                    'ascending'
+                  : 'descending'
+                : 'none'
+              "
+              tabindex="0"
+              role="columnheader"
+              @click="handleSort('kelas')"
+              @keydown.enter="handleSort('kelas')"
+              @keydown.space.prevent="handleSort('kelas')">
+              <div class="th-sort-content">
+                <span>Kelas</span>
+                <span class="sort-icon-wrap" aria-hidden="true">
+                  <svg
+                    v-if="sortKey === 'kelas' && sortDir === 'asc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M18 15l-6-6-6 6" />
+                  </svg>
+                  <svg
+                    v-else-if="sortKey === 'kelas' && sortDir === 'desc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                  <svg
+                    v-else
+                    class="sort-icon is-inactive"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M8 9l4-4 4 4M16 15l-4 4-4-4" />
+                  </svg>
+                </span>
+              </div>
+            </th>
+
+            <th
+              v-for="key in platformKeys"
+              :key="key"
+              class="col-platform col-sortable"
+              :class="{ 'is-sorted': sortKey === key }"
+              :aria-sort="
+                sortKey === key ?
+                  sortDir === 'asc' ?
+                    'ascending'
+                  : 'descending'
+                : 'none'
+              "
+              tabindex="0"
+              role="columnheader"
+              @click="handleSort(key)"
+              @keydown.enter="handleSort(key)"
+              @keydown.space.prevent="handleSort(key)">
+              <div class="th-sort-content">
+                <span class="platform-head">
+                  <template v-if="CP_PLATFORMS[key].logoLight">
+                    <img
+                      :src="CP_PLATFORMS[key].logo"
+                      alt=""
+                      class="platform-logo logo-variant-dark" />
+                    <img
+                      :src="CP_PLATFORMS[key].logoLight"
+                      alt=""
+                      class="platform-logo logo-variant-light" />
+                  </template>
+                  <img v-else :src="CP_PLATFORMS[key].logo" alt="" class="platform-logo" />
+                  {{ CP_PLATFORMS[key].short }}
+                </span>
+                <span class="sort-icon-wrap" aria-hidden="true">
+                  <svg
+                    v-if="sortKey === key && sortDir === 'asc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M18 15l-6-6-6 6" />
+                  </svg>
+                  <svg
+                    v-else-if="sortKey === key && sortDir === 'desc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                  <svg
+                    v-else
+                    class="sort-icon is-inactive"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M8 9l4-4 4 4M16 15l-4 4-4-4" />
+                  </svg>
+                </span>
+              </div>
+            </th>
+
+            <th
+              class="col-total col-sortable"
+              :class="{ 'is-sorted': sortKey === 'totalSolved' }"
+              :aria-sort="
+                sortKey === 'totalSolved' ?
+                  sortDir === 'asc' ?
+                    'ascending'
+                  : 'descending'
+                : 'none'
+              "
+              tabindex="0"
+              role="columnheader"
+              @click="handleSort('totalSolved')"
+              @keydown.enter="handleSort('totalSolved')"
+              @keydown.space.prevent="handleSort('totalSolved')">
+              <div class="th-sort-content">
+                <span>Total Solved</span>
+                <span class="sort-icon-wrap" aria-hidden="true">
+                  <svg
+                    v-if="sortKey === 'totalSolved' && sortDir === 'asc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M18 15l-6-6-6 6" />
+                  </svg>
+                  <svg
+                    v-else-if="sortKey === 'totalSolved' && sortDir === 'desc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                  <svg
+                    v-else
+                    class="sort-icon is-inactive"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M8 9l4-4 4 4M16 15l-4 4-4-4" />
+                  </svg>
+                </span>
+              </div>
+            </th>
+
+            <th
+              class="col-last-submission col-sortable"
+              :class="{ 'is-sorted': sortKey === 'lastSolvedAt' }"
+              :aria-sort="
+                sortKey === 'lastSolvedAt' ?
+                  sortDir === 'asc' ?
+                    'ascending'
+                  : 'descending'
+                : 'none'
+              "
+              tabindex="0"
+              role="columnheader"
+              @click="handleSort('lastSolvedAt')"
+              @keydown.enter="handleSort('lastSolvedAt')"
+              @keydown.space.prevent="handleSort('lastSolvedAt')">
+              <div class="th-sort-content">
+                <span>Last Submission</span>
+                <span class="sort-icon-wrap" aria-hidden="true">
+                  <svg
+                    v-if="sortKey === 'lastSolvedAt' && sortDir === 'asc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M18 15l-6-6-6 6" />
+                  </svg>
+                  <svg
+                    v-else-if="sortKey === 'lastSolvedAt' && sortDir === 'desc'"
+                    class="sort-icon is-active"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                  <svg
+                    v-else
+                    class="sort-icon is-inactive"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M8 9l4-4 4 4M16 15l-4 4-4-4" />
+                  </svg>
+                </span>
+              </div>
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="student in filtered" :key="student.nim">
             <td class="cell-student">
-              <a :href="`/students/${student.nim}/`" class="student-link">
+              <a :href="`/students/${student.nim}/`" class="student-link" :title="student.nama">
                 <span class="student-name-row">
                   <ExternalLinkIcon class="student-link-icon" />
                   <span class="student-name">{{ student.nama }}</span>
                 </span>
-                <span class="student-meta">{{ getStudentMeta(student) }}</span>
               </a>
+            </td>
+
+            <td class="cell-kelas">
+              <span class="student-meta">{{ getStudentKelas(student) }}</span>
             </td>
 
             <td v-for="key in platformKeys" :key="key" class="cell-platform">
@@ -211,15 +454,34 @@ const props = defineProps<{
 
 const platformKeys = [...CP_PLATFORM_KEYS]
 const search = ref('')
-const sortBy = ref<'nama' | 'totalSolved' | 'lastSolvedAt' | 'kelas'>('nama')
+
+type SortKey = 'nama' | 'kelas' | 'tlx' | 'codeforces' | 'leetcode' | 'totalSolved' | 'lastSolvedAt'
+type SortDir = 'asc' | 'desc'
+
+const sortKey = ref<SortKey>('nama')
+const sortDir = ref<SortDir>('asc')
 const isFilterOpen = ref(false)
 
 const sortOptions = [
-  { value: 'nama', label: 'Nama (A-Z)' },
-  { value: 'totalSolved', label: 'Solved terbanyak' },
-  { value: 'lastSolvedAt', label: 'Submisi terbaru' },
-  { value: 'kelas', label: 'Kelas (Rombel)' },
-] as const
+  { key: 'nama' as const, dir: 'asc' as const, label: 'Nama (A-Z)' },
+  { key: 'kelas' as const, dir: 'asc' as const, label: 'Kelas (Rombel)' },
+  { key: 'totalSolved' as const, dir: 'desc' as const, label: 'Solved terbanyak' },
+  { key: 'lastSolvedAt' as const, dir: 'desc' as const, label: 'Submisi terbaru' },
+]
+
+function handleSort(key: SortKey) {
+  if (sortKey.value === key) {
+    sortDir.value = sortDir.value === 'asc' ? 'desc' : 'asc'
+  } else {
+    sortKey.value = key
+    sortDir.value = key === 'nama' || key === 'kelas' ? 'asc' : 'desc'
+  }
+}
+
+function applyPopoverSort(opt: (typeof sortOptions)[number]) {
+  sortKey.value = opt.key
+  sortDir.value = opt.dir
+}
 
 const prodiLabels: Record<string, string> = {
   D4: 'D4 Teknik Informatika',
@@ -309,21 +571,21 @@ const toggleTingkat = (t: string) => {
   }
 }
 
-function getStudentMeta(student: StudentSummary): string {
+function getStudentKelas(student: StudentSummary): string {
   const { prodi, tingkat } = parseStudentAcademic(student)
   if (tingkat === 'alumni') {
     const angkatan = student.nim.slice(0, 2)
     const rombel = student.kelasHuruf || student.kelas.replace(/[^A-Za-z]/g, '') || 'A'
     return `Alumni ${angkatan}, Kelas ${rombel}-${prodi}`
   }
-  return `Kelas ${student.kelas}`
+  return student.kelas
 }
 
 const activeFilterCount = computed(() => {
   let count = 0
   if (!isAllProdiSelected.value) count++
   if (!isAllTingkatSelected.value) count++
-  if (sortBy.value !== 'nama') count++
+  if (sortKey.value !== 'nama' || sortDir.value !== 'asc') count++
   return count
 })
 
@@ -332,7 +594,8 @@ const isFiltered = computed(
     search.value.trim().length > 0 ||
     !isAllProdiSelected.value ||
     !isAllTingkatSelected.value ||
-    sortBy.value !== 'nama'
+    sortKey.value !== 'nama' ||
+    sortDir.value !== 'asc'
 )
 
 const filtered = computed(() => {
@@ -350,7 +613,7 @@ const filtered = computed(() => {
         student.nim,
         student.kelas,
         student.kelasHuruf,
-        getStudentMeta(student),
+        getStudentKelas(student),
         prodi,
         prodiLabels[prodi] || '',
         tingkatLabels[tingkat] || '',
@@ -362,22 +625,38 @@ const filtered = computed(() => {
       return haystack.includes(term)
     })
     .sort((a, b) => {
-      if (sortBy.value === 'totalSolved') {
-        return b.totalSolved - a.totalSolved || a.nama.localeCompare(b.nama, 'id')
-      }
-      if (sortBy.value === 'lastSolvedAt') {
+      let diff = 0
+      if (sortKey.value === 'nama') {
+        diff = a.nama.localeCompare(b.nama, 'id')
+      } else if (sortKey.value === 'kelas') {
+        const aMeta = getStudentKelas(a)
+        const bMeta = getStudentKelas(b)
+        diff = aMeta.localeCompare(bMeta, 'id') || a.nama.localeCompare(b.nama, 'id')
+      } else if (sortKey.value === 'tlx') {
+        const aVal = a.platforms.tlx?.handle ? (a.platforms.tlx?.solved ?? 0) : -1
+        const bVal = b.platforms.tlx?.handle ? (b.platforms.tlx?.solved ?? 0) : -1
+        diff = aVal - bVal
+      } else if (sortKey.value === 'codeforces') {
+        const aVal = a.platforms.codeforces?.handle ? (a.platforms.codeforces?.solved ?? 0) : -1
+        const bVal = b.platforms.codeforces?.handle ? (b.platforms.codeforces?.solved ?? 0) : -1
+        diff = aVal - bVal
+      } else if (sortKey.value === 'leetcode') {
+        const aVal = a.platforms.leetcode?.handle ? (a.platforms.leetcode?.solved ?? 0) : -1
+        const bVal = b.platforms.leetcode?.handle ? (b.platforms.leetcode?.solved ?? 0) : -1
+        diff = aVal - bVal
+      } else if (sortKey.value === 'totalSolved') {
+        diff = a.totalSolved - b.totalSolved
+      } else if (sortKey.value === 'lastSolvedAt') {
         const aTime = a.lastSolvedAt ? new Date(a.lastSolvedAt).getTime() : 0
         const bTime = b.lastSolvedAt ? new Date(b.lastSolvedAt).getTime() : 0
-        return bTime - aTime || a.nama.localeCompare(b.nama, 'id')
+        diff = aTime - bTime
       }
-      if (sortBy.value === 'kelas') {
-        return (
-          a.kelas.localeCompare(b.kelas, 'id') ||
-          a.kelasHuruf.localeCompare(b.kelasHuruf, 'id') ||
-          a.nama.localeCompare(b.nama, 'id')
-        )
+
+      if (sortDir.value === 'desc') {
+        diff = -diff
       }
-      return a.nama.localeCompare(b.nama, 'id')
+
+      return diff || a.nama.localeCompare(b.nama, 'id')
     })
 })
 
@@ -389,6 +668,7 @@ const formatDate = (value?: string | null): string => {
     day: 'numeric',
     month: 'short',
     year: 'numeric',
+    timeZone: 'Asia/Jakarta',
   })
 }
 
@@ -396,7 +676,8 @@ const reset = () => {
   search.value = ''
   selectedProdi.value = [...availableProdi.value]
   selectedTingkat.value = [...availableTingkat.value]
-  sortBy.value = 'nama'
+  sortKey.value = 'nama'
+  sortDir.value = 'asc'
 }
 </script>
 
@@ -448,13 +729,8 @@ const reset = () => {
   border-color: var(--muted);
 }
 
-.cohort-filter-trigger.is-active {
-  border-color: var(--accent);
-  color: var(--text);
-}
-
 .cohort-filter-trigger:focus-visible {
-  outline: 2px solid var(--text);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -516,13 +792,13 @@ const reset = () => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.2rem 0.35rem 0.5rem;
-  border-bottom: 1px solid var(--border);
   margin-bottom: 0.4rem;
+  padding: 0.25rem 0.35rem 0.4rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .popover-title {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: var(--text);
 }
@@ -530,30 +806,28 @@ const reset = () => {
 .popover-reset {
   background: none;
   border: none;
-  padding: 0.15rem 0.35rem;
-  font-size: 0.7rem;
+  color: var(--accent);
+  font-size: 0.75rem;
   font-weight: 600;
-  color: var(--muted);
   cursor: pointer;
-  border-radius: var(--radius-sm);
-  transition: color 0.15s ease;
+  padding: 0;
 }
 
 .popover-reset:hover {
-  color: var(--accent);
+  text-decoration: underline;
 }
 
 .popover-section {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.35rem;
 }
 
 .popover-section-label {
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--muted);
   padding: 0.2rem 0.4rem;
 }
@@ -669,14 +943,39 @@ const reset = () => {
 .cohort-table-wrap {
   width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--bg-soft);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong, #94a3b8) var(--bg-soft);
+}
+
+.cohort-table-wrap::-webkit-scrollbar {
+  height: 8px;
+  display: block;
+}
+
+.cohort-table-wrap::-webkit-scrollbar-track {
+  background: var(--bg-soft);
+  border-radius: 999px;
+  margin: 0 0.5rem;
+}
+
+.cohort-table-wrap::-webkit-scrollbar-thumb {
+  background: var(--border-strong, #94a3b8);
+  border-radius: 999px;
+  border: 2px solid var(--bg-soft);
+}
+
+.cohort-table-wrap::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
 
 .cohort-table {
   width: 100%;
-  min-width: 920px;
+  min-width: 960px;
   border-collapse: collapse;
   text-align: left;
   font-size: 0.82rem;
@@ -691,6 +990,62 @@ const reset = () => {
   text-transform: uppercase;
   color: var(--muted);
   white-space: nowrap;
+}
+
+.col-sortable {
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.col-sortable:hover {
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+
+.col-sortable:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.col-sortable.is-sorted {
+  color: var(--text);
+}
+
+.th-sort-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.sort-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.85rem;
+  height: 0.85rem;
+  flex-shrink: 0;
+}
+
+.sort-icon {
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.sort-icon.is-active {
+  color: var(--accent);
+}
+
+.sort-icon.is-inactive {
+  opacity: 0.35;
+  color: var(--muted);
+  transition: opacity 0.15s ease;
+}
+
+.col-sortable:hover .sort-icon.is-inactive {
+  opacity: 0.75;
 }
 
 .cohort-table td {
@@ -708,25 +1063,29 @@ const reset = () => {
 }
 
 .col-student {
-  width: 30%;
+  width: 23%;
+}
+
+.col-kelas {
+  width: 15%;
 }
 
 .col-platform {
-  width: 17%;
+  width: 13%;
 }
 
 .col-total {
-  width: 9%;
-}
-
-.col-last-submission {
   width: 10%;
 }
 
+.col-last-submission {
+  width: 13%;
+}
+
 .student-link {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
   color: var(--text);
   text-decoration: none;
 }
@@ -735,6 +1094,8 @@ const reset = () => {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .student-link-icon {
@@ -760,10 +1121,27 @@ const reset = () => {
 .student-name {
   font-size: 0.9rem;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 155px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.student-meta {
-  font-size: 0.72rem;
+@media (min-width: 1024px) {
+  .student-name {
+    max-width: 200px;
+  }
+}
+
+.cell-kelas {
+  white-space: nowrap;
+}
+
+.cell-kelas .student-meta {
+  font-size: 0.78rem;
+  font-weight: 600;
   color: var(--muted);
 }
 
@@ -837,6 +1215,26 @@ const reset = () => {
 }
 
 @media (max-width: 768px) {
+  .cohort-table-wrap {
+    overflow-x: scroll;
+    padding-bottom: 4px;
+    box-shadow: inset -12px 0 10px -10px rgba(0, 0, 0, 0.2);
+  }
+
+  .cohort-table-wrap::-webkit-scrollbar {
+    height: 8px;
+    display: block;
+  }
+
+  .cohort-table-wrap::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--accent) 65%, var(--muted));
+    border-radius: 999px;
+  }
+
+  .student-name {
+    max-width: 135px;
+  }
+
   .cohort-swipe-hint {
     display: flex;
     align-items: center;
