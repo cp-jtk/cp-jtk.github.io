@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-15T06:43:03.101Z",
+    "updatedAt": "2026-11-15T12:30:17.323Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 671,
+    "totalSolved": 678,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -523,13 +523,13 @@
         "ac": 2
       },
       "2026-11-15": {
-        "tries": 1,
-        "ac": 1
+        "tries": 8,
+        "ac": 8
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 578
+      "count": 585
     }
   },
   "platforms": {
@@ -6058,11 +6058,11 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1295015,
-      "totalSolved": 140,
+      "ranking": 1220219,
+      "totalSolved": 147,
       "easySolved": 62,
-      "mediumSolved": 64,
-      "hardSolved": 14,
+      "mediumSolved": 67,
+      "hardSolved": 18,
       "dailyCalendar": {
         "2026-11-11": {
           "tries": 1,
@@ -6133,11 +6133,81 @@
           "ac": 2
         },
         "2026-11-15": {
-          "tries": 1,
-          "ac": 1
+          "tries": 8,
+          "ac": 8
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1794735174",
+          "platform": "leetcode",
+          "title": "Maximum Subarray",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/maximum-subarray/",
+          "solvedAt": "2026-11-15T09:32:54.000Z"
+        },
+        {
+          "id": "lc-1794733923",
+          "platform": "leetcode",
+          "title": "N-Queens II",
+          "category": "Backtracking",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/n-queens-ii/",
+          "solvedAt": "2026-11-15T09:12:03.000Z"
+        },
+        {
+          "id": "lc-1794733810",
+          "platform": "leetcode",
+          "title": "N-Queens",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/n-queens/",
+          "solvedAt": "2026-11-15T09:10:10.000Z"
+        },
+        {
+          "id": "lc-1794731999",
+          "platform": "leetcode",
+          "title": "First Missing Positive",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/first-missing-positive/",
+          "solvedAt": "2026-11-15T08:39:59.000Z"
+        },
+        {
+          "id": "lc-1794730144",
+          "platform": "leetcode",
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+          "solvedAt": "2026-11-15T08:09:04.000Z"
+        },
+        {
+          "id": "lc-1794729415",
+          "platform": "leetcode",
+          "title": "Sudoku Solver",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/sudoku-solver/",
+          "solvedAt": "2026-11-15T07:56:55.000Z"
+        },
+        {
+          "id": "lc-1794727662",
+          "platform": "leetcode",
+          "title": "Valid Sudoku",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/valid-sudoku/",
+          "solvedAt": "2026-11-15T07:27:42.000Z"
+        },
         {
           "id": "lc-1794724025",
           "platform": "leetcode",
@@ -7543,6 +7613,76 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1794735174",
+      "platform": "leetcode",
+      "title": "Maximum Subarray",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "solvedAt": "2026-11-15T09:32:54.000Z"
+    },
+    {
+      "id": "lc-1794733923",
+      "platform": "leetcode",
+      "title": "N-Queens II",
+      "category": "Backtracking",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/n-queens-ii/",
+      "solvedAt": "2026-11-15T09:12:03.000Z"
+    },
+    {
+      "id": "lc-1794733810",
+      "platform": "leetcode",
+      "title": "N-Queens",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/n-queens/",
+      "solvedAt": "2026-11-15T09:10:10.000Z"
+    },
+    {
+      "id": "lc-1794731999",
+      "platform": "leetcode",
+      "title": "First Missing Positive",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/first-missing-positive/",
+      "solvedAt": "2026-11-15T08:39:59.000Z"
+    },
+    {
+      "id": "lc-1794730144",
+      "platform": "leetcode",
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+      "solvedAt": "2026-11-15T08:09:04.000Z"
+    },
+    {
+      "id": "lc-1794729415",
+      "platform": "leetcode",
+      "title": "Sudoku Solver",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/sudoku-solver/",
+      "solvedAt": "2026-11-15T07:56:55.000Z"
+    },
+    {
+      "id": "lc-1794727662",
+      "platform": "leetcode",
+      "title": "Valid Sudoku",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/valid-sudoku/",
+      "solvedAt": "2026-11-15T07:27:42.000Z"
+    },
     {
       "id": "lc-1794724025",
       "platform": "leetcode",

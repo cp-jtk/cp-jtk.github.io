@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-15T12:30:23.360Z",
+    "version": "1",
+    "studentNim": "261524065",
+    "handles": {
+      "tlx": "eepycattt",
+      "codeforces": "eepycatt",
+      "leetcode": "eepycattt"
+    }
+  },
+  "overview": {
+    "totalSolved": 0,
+    "totalSubmissions": 0,
+    "activePlatforms": 3,
+    "heatmap": {},
+    "topLanguage": {
+      "name": "-",
+      "count": 0
+    }
+  },
+  "platforms": {
+    "tlx": {
+      "handle": "eepycattt",
+      "url": "https://tlx.toki.id/profiles/eepycattt",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "totalAcSubmissions": 0,
+      "uniqueProblemsSolved": 0,
+      "rating": 0,
+      "languages": {},
+      "dailyCalendar": {},
+      "recentSolved": []
+    },
+    "codeforces": {
+      "handle": "eepycatt",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "unrated",
+      "maxRank": "unrated",
+      "contestsCount": 0,
+      "tagsCount": {},
+      "ratingDistribution": {},
+      "languages": {}
+    },
+    "leetcode": {
+      "handle": "eepycattt",
+      "url": "https://leetcode.com/u/eepycattt",
+      "ranking": 5000001,
+      "totalSolved": 0,
+      "easySolved": 0,
+      "mediumSolved": 0,
+      "hardSolved": 0,
+      "totalSubmissions": 0,
+      "dailyCalendar": {},
+      "recentSolved": []
+    }
+  },
+  "recentGlobalFeed": []
+}
