@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-15T12:30:17.323Z",
+    "updatedAt": "2026-11-15T18:25:59.581Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 678,
+    "totalSolved": 681,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -31,7 +31,7 @@
         "ac": 2
       },
       "2026-11-03": {
-        "tries": 7,
+        "tries": 8,
         "ac": 6
       },
       "2026-10-31": {
@@ -382,6 +382,10 @@
         "tries": 106,
         "ac": 54
       },
+      "2026-11-15": {
+        "tries": 12,
+        "ac": 11
+      },
       "2026-08-25": {
         "tries": 1,
         "ac": 0
@@ -521,10 +525,6 @@
       "2026-11-14": {
         "tries": 2,
         "ac": 2
-      },
-      "2026-11-15": {
-        "tries": 8,
-        "ac": 8
       }
     },
     "topLanguage": {
@@ -537,9 +537,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 463,
+      "totalSolved": 466,
       "uniqueProblemsSolved": 240,
-      "totalAcSubmissions": 463,
+      "totalAcSubmissions": 466,
       "languages": {
         "C++20": 386,
         "Pascal": 5,
@@ -566,7 +566,7 @@
           "ac": 1
         },
         "2026-11-03": {
-          "tries": 6,
+          "tries": 7,
           "ac": 5
         },
         "2026-10-31": {
@@ -916,9 +916,43 @@
         "2025-11-24": {
           "tries": 106,
           "ac": 54
+        },
+        "2026-11-15": {
+          "tries": 4,
+          "ac": 3
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6306041",
+          "platform": "tlx",
+          "title": "Break the Bill",
+          "category": "COMPFEST 18 - Final CPC Junior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6306041",
+          "solvedAt": "2026-11-15T14:21:50.346Z"
+        },
+        {
+          "id": "tlx-6306039",
+          "platform": "tlx",
+          "title": "A Fate-Defying Chanek",
+          "category": "COMPFEST 18 - Final CPC Junior",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6306039",
+          "solvedAt": "2026-11-15T14:20:42.254Z"
+        },
+        {
+          "id": "tlx-6306023",
+          "platform": "tlx",
+          "title": "Perkenalan Knapsack",
+          "category": "Dynamic Programming",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6306023",
+          "solvedAt": "2026-11-15T14:12:40.000Z"
+        },
         {
           "id": "tlx-6298130",
           "platform": "tlx",
@@ -7613,6 +7647,36 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6306041",
+      "platform": "tlx",
+      "title": "Break the Bill",
+      "category": "COMPFEST 18 - Final CPC Junior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6306041",
+      "solvedAt": "2026-11-15T14:21:50.346Z"
+    },
+    {
+      "id": "tlx-6306039",
+      "platform": "tlx",
+      "title": "A Fate-Defying Chanek",
+      "category": "COMPFEST 18 - Final CPC Junior",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6306039",
+      "solvedAt": "2026-11-15T14:20:42.254Z"
+    },
+    {
+      "id": "tlx-6306023",
+      "platform": "tlx",
+      "title": "Perkenalan Knapsack",
+      "category": "Dynamic Programming",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6306023",
+      "solvedAt": "2026-11-15T14:12:40.000Z"
+    },
     {
       "id": "lc-1794735174",
       "platform": "leetcode",
