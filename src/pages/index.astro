@@ -71,7 +71,7 @@ const lastSynced =
   title={`${site.name} — Monitoring Latihan Competitive Programming`}
   description="Monitoring aktivitas dan capaian latihan competitive programming mahasiswa JTK di TLX, Codeforces, dan LeetCode.">
   <main class="cohort-page">
-    <section class="cohort-hero">
+    <section class="cohort-hero" id="beranda">
       <div class="cohort-hero__inner">
         <h1>Monitoring Latihan Competitive Programming</h1>
         <p class="cohort-hero__lead">
@@ -186,6 +186,7 @@ const lastSynced =
 
   .cohort-section {
     padding-top: 2.5rem;
+    scroll-margin-top: 1.25rem;
   }
 
   .section-heading {
@@ -203,6 +204,12 @@ const lastSynced =
     font-weight: 800;
     letter-spacing: -0.02em;
     color: var(--text);
+  }
+
+  @media (max-width: 900px) {
+    .cohort-section {
+      scroll-margin-top: 4.75rem;
+    }
   }
 
   @media (max-width: 768px) {

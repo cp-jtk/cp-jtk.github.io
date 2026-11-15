@@ -1,0 +1,372 @@
+---
+import ContentPage from '../../components/layout/ContentPage.astro'
+import { CP_PLATFORMS } from '../../utils/cp/platforms'
+
+type Platform = {
+  name: string
+  logo: string
+  logoLight?: string
+  wide?: boolean
+  description: string
+  languages: string[]
+  details: string
+  href: string
+  linkLabel: string
+}
+
+type PlatformSection = {
+  title: string
+  note: string
+  platforms: Platform[]
+}
+
+const sections: PlatformSection[] = [
+  {
+    title: 'Rekomendasi Utama',
+    note: 'Statistik di dashboard diambil dari platform ini.',
+    platforms: [
+      {
+        name: 'TLX',
+        logo: CP_PLATFORMS.tlx.logo,
+        description:
+          'Platform resmi IA-TOKI. Berisi bank soal dari seluruh kompetisi competitive programming di Indonesia.',
+        languages: ['Bahasa Indonesia', 'English'],
+        details:
+          'Soal TLX punya tingkat kesulitan bertahap, dan dipakai sebagai acuan latihan di dashboard ini.',
+        href: 'https://tlx.toki.id/',
+        linkLabel: 'Buka TLX',
+      },
+      {
+        name: 'Codeforces',
+        logo: CP_PLATFORMS.codeforces.logo,
+        description: 'Platform kompetisi global dengan kontes rutin dan rating.',
+        languages: ['English'],
+        details:
+          'Kontes rutin melatih kecepatan dan strategi. Rating & divisi ukur perkembangan; editorial untuk melihat solusi yang lebih efisien.',
+        href: 'https://codeforces.com/',
+        linkLabel: 'Buka Codeforces',
+      },
+      {
+        name: 'LeetCode',
+        logo: CP_PLATFORMS.leetcode.logo,
+        logoLight: CP_PLATFORMS.leetcode.logoLight,
+        description: 'Latihan struktur data dan algoritma untuk persiapan teknis.',
+        languages: ['English'],
+        details:
+          'Terdapat daily challange untuk melatih konsistensi. Soalnya banyak dipakai untuk seleksi teknis industri. ',
+        href: 'https://leetcode.com/',
+        linkLabel: 'Buka LeetCode',
+      },
+    ],
+  },
+  {
+    title: 'Rekomendasi lainnya',
+    note: 'Sangat berguna untuk menambah variasi latihan.',
+    platforms: [
+      {
+        name: 'CSES Problem Set',
+        logo: '/img/cses/cses.png',
+        wide: true,
+        description: 'Problem set terstruktur untuk latihan algoritma.',
+        languages: ['English'],
+        details: 'Soalnya tersusun per topik, mulai dari dasar sampai topik lanjutan.',
+        href: 'https://cses.fi/problemset/',
+        linkLabel: 'Buka CSES',
+      },
+      {
+        name: 'HackerRank',
+        logo: '/img/hackerrank/hackerrank.png',
+        description: 'Latihan per topik dan sertifikasi keterampilan.',
+        languages: ['English'],
+        details: 'Cocok untuk latihan awal, dengan topik yang dikelompokkan per tingkat kesulitan.',
+        href: 'https://www.hackerrank.com/',
+        linkLabel: 'Buka HackerRank',
+      },
+      {
+        name: 'AtCoder',
+        // Nama berkas mengikuti warna artwork: `_light` untuk tema gelap.
+        logo: '/img/atcoder/atcoder_light.png',
+        logoLight: '/img/atcoder/atcoder_dark.png',
+        description: 'Kontes algoritma rutin dari Jepang.',
+        languages: ['Jepang', 'English'],
+        details:
+          'Kualitas soalnya konsisten, sering dipakai untuk mengukur kemampuan. Antarmuka ada dalam bahasa Jepang dan English.',
+        href: 'https://atcoder.jp/',
+        linkLabel: 'Buka AtCoder',
+      },
+      {
+        name: 'CodeChef',
+        // Sama seperti AtCoder: `_light` adalah artwork putih untuk tema gelap.
+        logo: '/img/codechef/codechef_light.png',
+        logoLight: '/img/codechef/codechef_dark.png',
+        description: 'Kontes dan latihan dengan editorial.',
+        languages: ['English'],
+        details:
+          'Kontesnya rutin dan ada pembahasan per soal. Cocok untuk latihan soal bertingkat di luar tiga platform utama.',
+        href: 'https://www.codechef.com/',
+        linkLabel: 'Buka CodeChef',
+      },
+    ],
+  },
+]
+---
+
+<ContentPage
+  eyebrow=""
+  title="Platform Belajar"
+  lead="Beberapa rekomendasi platform untuk mendukung pembelajaran competitive programming.">
+  {sections.map((section) => (
+    <section class="platform-group">
+      <div class="group-heading">
+        <h2>{section.title}</h2>
+        <p>{section.note}</p>
+      </div>
+
+      <div class="platform-grid">
+        {section.platforms.map((platform) => (
+          <article class="platform-card">
+            <header class="platform-card__head">
+              <span class:list={['platform-logo', platform.wide && 'platform-logo--wide']}>
+                {platform.logoLight ?
+                  <>
+                    <img src={platform.logo} alt="" class="logo-variant-dark" />
+                    <img src={platform.logoLight} alt="" class="logo-variant-light" />
+                  </>
+                : <img src={platform.logo} alt="" />}
+              </span>
+              <h3>{platform.name}</h3>
+            </header>
+
+            <p class="platform-description">{platform.description}</p>
+
+            <ul class="platform-chips">
+              {platform.languages.map((language) => (
+                <li class="platform-chip">{language}</li>
+              ))}
+            </ul>
+
+            <details class="platform-details">
+              <summary>
+                Selengkapnya
+                <svg
+                  class="platform-chevron"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+              <div class="platform-body">
+                <p>{platform.details}</p>
+                <a href={platform.href} target="_blank" rel="noopener noreferrer">
+                  {platform.linkLabel}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    aria-hidden="true">
+                    <path d="M7 17 17 7" />
+                    <path d="M8 7h9v9" />
+                  </svg>
+                </a>
+              </div>
+            </details>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</ContentPage>
+
+<style>
+  .platform-group {
+    padding-top: 2.5rem;
+  }
+
+  .group-heading {
+    margin-bottom: 1rem;
+  }
+
+  .group-heading h2 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .group-heading p {
+    margin: 0.2rem 0 0;
+    font-size: var(--type-sm);
+    color: var(--muted);
+  }
+
+  .platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .platform-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    padding: 1.25rem;
+    background: var(--bg-soft);
+    border-radius: var(--radius-xl);
+  }
+
+  .platform-card__head {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    min-width: 0;
+  }
+
+  .platform-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .platform-logo--wide {
+    width: 3.5rem;
+  }
+
+  .platform-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-sm);
+    object-fit: contain;
+  }
+
+  .platform-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .platform-description {
+    margin: 0;
+    font-size: var(--type-sm);
+    line-height: 1.55;
+    color: var(--muted);
+  }
+
+  .platform-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .platform-chip {
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--chip-bg);
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .platform-details {
+    margin-top: auto;
+    padding-top: 0.35rem;
+  }
+
+  .platform-details summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    width: fit-content;
+    font-size: var(--type-xs);
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .platform-details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .platform-details summary:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 3px;
+    border-radius: var(--radius-xs);
+  }
+
+  .platform-chevron {
+    width: 0.8rem;
+    height: 0.8rem;
+    color: var(--muted);
+    transition: transform 0.18s ease;
+  }
+
+  .platform-details[open] .platform-chevron {
+    transform: rotate(180deg);
+  }
+
+  .platform-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 0.45rem;
+  }
+
+  .platform-body p {
+    margin: 0;
+    font-size: var(--type-xs);
+    line-height: 1.6;
+    color: var(--muted);
+  }
+
+  .platform-body a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    width: fit-content;
+    font-size: var(--type-xs);
+    font-weight: 600;
+    color: var(--color-info);
+  }
+
+  .platform-body a:hover {
+    text-decoration: underline;
+  }
+
+  .platform-body a:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 2px;
+  }
+
+  .platform-body a svg {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  :root.light .platform-card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  :root.light .platform-body a {
+    color: var(--color-info-strong);
+  }
+
+  @media (max-width: 640px) {
+    .platform-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

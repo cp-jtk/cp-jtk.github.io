@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import { site } from '../../data/site'
+
+type ContentPageProps = {
+  title: string
+  lead: string
+  eyebrow: string
+  description?: string
+}
+
+const { title, lead, eyebrow, description = lead } = Astro.props as ContentPageProps
+---
+
+<Layout title={`${title} — ${site.name}`} description={description}>
+  <main class="info-page">
+    <header class="info-hero">
+      <p class="info-eyebrow">{eyebrow}</p>
+      <h1>{title}</h1>
+      <p class="info-lead">{lead}</p>
+    </header>
+
+    <slot />
+  </main>
+</Layout>
+
+<style>
+  .info-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem 5rem;
+  }
+
+  .info-hero {
+    padding: clamp(2.5rem, 6vw, 4rem) 0 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .info-eyebrow {
+    margin: 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  h1 {
+    margin: 0.6rem 0 0;
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    color: var(--text);
+  }
+
+  .info-lead {
+    margin: 1rem 0 0;
+    max-width: 62ch;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+</style>

@@ -1,0 +1,240 @@
+---
+import ContentPage from '../../components/layout/ContentPage.astro'
+
+const files = [
+  {
+    name: 'CP-Algorithms',
+    type: 'Website',
+    language: 'EN',
+    author: 'CP-Algorithms contributors',
+    source: 'cp-algorithms.com',
+    href: 'https://cp-algorithms.com/',
+    icon: 'web',
+  },
+  {
+    name: "Competitive Programmer's Handbook",
+    type: 'PDF',
+    language: 'EN',
+    author: 'Antti Laaksonen',
+    source: 'cses.fi',
+    href: 'https://cses.fi/book/book.pdf',
+    icon: 'pdf',
+  },
+  {
+    name: 'Pemrograman Kompetitif Dasar',
+    type: 'PDF',
+    language: 'ID',
+    author: 'Tim Olimpiade Komputer Indonesia',
+    source: 'osn.toki.id',
+    href: 'https://osn.toki.id/data/pemrograman-kompetitif-dasar.pdf',
+    icon: 'pdf',
+  },
+]
+---
+
+<ContentPage
+  eyebrow=""
+  title="Referensi Belajar"
+  lead="Bahan bacaan untuk memperkuat dasar algoritma dan struktur data di luar latihan platform. Semua bisa diakses gratis.">
+  <section class="file-section">
+    <div class="file-swipe-hint">
+      <svg
+        class="swipe-icon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true">
+        <path d="M5 12h14M13 6l6 6-6 6" />
+      </svg>
+      <span>Geser untuk melihat seluruh tabel</span>
+    </div>
+
+    <div class="file-table-wrap">
+      <ul class="file-list">
+        <li class="file-row file-row--head" aria-hidden="true">
+          <span>Title</span>
+          <span>Lang</span>
+          <span>Author</span>
+          <span></span>
+        </li>
+
+        {files.map((file) => (
+          <li>
+            <a class="file-row" href={file.href} target="_blank" rel="noopener noreferrer">
+              <span class="file-name">
+                <span class="file-icon" aria-hidden="true">
+                  {file.icon === 'pdf' ?
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                      <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+                      <path d="M14 3v5h5" />
+                      <path d="M9 13h6M9 17h4" />
+                    </svg>
+                  : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M3 12h18" />
+                      <path d="M12 3c2.5 2.5 4 5.6 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.6-4-9s1.5-6.5 4-9z" />
+                    </svg>
+                  }
+                </span>
+                <span class="file-label">{file.name}</span>
+              </span>
+              <span class="file-language">{file.language}</span>
+              <span class="file-author">{file.author}</span>
+              <span class="file-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17 17 7" />
+                  <path d="M8 7h9v9" />
+                </svg>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</ContentPage>
+
+<style>
+  .file-section {
+    padding-top: 2rem;
+  }
+
+  .file-swipe-hint {
+    display: none;
+  }
+
+  .file-table-wrap {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .file-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-width: 40rem;
+  }
+
+  .file-row {
+    display: grid;
+    grid-template-columns: minmax(19rem, 1fr) 3.5rem minmax(10rem, 1fr) 1.5rem;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
+    color: var(--text);
+    border-top: 1px solid var(--border);
+    transition: background 0.15s ease;
+  }
+
+  .file-row--head {
+    padding-block: 0.55rem;
+    border-top: none;
+    background: var(--bg-soft);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  a.file-row:hover {
+    background: var(--surface-muted);
+  }
+
+  a.file-row:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: -2px;
+  }
+
+  .file-name {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-width: 0;
+  }
+
+  .file-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--muted);
+  }
+
+  .file-icon svg {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  .file-label {
+    font-size: var(--type-base);
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .file-type,
+  .file-language,
+  .file-author {
+    font-size: var(--type-sm);
+    color: var(--muted);
+  }
+
+  .file-language {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .file-author {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .file-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--muted);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+
+  .file-arrow svg {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+
+  a.file-row:hover .file-arrow,
+  a.file-row:focus-visible .file-arrow {
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .file-swipe-hint {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-bottom: 0.65rem;
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .swipe-icon {
+      width: 0.95rem;
+      height: 0.95rem;
+      flex-shrink: 0;
+    }
+  }
+</style>
