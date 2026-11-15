@@ -49,10 +49,6 @@ const navItems = [
     </a>
     <div class="page page-grid">
       <aside class="sidebar" id="sidebar" aria-label="Navigasi utama">
-        <button class="sidebar__close" type="button" data-sidebar-close aria-label="Tutup menu">
-          <span aria-hidden="true">×</span>
-        </button>
-
         <a class="sidebar__brand" href="/">
           <span class="sidebar__brand-mark" aria-hidden="true">
             <img
@@ -108,12 +104,26 @@ const navItems = [
         aria-expanded="false"
         aria-label="Buka menu">
         <svg viewBox="0 0 24 24" aria-hidden="true" class="sidebar-toggle__icon">
-          <path
-            d="M4 7h16M4 12h16M4 17h16"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
+          <line
+            class="sidebar-toggle__line sidebar-toggle__line--top"
+            x1="4"
+            y1="7"
+            x2="20"
+            y2="7"
+          />
+          <line
+            class="sidebar-toggle__line sidebar-toggle__line--mid"
+            x1="4"
+            y1="12"
+            x2="20"
+            y2="12"
+          />
+          <line
+            class="sidebar-toggle__line sidebar-toggle__line--bot"
+            x1="4"
+            y1="17"
+            x2="20"
+            y2="17"
           />
         </svg>
       </button>
@@ -279,15 +289,27 @@ const navItems = [
     justify-content: center;
     padding: 0;
     border-radius: var(--radius-md);
-    background: var(--bg);
+    background: transparent;
     color: var(--text);
-    border: 1px solid var(--border);
+    border: none;
     align-items: center;
     white-space: nowrap;
     flex-shrink: 0;
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
+    transition:
+      transform 0.15s ease,
+      background-color 0.15s ease,
+      color 0.15s ease;
+  }
+
+  .sidebar-toggle:hover {
+    background: var(--surface-muted);
+  }
+
+  .sidebar-toggle:active {
+    transform: scale(0.88);
   }
 
   .sidebar-toggle__icon {
@@ -295,34 +317,33 @@ const navItems = [
     height: 1.25rem;
   }
 
+  .sidebar-toggle__line {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    transform-box: fill-box;
+    transform-origin: center;
+    transition:
+      transform 0.22s ease,
+      opacity 0.18s ease;
+  }
+
+  :global(html.sidebar-open) .sidebar-toggle__line--top {
+    transform: translateY(5px) rotate(45deg);
+  }
+
+  :global(html.sidebar-open) .sidebar-toggle__line--mid {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  :global(html.sidebar-open) .sidebar-toggle__line--bot {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
   .sidebar-overlay {
     display: none;
-  }
-
-  .sidebar__close {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    padding: 0;
-    margin: -0.5rem -0.5rem 0.5rem auto;
-    border-radius: var(--radius-md);
-    border: none;
-    background: transparent;
-    color: var(--muted);
-    transition: color 0.15s ease;
-    cursor: pointer;
-  }
-
-  .sidebar__close:hover {
-    color: var(--text);
-  }
-
-  .sidebar__close span[aria-hidden='true'] {
-    font-size: 1.5rem;
-    line-height: 1;
-    font-weight: 300;
   }
 
   @media (max-width: 1100px) {
@@ -406,10 +427,6 @@ const navItems = [
     .page-content {
       padding-top: 3.6rem;
       min-width: 0;
-    }
-
-    .sidebar__close {
-      display: inline-flex;
     }
 
     .sidebar__nav a {
