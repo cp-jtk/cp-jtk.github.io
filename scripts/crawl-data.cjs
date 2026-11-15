@@ -139,7 +139,7 @@ function emptyPlatform(key, handle = '') {
   }
 
   if (key === 'tlx') {
-    return { ...base, totalAcSubmissions: 0, uniqueProblemsSolved: 0, languages: {} }
+    return { ...base, totalAcSubmissions: 0, uniqueProblemsSolved: 0, rating: 0, languages: {} }
   }
 
   if (key === 'codeforces') {
@@ -227,7 +227,7 @@ function mergePlatform(fresh, previous, key, handle) {
   const previousSolved = Number(previous.totalSolved || 0)
 
   // Keep the older snapshot when the fresh crawl looks degraded.
-  if ((freshRecent === 0 && previousRecent > 0) || (freshSolved > 0 && freshSolved < previousSolved)) {
+  if ((freshRecent === 0 && previousRecent > 0) || (freshSolved > 0 && freshSolved < previousSolved && key !== 'tlx')) {
     return {
       ...previous,
       handle: fresh.handle || previous.handle || handle,
@@ -247,10 +247,11 @@ function mergePlatform(fresh, previous, key, handle) {
     merged.ratingDistribution = previous.ratingDistribution
   }
 
-  merged.totalSolved = Math.max(freshSolved, previousSolved)
+  merged.totalSolved = key === 'tlx' ? freshSolved || previousSolved : Math.max(freshSolved, previousSolved)
   merged.totalSubmissions = Math.max(Number(fresh.totalSubmissions || 0), Number(previous.totalSubmissions || 0))
   if (key === 'tlx') {
     merged.totalAcSubmissions = Math.max(Number(fresh.totalAcSubmissions || 0), Number(previous.totalAcSubmissions || 0))
+    merged.rating = fresh.rating ?? previous.rating ?? 0
   }
 
   return merged
@@ -349,13 +350,39 @@ async function cpTlx(username, previous = {}) {
     if (statsRes.ok) {
       requestSucceeded = true
       const stats = await statsRes.json()
-      if (stats.totalProblemsTried) totalSolved = stats.totalProblemsTried
-      if (stats?.totalProblemVerdictsMap?.AC) {
+      if (stats?.totalProblemVerdictsMap?.AC !== undefined) {
+        totalSolved = stats.totalProblemVerdictsMap.AC
         totalAcSubmissions = stats.totalProblemVerdictsMap.AC
+      } else if (uniqueProblems.size) {
+        totalSolved = uniqueProblems.size
       }
     }
   } catch (error) {
     console.error(`TLX stats ${username}: ${error.message || error}`)
+  }
+
+  let rating = previous?.rating || 0
+  try {
+    const contestRes = await fetchWithTimeout(
+      `https://api.tlx.toki.id/v2/contest-history/public?username=${encodeURIComponent(username)}`,
+      { headers: { 'User-Agent': USER_AGENT } },
+      30_000
+    )
+    if (contestRes.ok) {
+      const contestJson = await contestRes.json()
+      const contests = (contestJson?.data || [])
+        .map((c) => ({
+          ...c,
+          beginTime: contestJson?.contestsMap?.[c.contestJid]?.beginTime || 0,
+        }))
+        .sort((a, b) => a.beginTime - b.beginTime)
+      const ratedContests = contests.filter((c) => typeof c.rating?.publicRating === 'number')
+      if (ratedContests.length > 0) {
+        rating = ratedContests[ratedContests.length - 1].rating.publicRating
+      }
+    }
+  } catch (error) {
+    console.error(`TLX contest history ${username}: ${error.message || error}`)
   }
 
   if (!requestSucceeded && !previous?.totalSolved) return null
@@ -367,6 +394,7 @@ async function cpTlx(username, previous = {}) {
     totalSubmissions: Math.max(allSubmissions.length, Number(previous?.totalSubmissions || 0)),
     totalAcSubmissions,
     uniqueProblemsSolved: uniqueProblems.size,
+    rating,
     languages,
     dailyCalendar,
     recentSolved,
@@ -734,7 +762,19 @@ function topLanguage(platforms) {
 }
 
 async function crawlStudent(roster, previousSnapshot) {
-  const previousPlatforms = previousSnapshot?.platforms || {}
+  const previousPlatforms = { ...(previousSnapshot?.platforms || {}) }
+  PLATFORM_KEYS.forEach((key) => {
+    if (previousPlatforms[key]) {
+      const feedItems = (previousSnapshot?.recentGlobalFeed || []).filter((item) => item.platform === key)
+      if (feedItems.length > (previousPlatforms[key].recentSolved?.length || 0)) {
+        previousPlatforms[key] = {
+          ...previousPlatforms[key],
+          recentSolved: mergeRecentSolved(previousPlatforms[key].recentSolved, feedItems),
+        }
+      }
+    }
+  })
+
   const handles = {
     tlx: roster.platforms?.tlx || null,
     codeforces: roster.platforms?.codeforces || null,
@@ -808,6 +848,7 @@ function buildSummary(roster, snapshot) {
       handle: roster.platforms?.[key] || platform.handle || null,
       solved: Number(platform.totalSolved || 0),
       submissions: Number(platform.totalSubmissions || 0),
+      ...(key === 'tlx' ? { rating: Number(platform.rating || 0) } : {}),
       ...(key === 'codeforces' ? { rating: Number(platform.rating || 0), rank: platform.rank || 'unrated' } : {}),
       ...(key === 'leetcode' ? { ranking: Number(platform.ranking || 0) } : {}),
     }

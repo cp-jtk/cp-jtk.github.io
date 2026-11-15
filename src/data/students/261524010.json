@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 65,
+    "totalSolved": 64,
     "totalSubmissions": 226,
     "activePlatforms": 3,
     "heatmap": {
@@ -48,7 +48,7 @@
     "tlx": {
       "handle": "imfachri",
       "url": "https://tlx.toki.id/profiles/imfachri",
-      "totalSolved": 65,
+      "totalSolved": 64,
       "totalSubmissions": 226,
       "totalAcSubmissions": 64,
       "uniqueProblemsSolved": 44,
@@ -522,7 +522,8 @@
           "url": "https://tlx.toki.id/submissions/3659158",
           "solvedAt": "2025-05-18T05:12:51.026Z"
         }
-      ]
+      ],
+      "rating": 0
     },
     "codeforces": {
       "handle": "imfachri",

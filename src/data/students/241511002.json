@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 676,
+    "totalSolved": 670,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -533,7 +533,7 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 469,
+      "totalSolved": 463,
       "uniqueProblemsSolved": 240,
       "totalAcSubmissions": 463,
       "languages": {
@@ -4856,6 +4856,16 @@
           "solvedAt": "2025-11-24T15:46:54.665Z"
         },
         {
+          "id": "tlx-4650590",
+          "platform": "tlx",
+          "title": "Perkenalan Larik (Array)",
+          "category": "Larik (Array)",
+          "language": "Cpp20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/4650590",
+          "solvedAt": "2025-11-24T15:46:02.359Z"
+        },
+        {
           "id": "tlx-4650587",
           "platform": "tlx",
           "title": "Toko Kandang",
@@ -5105,7 +5115,8 @@
           "url": "https://tlx.toki.id/submissions/4649818",
           "solvedAt": "2025-11-24T07:39:33.927Z"
         }
-      ]
+      ],
+      "rating": 2150
     },
     "codeforces": {
       "handle": "feeera",
@@ -6338,6 +6349,1176 @@
           "difficulty": "Hard",
           "url": "https://leetcode.com/problems/word-search-ii/",
           "solvedAt": "2026-10-26T02:38:36.000Z"
+        },
+        {
+          "id": "lc-1792981805",
+          "platform": "leetcode",
+          "title": "Word Search",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/word-search/",
+          "solvedAt": "2026-10-26T02:30:05.000Z"
+        },
+        {
+          "id": "lc-1792979221",
+          "platform": "leetcode",
+          "title": "Count Islands With Total Value Divisible by K",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+          "solvedAt": "2026-10-26T01:47:01.000Z"
+        },
+        {
+          "id": "lc-1792965501",
+          "platform": "leetcode",
+          "title": "Number of Closed Islands",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/number-of-closed-islands/",
+          "solvedAt": "2026-10-25T21:58:21.000Z"
+        },
+        {
+          "id": "lc-1792814014",
+          "platform": "leetcode",
+          "title": "Count Days Spent Together",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/count-days-spent-together/",
+          "solvedAt": "2026-10-24T03:53:34.000Z"
+        },
+        {
+          "id": "lc-1792770429",
+          "platform": "leetcode",
+          "title": "Maximum K to Sort a Permutation",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/",
+          "solvedAt": "2026-10-23T15:47:09.000Z"
+        },
+        {
+          "id": "lc-1792643886",
+          "platform": "leetcode",
+          "title": "Missing Number",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/missing-number/",
+          "solvedAt": "2026-10-22T04:38:06.000Z"
+        },
+        {
+          "id": "lc-1792642764",
+          "platform": "leetcode",
+          "title": "Single Number II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/single-number-ii/",
+          "solvedAt": "2026-10-22T04:19:24.000Z"
+        },
+        {
+          "id": "lc-1792641347",
+          "platform": "leetcode",
+          "title": "Range Sum Query - Immutable",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+          "solvedAt": "2026-10-22T03:55:47.000Z"
+        },
+        {
+          "id": "lc-1792640829",
+          "platform": "leetcode",
+          "title": "Tenth Line",
+          "category": "Shell",
+          "language": "BASH",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/tenth-line/",
+          "solvedAt": "2026-10-22T03:47:09.000Z"
+        },
+        {
+          "id": "lc-1792640620",
+          "platform": "leetcode",
+          "title": "Transpose File",
+          "category": "Shell",
+          "language": "BASH",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/transpose-file/",
+          "solvedAt": "2026-10-22T03:43:40.000Z"
+        },
+        {
+          "id": "lc-1792628795",
+          "platform": "leetcode",
+          "title": "Minimum Operations to Sort a Permutation",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/",
+          "solvedAt": "2026-10-22T00:26:35.000Z"
+        },
+        {
+          "id": "lc-1792542077",
+          "platform": "leetcode",
+          "title": "Minimum Operations to Sort a String",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+          "solvedAt": "2026-10-21T00:21:17.000Z"
+        },
+        {
+          "id": "lc-1792456701",
+          "platform": "leetcode",
+          "title": "Sum of Sortable Integers",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/sum-of-sortable-integers/",
+          "solvedAt": "2026-10-20T00:38:21.000Z"
+        },
+        {
+          "id": "lc-1792414875",
+          "platform": "leetcode",
+          "title": "Find Target Indices After Sorting Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+          "solvedAt": "2026-10-19T13:01:15.000Z"
+        },
+        {
+          "id": "lc-1792353871",
+          "platform": "leetcode",
+          "title": "Number of Ways to Reorder Array to Get Same BST",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
+          "solvedAt": "2026-10-18T20:04:31.000Z"
+        },
+        {
+          "id": "lc-1792197584",
+          "platform": "leetcode",
+          "title": "Minimum Swaps to Sort by Digit Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/",
+          "solvedAt": "2026-10-17T00:39:44.000Z"
+        },
+        {
+          "id": "lc-1792189685",
+          "platform": "leetcode",
+          "title": "Binary Tree Inorder Traversal",
+          "category": "Stack",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+          "solvedAt": "2026-10-16T22:28:05.000Z"
+        },
+        {
+          "id": "lc-1792188955",
+          "platform": "leetcode",
+          "title": "Subsets",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/subsets/",
+          "solvedAt": "2026-10-16T22:15:55.000Z"
+        },
+        {
+          "id": "lc-1792188399",
+          "platform": "leetcode",
+          "title": "Rotate Image",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/rotate-image/",
+          "solvedAt": "2026-10-16T22:06:39.000Z"
+        },
+        {
+          "id": "lc-1792188192",
+          "platform": "leetcode",
+          "title": "Permutations",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/permutations/",
+          "solvedAt": "2026-10-16T22:03:12.000Z"
+        },
+        {
+          "id": "lc-1792123667",
+          "platform": "leetcode",
+          "title": "Sum of Digits of String After Convert",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
+          "solvedAt": "2026-10-16T04:07:47.000Z"
+        },
+        {
+          "id": "lc-1792123158",
+          "platform": "leetcode",
+          "title": "Happy Number",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/happy-number/",
+          "solvedAt": "2026-10-16T03:59:18.000Z"
+        },
+        {
+          "id": "lc-1792122940",
+          "platform": "leetcode",
+          "title": "Word Frequency",
+          "category": "Shell",
+          "language": "BASH",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/word-frequency/",
+          "solvedAt": "2026-10-16T03:55:40.000Z"
+        },
+        {
+          "id": "lc-1792122869",
+          "platform": "leetcode",
+          "title": "Valid Phone Numbers",
+          "category": "Shell",
+          "language": "BASH",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/valid-phone-numbers/",
+          "solvedAt": "2026-10-16T03:54:29.000Z"
+        },
+        {
+          "id": "lc-1792111664",
+          "platform": "leetcode",
+          "title": "Reverse Bits",
+          "category": "Divide and Conquer",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/reverse-bits/",
+          "solvedAt": "2026-10-16T00:47:44.000Z"
+        },
+        {
+          "id": "lc-1792110515",
+          "platform": "leetcode",
+          "title": "Subarrays Distinct Element Sum of Squares II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/",
+          "solvedAt": "2026-10-16T00:28:35.000Z"
+        },
+        {
+          "id": "lc-1792109449",
+          "platform": "leetcode",
+          "title": "Valid Parenthesis String",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+          "solvedAt": "2026-10-16T00:10:49.000Z"
+        },
+        {
+          "id": "lc-1792108398",
+          "platform": "leetcode",
+          "title": "Maximum Alternating Sum of Squares",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+          "solvedAt": "2026-10-15T23:53:18.000Z"
+        },
+        {
+          "id": "lc-1792105917",
+          "platform": "leetcode",
+          "title": "Subarrays Distinct Element Sum of Squares I",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/",
+          "solvedAt": "2026-10-15T23:11:57.000Z"
+        },
+        {
+          "id": "lc-1792019479",
+          "platform": "leetcode",
+          "title": "Count Array Pairs Divisible by K",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/count-array-pairs-divisible-by-k/",
+          "solvedAt": "2026-10-14T23:11:19.000Z"
+        },
+        {
+          "id": "lc-1792018745",
+          "platform": "leetcode",
+          "title": "Smallest Index With Digit Sum Equal to Index",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/",
+          "solvedAt": "2026-10-14T22:59:05.000Z"
+        },
+        {
+          "id": "lc-1792018270",
+          "platform": "leetcode",
+          "title": "Maximize Sum of Squares of Digits",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+          "solvedAt": "2026-10-14T22:51:10.000Z"
+        },
+        {
+          "id": "lc-1792017773",
+          "platform": "leetcode",
+          "title": "Number of 1 Bits",
+          "category": "Divide and Conquer",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/number-of-1-bits/",
+          "solvedAt": "2026-10-14T22:42:53.000Z"
+        },
+        {
+          "id": "lc-1792017657",
+          "platform": "leetcode",
+          "title": "Delete Node in a Linked List",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+          "solvedAt": "2026-10-14T22:40:57.000Z"
+        },
+        {
+          "id": "lc-1792015826",
+          "platform": "leetcode",
+          "title": "Department Highest Salary",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/department-highest-salary/",
+          "solvedAt": "2026-10-14T22:10:26.000Z"
+        },
+        {
+          "id": "lc-customers-who-never-order",
+          "platform": "leetcode",
+          "title": "Customers Who Never Order",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/customers-who-never-order/",
+          "solvedAt": "2026-10-14T22:06:01+00:00"
+        },
+        {
+          "id": "lc-duplicate-emails",
+          "platform": "leetcode",
+          "title": "Duplicate Emails",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/duplicate-emails/",
+          "solvedAt": "2026-10-14T22:02:51+00:00"
+        },
+        {
+          "id": "lc-employees-earning-more-than-their-managers",
+          "platform": "leetcode",
+          "title": "Employees Earning More Than Their Managers",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/employees-earning-more-than-their-managers/",
+          "solvedAt": "2026-10-14T22:01:00+00:00"
+        },
+        {
+          "id": "lc-consecutive-numbers",
+          "platform": "leetcode",
+          "title": "Consecutive Numbers",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/consecutive-numbers/",
+          "solvedAt": "2026-10-14T21:55:51+00:00"
+        },
+        {
+          "id": "lc-rank-scores",
+          "platform": "leetcode",
+          "title": "Rank Scores",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/rank-scores/",
+          "solvedAt": "2026-10-14T21:51:52+00:00"
+        },
+        {
+          "id": "lc-nth-highest-salary",
+          "platform": "leetcode",
+          "title": "Nth Highest Salary",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/nth-highest-salary/",
+          "solvedAt": "2026-10-14T21:49:03+00:00"
+        },
+        {
+          "id": "lc-second-highest-salary",
+          "platform": "leetcode",
+          "title": "Second Highest Salary",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/second-highest-salary/",
+          "solvedAt": "2026-10-14T21:45:48+00:00"
+        },
+        {
+          "id": "lc-combine-two-tables",
+          "platform": "leetcode",
+          "title": "Combine Two Tables",
+          "category": "Database",
+          "language": "PostgreSQL",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/combine-two-tables/",
+          "solvedAt": "2026-10-14T21:38:33+00:00"
+        },
+        {
+          "id": "lc-perfect-squares",
+          "platform": "leetcode",
+          "title": "Perfect Squares",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/perfect-squares/",
+          "solvedAt": "2026-10-14T03:18:57+00:00"
+        },
+        {
+          "id": "lc-3sum-closest",
+          "platform": "leetcode",
+          "title": "3Sum Closest",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/3sum-closest/",
+          "solvedAt": "2026-10-14T03:10:08+00:00"
+        },
+        {
+          "id": "lc-trapping-rain-water-ii",
+          "platform": "leetcode",
+          "title": "Trapping Rain Water II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+          "solvedAt": "2026-10-14T03:04:22+00:00"
+        },
+        {
+          "id": "lc-trapping-rain-water",
+          "platform": "leetcode",
+          "title": "Trapping Rain Water",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/trapping-rain-water/",
+          "solvedAt": "2026-10-14T01:23:02+00:00"
+        },
+        {
+          "id": "lc-product-of-array-except-self",
+          "platform": "leetcode",
+          "title": "Product of Array Except Self",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/product-of-array-except-self/",
+          "solvedAt": "2026-10-14T01:06:10+00:00"
+        },
+        {
+          "id": "lc-maximum-repeating-substring",
+          "platform": "leetcode",
+          "title": "Maximum Repeating Substring",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/maximum-repeating-substring/",
+          "solvedAt": "2026-09-08T09:38:19+00:00"
+        },
+        {
+          "id": "lc-divisor-game",
+          "platform": "leetcode",
+          "title": "Divisor Game",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/divisor-game/",
+          "solvedAt": "2026-09-08T09:29:42+00:00"
+        },
+        {
+          "id": "lc-n-th-tribonacci-number",
+          "platform": "leetcode",
+          "title": "N-th Tribonacci Number",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/n-th-tribonacci-number/",
+          "solvedAt": "2026-09-08T09:27:49+00:00"
+        },
+        {
+          "id": "lc-counting-bits",
+          "platform": "leetcode",
+          "title": "Counting Bits",
+          "category": "Dynamic Programming",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/counting-bits/",
+          "solvedAt": "2026-09-08T09:22:21+00:00"
+        },
+        {
+          "id": "lc-is-subsequence",
+          "platform": "leetcode",
+          "title": "Is Subsequence",
+          "category": "Two Pointers",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/is-subsequence/",
+          "solvedAt": "2026-09-08T09:11:05+00:00"
+        },
+        {
+          "id": "lc-min-cost-climbing-stairs",
+          "platform": "leetcode",
+          "title": "Min Cost Climbing Stairs",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "solvedAt": "2026-09-08T09:01:32+00:00"
+        },
+        {
+          "id": "lc-fibonacci-number",
+          "platform": "leetcode",
+          "title": "Fibonacci Number",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/fibonacci-number/",
+          "solvedAt": "2026-09-08T08:45:38+00:00"
+        },
+        {
+          "id": "lc-integer-replacement",
+          "platform": "leetcode",
+          "title": "Integer Replacement",
+          "category": "Dynamic Programming",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/integer-replacement/",
+          "solvedAt": "2026-09-08T08:42:11+00:00"
+        },
+        {
+          "id": "lc-insertion-sort-list",
+          "platform": "leetcode",
+          "title": "Insertion Sort List",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/insertion-sort-list/",
+          "solvedAt": "2026-08-06T11:30:51+00:00"
+        },
+        {
+          "id": "lc-minimize-maximum-pair-sum-in-array",
+          "platform": "leetcode",
+          "title": "Minimize Maximum Pair Sum in Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
+          "solvedAt": "2026-08-06T11:22:10+00:00"
+        },
+        {
+          "id": "lc-check-if-a-parentheses-string-can-be-valid",
+          "platform": "leetcode",
+          "title": "Check if a Parentheses String Can Be Valid",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/",
+          "solvedAt": "2026-05-30T20:42:24+00:00"
+        },
+        {
+          "id": "lc-generate-parentheses",
+          "platform": "leetcode",
+          "title": "Generate Parentheses",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/generate-parentheses/",
+          "solvedAt": "2026-05-30T20:20:06+00:00"
+        },
+        {
+          "id": "lc-search-in-rotated-sorted-array",
+          "platform": "leetcode",
+          "title": "Search in Rotated Sorted Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+          "solvedAt": "2026-05-30T20:09:19+00:00"
+        },
+        {
+          "id": "lc-two-sum",
+          "platform": "leetcode",
+          "title": "Two Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/two-sum/",
+          "solvedAt": "2026-01-16T06:03:45+00:00"
+        },
+        {
+          "id": "lc-valid-palindrome",
+          "platform": "leetcode",
+          "title": "Valid Palindrome",
+          "category": "Two Pointers",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/valid-palindrome/",
+          "solvedAt": "2026-01-16T05:57:29+00:00"
+        },
+        {
+          "id": "lc-regular-expression-matching",
+          "platform": "leetcode",
+          "title": "Regular Expression Matching",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/regular-expression-matching/",
+          "solvedAt": "2026-01-16T05:51:22+00:00"
+        },
+        {
+          "id": "lc-multiply-strings",
+          "platform": "leetcode",
+          "title": "Multiply Strings",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/multiply-strings/",
+          "solvedAt": "2026-01-16T05:49:12+00:00"
+        },
+        {
+          "id": "lc-add-binary",
+          "platform": "leetcode",
+          "title": "Add Binary",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/add-binary/",
+          "solvedAt": "2026-01-16T05:38:13+00:00"
+        },
+        {
+          "id": "lc-next-permutation",
+          "platform": "leetcode",
+          "title": "Next Permutation",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/next-permutation/",
+          "solvedAt": "2025-12-25T18:09:43+00:00"
+        },
+        {
+          "id": "lc-3sum",
+          "platform": "leetcode",
+          "title": "3Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/3sum/",
+          "solvedAt": "2025-12-25T18:07:51+00:00"
+        },
+        {
+          "id": "lc-remove-nth-node-from-end-of-list",
+          "platform": "leetcode",
+          "title": "Remove Nth Node From End of List",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "solvedAt": "2025-12-25T18:05:37+00:00"
+        },
+        {
+          "id": "lc-letter-combinations-of-a-phone-number",
+          "platform": "leetcode",
+          "title": "Letter Combinations of a Phone Number",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+          "solvedAt": "2025-12-25T17:59:19+00:00"
+        },
+        {
+          "id": "lc-zigzag-conversion",
+          "platform": "leetcode",
+          "title": "Zigzag Conversion",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/zigzag-conversion/",
+          "solvedAt": "2025-12-25T17:56:25+00:00"
+        },
+        {
+          "id": "lc-string-to-integer-atoi",
+          "platform": "leetcode",
+          "title": "String to Integer (atoi)",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+          "solvedAt": "2025-12-18T03:02:25+00:00"
+        },
+        {
+          "id": "lc-longest-common-prefix",
+          "platform": "leetcode",
+          "title": "Longest Common Prefix",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/longest-common-prefix/",
+          "solvedAt": "2025-12-18T02:55:44+00:00"
+        },
+        {
+          "id": "lc-divide-two-integers",
+          "platform": "leetcode",
+          "title": "Divide Two Integers",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/divide-two-integers/",
+          "solvedAt": "2025-12-18T02:53:19+00:00"
+        },
+        {
+          "id": "lc-longest-palindromic-substring",
+          "platform": "leetcode",
+          "title": "Longest Palindromic Substring",
+          "category": "Two Pointers",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+          "solvedAt": "2025-12-18T02:48:38+00:00"
+        },
+        {
+          "id": "lc-add-two-numbers",
+          "platform": "leetcode",
+          "title": "Add Two Numbers",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/add-two-numbers/",
+          "solvedAt": "2025-12-18T02:43:36+00:00"
+        },
+        {
+          "id": "lc-integer-to-english-words",
+          "platform": "leetcode",
+          "title": "Integer to English Words",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/integer-to-english-words/",
+          "solvedAt": "2025-12-18T02:31:15+00:00"
+        },
+        {
+          "id": "lc-integer-to-roman",
+          "platform": "leetcode",
+          "title": "Integer to Roman",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/integer-to-roman/",
+          "solvedAt": "2025-12-18T02:24:12+00:00"
+        },
+        {
+          "id": "lc-container-with-most-water",
+          "platform": "leetcode",
+          "title": "Container With Most Water",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/container-with-most-water/",
+          "solvedAt": "2025-12-18T02:06:10+00:00"
+        },
+        {
+          "id": "lc-median-of-two-sorted-arrays",
+          "platform": "leetcode",
+          "title": "Median of Two Sorted Arrays",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "solvedAt": "2025-11-03T05:37:17+00:00"
+        },
+        {
+          "id": "lc-pascals-triangle-ii",
+          "platform": "leetcode",
+          "title": "Pascal's Triangle II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/pascals-triangle-ii/",
+          "solvedAt": "2025-10-08T15:29:57+00:00"
+        },
+        {
+          "id": "lc-longest-substring-without-repeating-characters",
+          "platform": "leetcode",
+          "title": "Longest Substring Without Repeating Characters",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "solvedAt": "2025-10-08T15:11:55+00:00"
+        },
+        {
+          "id": "lc-best-time-to-buy-and-sell-stock",
+          "platform": "leetcode",
+          "title": "Best Time to Buy and Sell Stock",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "solvedAt": "2025-08-03T14:52:00+00:00"
+        },
+        {
+          "id": "lc-count-total-number-of-colored-cells",
+          "platform": "leetcode",
+          "title": "Count Total Number of Colored Cells",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/count-total-number-of-colored-cells/",
+          "solvedAt": "2025-03-06T06:19:36+00:00"
+        },
+        {
+          "id": "lc-climbing-stairs",
+          "platform": "leetcode",
+          "title": "Climbing Stairs",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/climbing-stairs/",
+          "solvedAt": "2025-01-22T16:35:02+00:00"
+        },
+        {
+          "id": "lc-pascals-triangle",
+          "platform": "leetcode",
+          "title": "Pascal's Triangle",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/pascals-triangle/",
+          "solvedAt": "2025-01-14T05:43:02+00:00"
+        },
+        {
+          "id": "lc-path-sum",
+          "platform": "leetcode",
+          "title": "Path Sum",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/path-sum/",
+          "solvedAt": "2025-01-14T05:07:29+00:00"
+        },
+        {
+          "id": "lc-maximum-depth-of-binary-tree",
+          "platform": "leetcode",
+          "title": "Maximum Depth of Binary Tree",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "solvedAt": "2025-01-14T04:56:47+00:00"
+        },
+        {
+          "id": "lc-symmetric-tree",
+          "platform": "leetcode",
+          "title": "Symmetric Tree",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/symmetric-tree/",
+          "solvedAt": "2025-01-14T04:50:41+00:00"
+        },
+        {
+          "id": "lc-remove-duplicates-from-sorted-list-ii",
+          "platform": "leetcode",
+          "title": "Remove Duplicates from Sorted List II",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+          "solvedAt": "2025-01-14T03:43:00+00:00"
+        },
+        {
+          "id": "lc-remove-duplicates-from-sorted-list",
+          "platform": "leetcode",
+          "title": "Remove Duplicates from Sorted List",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+          "solvedAt": "2025-01-14T03:32:21+00:00"
+        },
+        {
+          "id": "lc-merge-sorted-array",
+          "platform": "leetcode",
+          "title": "Merge Sorted Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/merge-sorted-array/",
+          "solvedAt": "2025-01-14T03:22:42+00:00"
+        },
+        {
+          "id": "lc-same-tree",
+          "platform": "leetcode",
+          "title": "Same Tree",
+          "category": "Tree",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/same-tree/",
+          "solvedAt": "2025-01-14T02:43:23+00:00"
+        },
+        {
+          "id": "lc-sort-colors",
+          "platform": "leetcode",
+          "title": "Sort Colors",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/sort-colors/",
+          "solvedAt": "2024-10-31T06:09:52+00:00"
+        },
+        {
+          "id": "lc-sort-an-array",
+          "platform": "leetcode",
+          "title": "Sort an Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/sort-an-array/",
+          "solvedAt": "2024-10-31T06:07:16+00:00"
+        },
+        {
+          "id": "lc-number-complement",
+          "platform": "leetcode",
+          "title": "Number Complement",
+          "category": "Bit Manipulation",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/number-complement/",
+          "solvedAt": "2024-10-31T06:05:55+00:00"
+        },
+        {
+          "id": "lc-reverse-string",
+          "platform": "leetcode",
+          "title": "Reverse String",
+          "category": "Two Pointers",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/reverse-string/",
+          "solvedAt": "2024-10-31T03:51:40+00:00"
+        },
+        {
+          "id": "lc-power-of-four",
+          "platform": "leetcode",
+          "title": "Power of Four",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/power-of-four/",
+          "solvedAt": "2024-10-31T03:46:50+00:00"
+        },
+        {
+          "id": "lc-power-of-three",
+          "platform": "leetcode",
+          "title": "Power of Three",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/power-of-three/",
+          "solvedAt": "2024-10-31T03:21:24+00:00"
+        },
+        {
+          "id": "lc-power-of-two",
+          "platform": "leetcode",
+          "title": "Power of Two",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/power-of-two/",
+          "solvedAt": "2024-10-31T03:11:00+00:00"
+        },
+        {
+          "id": "lc-rectangle-area",
+          "platform": "leetcode",
+          "title": "Rectangle Area",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/rectangle-area/",
+          "solvedAt": "2024-10-31T03:02:17+00:00"
+        },
+        {
+          "id": "lc-excel-sheet-column-number",
+          "platform": "leetcode",
+          "title": "Excel Sheet Column Number",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/excel-sheet-column-number/",
+          "solvedAt": "2024-10-31T02:38:06+00:00"
+        },
+        {
+          "id": "lc-excel-sheet-column-title",
+          "platform": "leetcode",
+          "title": "Excel Sheet Column Title",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/excel-sheet-column-title/",
+          "solvedAt": "2024-10-31T02:34:31+00:00"
+        },
+        {
+          "id": "lc-length-of-last-word",
+          "platform": "leetcode",
+          "title": "Length of Last Word",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/length-of-last-word/",
+          "solvedAt": "2024-10-30T06:28:00+00:00"
+        },
+        {
+          "id": "lc-palindrome-number",
+          "platform": "leetcode",
+          "title": "Palindrome Number",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/palindrome-number/",
+          "solvedAt": "2024-10-29T07:02:29+00:00"
+        },
+        {
+          "id": "lc-single-number",
+          "platform": "leetcode",
+          "title": "Single Number",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/single-number/",
+          "solvedAt": "2024-10-29T06:37:22+00:00"
+        },
+        {
+          "id": "lc-reverse-integer",
+          "platform": "leetcode",
+          "title": "Reverse Integer",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/reverse-integer/",
+          "solvedAt": "2024-10-29T04:06:42+00:00"
+        },
+        {
+          "id": "lc-powx-n",
+          "platform": "leetcode",
+          "title": "Pow(x, n)",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/powx-n/",
+          "solvedAt": "2024-10-28T06:18:52+00:00"
+        },
+        {
+          "id": "lc-plus-one",
+          "platform": "leetcode",
+          "title": "Plus One",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/plus-one/",
+          "solvedAt": "2024-10-27T14:04:43+00:00"
+        },
+        {
+          "id": "lc-search-insert-position",
+          "platform": "leetcode",
+          "title": "Search Insert Position",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/search-insert-position/",
+          "solvedAt": "2024-10-27T13:50:08+00:00"
+        },
+        {
+          "id": "lc-find-the-index-of-the-first-occurrence-in-a-string",
+          "platform": "leetcode",
+          "title": "Find the Index of the First Occurrence in a String",
+          "category": "Two Pointers",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+          "solvedAt": "2024-10-27T13:14:31+00:00"
+        },
+        {
+          "id": "lc-remove-element",
+          "platform": "leetcode",
+          "title": "Remove Element",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/remove-element/",
+          "solvedAt": "2024-10-27T12:55:56+00:00"
+        },
+        {
+          "id": "lc-sqrtx",
+          "platform": "leetcode",
+          "title": "Sqrt(x)",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/sqrtx/",
+          "solvedAt": "2024-10-27T12:49:41+00:00"
+        },
+        {
+          "id": "lc-remove-duplicates-from-sorted-array-ii",
+          "platform": "leetcode",
+          "title": "Remove Duplicates from Sorted Array II",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
+          "solvedAt": "2024-10-27T12:14:38+00:00"
+        },
+        {
+          "id": "lc-remove-duplicates-from-sorted-array",
+          "platform": "leetcode",
+          "title": "Remove Duplicates from Sorted Array",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+          "solvedAt": "2024-10-27T12:07:42+00:00"
+        },
+        {
+          "id": "lc-valid-parentheses",
+          "platform": "leetcode",
+          "title": "Valid Parentheses",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/valid-parentheses/",
+          "solvedAt": "2024-10-27T11:50:28+00:00"
+        },
+        {
+          "id": "lc-roman-to-integer",
+          "platform": "leetcode",
+          "title": "Roman to Integer",
+          "category": "Hash Table",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/roman-to-integer/",
+          "solvedAt": "2024-10-27T11:42:52+00:00"
         }
       ],
       "totalSubmissions": 137
@@ -6715,6 +7896,56 @@
       "solvedAt": "2026-10-26T02:38:36.000Z"
     },
     {
+      "id": "lc-1792981805",
+      "platform": "leetcode",
+      "title": "Word Search",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/word-search/",
+      "solvedAt": "2026-10-26T02:30:05.000Z"
+    },
+    {
+      "id": "lc-1792979221",
+      "platform": "leetcode",
+      "title": "Count Islands With Total Value Divisible by K",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+      "solvedAt": "2026-10-26T01:47:01.000Z"
+    },
+    {
+      "id": "lc-1792965501",
+      "platform": "leetcode",
+      "title": "Number of Closed Islands",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-closed-islands/",
+      "solvedAt": "2026-10-25T21:58:21.000Z"
+    },
+    {
+      "id": "lc-1792814014",
+      "platform": "leetcode",
+      "title": "Count Days Spent Together",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/count-days-spent-together/",
+      "solvedAt": "2026-10-24T03:53:34.000Z"
+    },
+    {
+      "id": "lc-1792770429",
+      "platform": "leetcode",
+      "title": "Maximum K to Sort a Permutation",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/",
+      "solvedAt": "2026-10-23T15:47:09.000Z"
+    },
+    {
       "id": "tlx-6201481",
       "platform": "tlx",
       "title": "Zuma Bergembira",
@@ -6755,6 +7986,66 @@
       "solvedAt": "2026-10-22T05:24:33.612Z"
     },
     {
+      "id": "lc-1792643886",
+      "platform": "leetcode",
+      "title": "Missing Number",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/missing-number/",
+      "solvedAt": "2026-10-22T04:38:06.000Z"
+    },
+    {
+      "id": "lc-1792642764",
+      "platform": "leetcode",
+      "title": "Single Number II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/single-number-ii/",
+      "solvedAt": "2026-10-22T04:19:24.000Z"
+    },
+    {
+      "id": "lc-1792641347",
+      "platform": "leetcode",
+      "title": "Range Sum Query - Immutable",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+      "solvedAt": "2026-10-22T03:55:47.000Z"
+    },
+    {
+      "id": "lc-1792640829",
+      "platform": "leetcode",
+      "title": "Tenth Line",
+      "category": "Shell",
+      "language": "BASH",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/tenth-line/",
+      "solvedAt": "2026-10-22T03:47:09.000Z"
+    },
+    {
+      "id": "lc-1792640620",
+      "platform": "leetcode",
+      "title": "Transpose File",
+      "category": "Shell",
+      "language": "BASH",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/transpose-file/",
+      "solvedAt": "2026-10-22T03:43:40.000Z"
+    },
+    {
+      "id": "lc-1792628795",
+      "platform": "leetcode",
+      "title": "Minimum Operations to Sort a Permutation",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/",
+      "solvedAt": "2026-10-22T00:26:35.000Z"
+    },
+    {
       "id": "tlx-6197670",
       "platform": "tlx",
       "title": "Tempat Wisata",
@@ -6763,6 +8054,16 @@
       "difficulty": "-",
       "url": "https://tlx.toki.id/submissions/6197670",
       "solvedAt": "2026-10-21T09:33:26.309Z"
+    },
+    {
+      "id": "lc-1792542077",
+      "platform": "leetcode",
+      "title": "Minimum Operations to Sort a String",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+      "solvedAt": "2026-10-21T00:21:17.000Z"
     },
     {
       "id": "tlx-6190845",
@@ -6783,6 +8084,36 @@
       "difficulty": "-",
       "url": "https://tlx.toki.id/submissions/6190827",
       "solvedAt": "2026-10-20T03:21:08.113Z"
+    },
+    {
+      "id": "lc-1792456701",
+      "platform": "leetcode",
+      "title": "Sum of Sortable Integers",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/sum-of-sortable-integers/",
+      "solvedAt": "2026-10-20T00:38:21.000Z"
+    },
+    {
+      "id": "lc-1792414875",
+      "platform": "leetcode",
+      "title": "Find Target Indices After Sorting Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+      "solvedAt": "2026-10-19T13:01:15.000Z"
+    },
+    {
+      "id": "lc-1792353871",
+      "platform": "leetcode",
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
+      "solvedAt": "2026-10-18T20:04:31.000Z"
     },
     {
       "id": "tlx-6180556",
@@ -6843,6 +8174,336 @@
       "difficulty": "-",
       "url": "https://tlx.toki.id/submissions/6179705",
       "solvedAt": "2026-10-17T04:57:17.580Z"
+    },
+    {
+      "id": "lc-1792197584",
+      "platform": "leetcode",
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/",
+      "solvedAt": "2026-10-17T00:39:44.000Z"
+    },
+    {
+      "id": "lc-1792189685",
+      "platform": "leetcode",
+      "title": "Binary Tree Inorder Traversal",
+      "category": "Stack",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      "solvedAt": "2026-10-16T22:28:05.000Z"
+    },
+    {
+      "id": "lc-1792188955",
+      "platform": "leetcode",
+      "title": "Subsets",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/subsets/",
+      "solvedAt": "2026-10-16T22:15:55.000Z"
+    },
+    {
+      "id": "lc-1792188399",
+      "platform": "leetcode",
+      "title": "Rotate Image",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/rotate-image/",
+      "solvedAt": "2026-10-16T22:06:39.000Z"
+    },
+    {
+      "id": "lc-1792188192",
+      "platform": "leetcode",
+      "title": "Permutations",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/permutations/",
+      "solvedAt": "2026-10-16T22:03:12.000Z"
+    },
+    {
+      "id": "lc-1792123667",
+      "platform": "leetcode",
+      "title": "Sum of Digits of String After Convert",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
+      "solvedAt": "2026-10-16T04:07:47.000Z"
+    },
+    {
+      "id": "lc-1792123158",
+      "platform": "leetcode",
+      "title": "Happy Number",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/happy-number/",
+      "solvedAt": "2026-10-16T03:59:18.000Z"
+    },
+    {
+      "id": "lc-1792122940",
+      "platform": "leetcode",
+      "title": "Word Frequency",
+      "category": "Shell",
+      "language": "BASH",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/word-frequency/",
+      "solvedAt": "2026-10-16T03:55:40.000Z"
+    },
+    {
+      "id": "lc-1792122869",
+      "platform": "leetcode",
+      "title": "Valid Phone Numbers",
+      "category": "Shell",
+      "language": "BASH",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-phone-numbers/",
+      "solvedAt": "2026-10-16T03:54:29.000Z"
+    },
+    {
+      "id": "lc-1792111664",
+      "platform": "leetcode",
+      "title": "Reverse Bits",
+      "category": "Divide and Conquer",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reverse-bits/",
+      "solvedAt": "2026-10-16T00:47:44.000Z"
+    },
+    {
+      "id": "lc-1792110515",
+      "platform": "leetcode",
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/",
+      "solvedAt": "2026-10-16T00:28:35.000Z"
+    },
+    {
+      "id": "lc-1792109449",
+      "platform": "leetcode",
+      "title": "Valid Parenthesis String",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+      "solvedAt": "2026-10-16T00:10:49.000Z"
+    },
+    {
+      "id": "lc-1792108398",
+      "platform": "leetcode",
+      "title": "Maximum Alternating Sum of Squares",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+      "solvedAt": "2026-10-15T23:53:18.000Z"
+    },
+    {
+      "id": "lc-1792105917",
+      "platform": "leetcode",
+      "title": "Subarrays Distinct Element Sum of Squares I",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/",
+      "solvedAt": "2026-10-15T23:11:57.000Z"
+    },
+    {
+      "id": "lc-1792019479",
+      "platform": "leetcode",
+      "title": "Count Array Pairs Divisible by K",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-array-pairs-divisible-by-k/",
+      "solvedAt": "2026-10-14T23:11:19.000Z"
+    },
+    {
+      "id": "lc-1792018745",
+      "platform": "leetcode",
+      "title": "Smallest Index With Digit Sum Equal to Index",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/",
+      "solvedAt": "2026-10-14T22:59:05.000Z"
+    },
+    {
+      "id": "lc-1792018270",
+      "platform": "leetcode",
+      "title": "Maximize Sum of Squares of Digits",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+      "solvedAt": "2026-10-14T22:51:10.000Z"
+    },
+    {
+      "id": "lc-1792017773",
+      "platform": "leetcode",
+      "title": "Number of 1 Bits",
+      "category": "Divide and Conquer",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-of-1-bits/",
+      "solvedAt": "2026-10-14T22:42:53.000Z"
+    },
+    {
+      "id": "lc-1792017657",
+      "platform": "leetcode",
+      "title": "Delete Node in a Linked List",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+      "solvedAt": "2026-10-14T22:40:57.000Z"
+    },
+    {
+      "id": "lc-1792015826",
+      "platform": "leetcode",
+      "title": "Department Highest Salary",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/department-highest-salary/",
+      "solvedAt": "2026-10-14T22:10:26.000Z"
+    },
+    {
+      "id": "lc-customers-who-never-order",
+      "platform": "leetcode",
+      "title": "Customers Who Never Order",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/customers-who-never-order/",
+      "solvedAt": "2026-10-14T22:06:01+00:00"
+    },
+    {
+      "id": "lc-duplicate-emails",
+      "platform": "leetcode",
+      "title": "Duplicate Emails",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/duplicate-emails/",
+      "solvedAt": "2026-10-14T22:02:51+00:00"
+    },
+    {
+      "id": "lc-employees-earning-more-than-their-managers",
+      "platform": "leetcode",
+      "title": "Employees Earning More Than Their Managers",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/employees-earning-more-than-their-managers/",
+      "solvedAt": "2026-10-14T22:01:00+00:00"
+    },
+    {
+      "id": "lc-consecutive-numbers",
+      "platform": "leetcode",
+      "title": "Consecutive Numbers",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/consecutive-numbers/",
+      "solvedAt": "2026-10-14T21:55:51+00:00"
+    },
+    {
+      "id": "lc-rank-scores",
+      "platform": "leetcode",
+      "title": "Rank Scores",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/rank-scores/",
+      "solvedAt": "2026-10-14T21:51:52+00:00"
+    },
+    {
+      "id": "lc-nth-highest-salary",
+      "platform": "leetcode",
+      "title": "Nth Highest Salary",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/nth-highest-salary/",
+      "solvedAt": "2026-10-14T21:49:03+00:00"
+    },
+    {
+      "id": "lc-second-highest-salary",
+      "platform": "leetcode",
+      "title": "Second Highest Salary",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/second-highest-salary/",
+      "solvedAt": "2026-10-14T21:45:48+00:00"
+    },
+    {
+      "id": "lc-combine-two-tables",
+      "platform": "leetcode",
+      "title": "Combine Two Tables",
+      "category": "Database",
+      "language": "PostgreSQL",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/combine-two-tables/",
+      "solvedAt": "2026-10-14T21:38:33+00:00"
+    },
+    {
+      "id": "lc-perfect-squares",
+      "platform": "leetcode",
+      "title": "Perfect Squares",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/perfect-squares/",
+      "solvedAt": "2026-10-14T03:18:57+00:00"
+    },
+    {
+      "id": "lc-3sum-closest",
+      "platform": "leetcode",
+      "title": "3Sum Closest",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/3sum-closest/",
+      "solvedAt": "2026-10-14T03:10:08+00:00"
+    },
+    {
+      "id": "lc-trapping-rain-water-ii",
+      "platform": "leetcode",
+      "title": "Trapping Rain Water II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+      "solvedAt": "2026-10-14T03:04:22+00:00"
+    },
+    {
+      "id": "lc-trapping-rain-water",
+      "platform": "leetcode",
+      "title": "Trapping Rain Water",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/trapping-rain-water/",
+      "solvedAt": "2026-10-14T01:23:02+00:00"
+    },
+    {
+      "id": "lc-product-of-array-except-self",
+      "platform": "leetcode",
+      "title": "Product of Array Except Self",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "solvedAt": "2026-10-14T01:06:10+00:00"
     },
     {
       "id": "cf-393994284",
@@ -7928,6 +9589,86 @@
       "difficulty": "-",
       "url": "https://tlx.toki.id/submissions/5987013",
       "solvedAt": "2026-09-09T06:09:23.123Z"
+    },
+    {
+      "id": "lc-maximum-repeating-substring",
+      "platform": "leetcode",
+      "title": "Maximum Repeating Substring",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/maximum-repeating-substring/",
+      "solvedAt": "2026-09-08T09:38:19+00:00"
+    },
+    {
+      "id": "lc-divisor-game",
+      "platform": "leetcode",
+      "title": "Divisor Game",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/divisor-game/",
+      "solvedAt": "2026-09-08T09:29:42+00:00"
+    },
+    {
+      "id": "lc-n-th-tribonacci-number",
+      "platform": "leetcode",
+      "title": "N-th Tribonacci Number",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/n-th-tribonacci-number/",
+      "solvedAt": "2026-09-08T09:27:49+00:00"
+    },
+    {
+      "id": "lc-counting-bits",
+      "platform": "leetcode",
+      "title": "Counting Bits",
+      "category": "Dynamic Programming",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/counting-bits/",
+      "solvedAt": "2026-09-08T09:22:21+00:00"
+    },
+    {
+      "id": "lc-is-subsequence",
+      "platform": "leetcode",
+      "title": "Is Subsequence",
+      "category": "Two Pointers",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/is-subsequence/",
+      "solvedAt": "2026-09-08T09:11:05+00:00"
+    },
+    {
+      "id": "lc-min-cost-climbing-stairs",
+      "platform": "leetcode",
+      "title": "Min Cost Climbing Stairs",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+      "solvedAt": "2026-09-08T09:01:32+00:00"
+    },
+    {
+      "id": "lc-fibonacci-number",
+      "platform": "leetcode",
+      "title": "Fibonacci Number",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/fibonacci-number/",
+      "solvedAt": "2026-09-08T08:45:38+00:00"
+    },
+    {
+      "id": "lc-integer-replacement",
+      "platform": "leetcode",
+      "title": "Integer Replacement",
+      "category": "Dynamic Programming",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/integer-replacement/",
+      "solvedAt": "2026-09-08T08:42:11+00:00"
     },
     {
       "id": "tlx-5981868",
@@ -9083,6 +10824,26 @@
       "solvedAt": "2026-08-07T09:13:38.337Z"
     },
     {
+      "id": "lc-insertion-sort-list",
+      "platform": "leetcode",
+      "title": "Insertion Sort List",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/insertion-sort-list/",
+      "solvedAt": "2026-08-06T11:30:51+00:00"
+    },
+    {
+      "id": "lc-minimize-maximum-pair-sum-in-array",
+      "platform": "leetcode",
+      "title": "Minimize Maximum Pair Sum in Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
+      "solvedAt": "2026-08-06T11:22:10+00:00"
+    },
+    {
       "id": "tlx-5779449",
       "platform": "tlx",
       "title": "Pagar Bambu",
@@ -9613,6 +11374,36 @@
       "solvedAt": "2026-06-02T04:16:14.204Z"
     },
     {
+      "id": "lc-check-if-a-parentheses-string-can-be-valid",
+      "platform": "leetcode",
+      "title": "Check if a Parentheses String Can Be Valid",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/",
+      "solvedAt": "2026-05-30T20:42:24+00:00"
+    },
+    {
+      "id": "lc-generate-parentheses",
+      "platform": "leetcode",
+      "title": "Generate Parentheses",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/generate-parentheses/",
+      "solvedAt": "2026-05-30T20:20:06+00:00"
+    },
+    {
+      "id": "lc-search-in-rotated-sorted-array",
+      "platform": "leetcode",
+      "title": "Search in Rotated Sorted Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "solvedAt": "2026-05-30T20:09:19+00:00"
+    },
+    {
       "id": "tlx-5443208",
       "platform": "tlx",
       "title": "\"Absolute Winner\"",
@@ -9964,6 +11755,56 @@
       "solvedAt": "2026-01-30T14:18:26.251Z"
     },
     {
+      "id": "lc-two-sum",
+      "platform": "leetcode",
+      "title": "Two Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "solvedAt": "2026-01-16T06:03:45+00:00"
+    },
+    {
+      "id": "lc-valid-palindrome",
+      "platform": "leetcode",
+      "title": "Valid Palindrome",
+      "category": "Two Pointers",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-palindrome/",
+      "solvedAt": "2026-01-16T05:57:29+00:00"
+    },
+    {
+      "id": "lc-regular-expression-matching",
+      "platform": "leetcode",
+      "title": "Regular Expression Matching",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/regular-expression-matching/",
+      "solvedAt": "2026-01-16T05:51:22+00:00"
+    },
+    {
+      "id": "lc-multiply-strings",
+      "platform": "leetcode",
+      "title": "Multiply Strings",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/multiply-strings/",
+      "solvedAt": "2026-01-16T05:49:12+00:00"
+    },
+    {
+      "id": "lc-add-binary",
+      "platform": "leetcode",
+      "title": "Add Binary",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/add-binary/",
+      "solvedAt": "2026-01-16T05:38:13+00:00"
+    },
+    {
       "id": "tlx-4757395",
       "platform": "tlx",
       "title": "Perkenalan Heap",
@@ -10057,6 +11898,56 @@
       "tags": []
     },
     {
+      "id": "lc-next-permutation",
+      "platform": "leetcode",
+      "title": "Next Permutation",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/next-permutation/",
+      "solvedAt": "2025-12-25T18:09:43+00:00"
+    },
+    {
+      "id": "lc-3sum",
+      "platform": "leetcode",
+      "title": "3Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/3sum/",
+      "solvedAt": "2025-12-25T18:07:51+00:00"
+    },
+    {
+      "id": "lc-remove-nth-node-from-end-of-list",
+      "platform": "leetcode",
+      "title": "Remove Nth Node From End of List",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "solvedAt": "2025-12-25T18:05:37+00:00"
+    },
+    {
+      "id": "lc-letter-combinations-of-a-phone-number",
+      "platform": "leetcode",
+      "title": "Letter Combinations of a Phone Number",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      "solvedAt": "2025-12-25T17:59:19+00:00"
+    },
+    {
+      "id": "lc-zigzag-conversion",
+      "platform": "leetcode",
+      "title": "Zigzag Conversion",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/zigzag-conversion/",
+      "solvedAt": "2025-12-25T17:56:25+00:00"
+    },
+    {
       "id": "tlx-4713763",
       "platform": "tlx",
       "title": "National Science Olympiad",
@@ -10065,6 +11956,86 @@
       "difficulty": "-",
       "url": "https://tlx.toki.id/submissions/4713763",
       "solvedAt": "2025-12-24T15:12:51.658Z"
+    },
+    {
+      "id": "lc-string-to-integer-atoi",
+      "platform": "leetcode",
+      "title": "String to Integer (atoi)",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+      "solvedAt": "2025-12-18T03:02:25+00:00"
+    },
+    {
+      "id": "lc-longest-common-prefix",
+      "platform": "leetcode",
+      "title": "Longest Common Prefix",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/longest-common-prefix/",
+      "solvedAt": "2025-12-18T02:55:44+00:00"
+    },
+    {
+      "id": "lc-divide-two-integers",
+      "platform": "leetcode",
+      "title": "Divide Two Integers",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/divide-two-integers/",
+      "solvedAt": "2025-12-18T02:53:19+00:00"
+    },
+    {
+      "id": "lc-longest-palindromic-substring",
+      "platform": "leetcode",
+      "title": "Longest Palindromic Substring",
+      "category": "Two Pointers",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+      "solvedAt": "2025-12-18T02:48:38+00:00"
+    },
+    {
+      "id": "lc-add-two-numbers",
+      "platform": "leetcode",
+      "title": "Add Two Numbers",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "solvedAt": "2025-12-18T02:43:36+00:00"
+    },
+    {
+      "id": "lc-integer-to-english-words",
+      "platform": "leetcode",
+      "title": "Integer to English Words",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/integer-to-english-words/",
+      "solvedAt": "2025-12-18T02:31:15+00:00"
+    },
+    {
+      "id": "lc-integer-to-roman",
+      "platform": "leetcode",
+      "title": "Integer to Roman",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/integer-to-roman/",
+      "solvedAt": "2025-12-18T02:24:12+00:00"
+    },
+    {
+      "id": "lc-container-with-most-water",
+      "platform": "leetcode",
+      "title": "Container With Most Water",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/container-with-most-water/",
+      "solvedAt": "2025-12-18T02:06:10+00:00"
     },
     {
       "id": "tlx-4695553",
@@ -10747,6 +12718,16 @@
       "solvedAt": "2025-11-24T15:46:54.665Z"
     },
     {
+      "id": "tlx-4650590",
+      "platform": "tlx",
+      "title": "Perkenalan Larik (Array)",
+      "category": "Larik (Array)",
+      "language": "Cpp20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/4650590",
+      "solvedAt": "2025-11-24T15:46:02.359Z"
+    },
+    {
       "id": "tlx-4650587",
       "platform": "tlx",
       "title": "Toko Kandang",
@@ -11008,6 +12989,16 @@
       "tags": ["brute force", "math", "number theory"]
     },
     {
+      "id": "lc-median-of-two-sorted-arrays",
+      "platform": "leetcode",
+      "title": "Median of Two Sorted Arrays",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      "solvedAt": "2025-11-03T05:37:17+00:00"
+    },
+    {
       "id": "cf-344968254",
       "platform": "codeforces",
       "title": "Stapler (106084L)",
@@ -11063,6 +13054,26 @@
       "tags": []
     },
     {
+      "id": "lc-pascals-triangle-ii",
+      "platform": "leetcode",
+      "title": "Pascal's Triangle II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/pascals-triangle-ii/",
+      "solvedAt": "2025-10-08T15:29:57+00:00"
+    },
+    {
+      "id": "lc-longest-substring-without-repeating-characters",
+      "platform": "leetcode",
+      "title": "Longest Substring Without Repeating Characters",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "solvedAt": "2025-10-08T15:11:55+00:00"
+    },
+    {
       "id": "cf-333084342",
       "platform": "codeforces",
       "title": "And X Elements (106007K)",
@@ -11094,6 +13105,16 @@
       "url": "https://codeforces.com/contest/106007/problem/F",
       "solvedAt": "2025-08-09T03:08:38.000Z",
       "tags": []
+    },
+    {
+      "id": "lc-best-time-to-buy-and-sell-stock",
+      "platform": "leetcode",
+      "title": "Best Time to Buy and Sell Stock",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "solvedAt": "2025-08-03T14:52:00+00:00"
     },
     {
       "id": "cf-332060488",
@@ -11226,6 +13247,106 @@
       "url": "https://codeforces.com/contest/2112/problem/A",
       "solvedAt": "2025-07-11T07:50:51.000Z",
       "tags": ["implementation", "math"]
+    },
+    {
+      "id": "lc-count-total-number-of-colored-cells",
+      "platform": "leetcode",
+      "title": "Count Total Number of Colored Cells",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-total-number-of-colored-cells/",
+      "solvedAt": "2025-03-06T06:19:36+00:00"
+    },
+    {
+      "id": "lc-climbing-stairs",
+      "platform": "leetcode",
+      "title": "Climbing Stairs",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "solvedAt": "2025-01-22T16:35:02+00:00"
+    },
+    {
+      "id": "lc-pascals-triangle",
+      "platform": "leetcode",
+      "title": "Pascal's Triangle",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/pascals-triangle/",
+      "solvedAt": "2025-01-14T05:43:02+00:00"
+    },
+    {
+      "id": "lc-path-sum",
+      "platform": "leetcode",
+      "title": "Path Sum",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/path-sum/",
+      "solvedAt": "2025-01-14T05:07:29+00:00"
+    },
+    {
+      "id": "lc-maximum-depth-of-binary-tree",
+      "platform": "leetcode",
+      "title": "Maximum Depth of Binary Tree",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "solvedAt": "2025-01-14T04:56:47+00:00"
+    },
+    {
+      "id": "lc-symmetric-tree",
+      "platform": "leetcode",
+      "title": "Symmetric Tree",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/symmetric-tree/",
+      "solvedAt": "2025-01-14T04:50:41+00:00"
+    },
+    {
+      "id": "lc-remove-duplicates-from-sorted-list-ii",
+      "platform": "leetcode",
+      "title": "Remove Duplicates from Sorted List II",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+      "solvedAt": "2025-01-14T03:43:00+00:00"
+    },
+    {
+      "id": "lc-remove-duplicates-from-sorted-list",
+      "platform": "leetcode",
+      "title": "Remove Duplicates from Sorted List",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+      "solvedAt": "2025-01-14T03:32:21+00:00"
+    },
+    {
+      "id": "lc-merge-sorted-array",
+      "platform": "leetcode",
+      "title": "Merge Sorted Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/merge-sorted-array/",
+      "solvedAt": "2025-01-14T03:22:42+00:00"
+    },
+    {
+      "id": "lc-same-tree",
+      "platform": "leetcode",
+      "title": "Same Tree",
+      "category": "Tree",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/same-tree/",
+      "solvedAt": "2025-01-14T02:43:23+00:00"
     },
     {
       "id": "cf-289867460",
@@ -11371,6 +13492,116 @@
       "tags": ["implementation"]
     },
     {
+      "id": "lc-sort-colors",
+      "platform": "leetcode",
+      "title": "Sort Colors",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sort-colors/",
+      "solvedAt": "2024-10-31T06:09:52+00:00"
+    },
+    {
+      "id": "lc-sort-an-array",
+      "platform": "leetcode",
+      "title": "Sort an Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sort-an-array/",
+      "solvedAt": "2024-10-31T06:07:16+00:00"
+    },
+    {
+      "id": "lc-number-complement",
+      "platform": "leetcode",
+      "title": "Number Complement",
+      "category": "Bit Manipulation",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-complement/",
+      "solvedAt": "2024-10-31T06:05:55+00:00"
+    },
+    {
+      "id": "lc-reverse-string",
+      "platform": "leetcode",
+      "title": "Reverse String",
+      "category": "Two Pointers",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reverse-string/",
+      "solvedAt": "2024-10-31T03:51:40+00:00"
+    },
+    {
+      "id": "lc-power-of-four",
+      "platform": "leetcode",
+      "title": "Power of Four",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/power-of-four/",
+      "solvedAt": "2024-10-31T03:46:50+00:00"
+    },
+    {
+      "id": "lc-power-of-three",
+      "platform": "leetcode",
+      "title": "Power of Three",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/power-of-three/",
+      "solvedAt": "2024-10-31T03:21:24+00:00"
+    },
+    {
+      "id": "lc-power-of-two",
+      "platform": "leetcode",
+      "title": "Power of Two",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/power-of-two/",
+      "solvedAt": "2024-10-31T03:11:00+00:00"
+    },
+    {
+      "id": "lc-rectangle-area",
+      "platform": "leetcode",
+      "title": "Rectangle Area",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/rectangle-area/",
+      "solvedAt": "2024-10-31T03:02:17+00:00"
+    },
+    {
+      "id": "lc-excel-sheet-column-number",
+      "platform": "leetcode",
+      "title": "Excel Sheet Column Number",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/excel-sheet-column-number/",
+      "solvedAt": "2024-10-31T02:38:06+00:00"
+    },
+    {
+      "id": "lc-excel-sheet-column-title",
+      "platform": "leetcode",
+      "title": "Excel Sheet Column Title",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/excel-sheet-column-title/",
+      "solvedAt": "2024-10-31T02:34:31+00:00"
+    },
+    {
+      "id": "lc-length-of-last-word",
+      "platform": "leetcode",
+      "title": "Length of Last Word",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/length-of-last-word/",
+      "solvedAt": "2024-10-30T06:28:00+00:00"
+    },
+    {
       "id": "cf-288834666",
       "platform": "codeforces",
       "title": "Medium Number (1760A)",
@@ -11501,6 +13732,136 @@
       "url": "https://codeforces.com/contest/4/problem/A",
       "solvedAt": "2024-10-29T09:10:06.000Z",
       "tags": ["brute force", "math"]
+    },
+    {
+      "id": "lc-palindrome-number",
+      "platform": "leetcode",
+      "title": "Palindrome Number",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/palindrome-number/",
+      "solvedAt": "2024-10-29T07:02:29+00:00"
+    },
+    {
+      "id": "lc-single-number",
+      "platform": "leetcode",
+      "title": "Single Number",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/single-number/",
+      "solvedAt": "2024-10-29T06:37:22+00:00"
+    },
+    {
+      "id": "lc-reverse-integer",
+      "platform": "leetcode",
+      "title": "Reverse Integer",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/reverse-integer/",
+      "solvedAt": "2024-10-29T04:06:42+00:00"
+    },
+    {
+      "id": "lc-powx-n",
+      "platform": "leetcode",
+      "title": "Pow(x, n)",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/powx-n/",
+      "solvedAt": "2024-10-28T06:18:52+00:00"
+    },
+    {
+      "id": "lc-plus-one",
+      "platform": "leetcode",
+      "title": "Plus One",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/plus-one/",
+      "solvedAt": "2024-10-27T14:04:43+00:00"
+    },
+    {
+      "id": "lc-search-insert-position",
+      "platform": "leetcode",
+      "title": "Search Insert Position",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/search-insert-position/",
+      "solvedAt": "2024-10-27T13:50:08+00:00"
+    },
+    {
+      "id": "lc-find-the-index-of-the-first-occurrence-in-a-string",
+      "platform": "leetcode",
+      "title": "Find the Index of the First Occurrence in a String",
+      "category": "Two Pointers",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+      "solvedAt": "2024-10-27T13:14:31+00:00"
+    },
+    {
+      "id": "lc-remove-element",
+      "platform": "leetcode",
+      "title": "Remove Element",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/remove-element/",
+      "solvedAt": "2024-10-27T12:55:56+00:00"
+    },
+    {
+      "id": "lc-sqrtx",
+      "platform": "leetcode",
+      "title": "Sqrt(x)",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/sqrtx/",
+      "solvedAt": "2024-10-27T12:49:41+00:00"
+    },
+    {
+      "id": "lc-remove-duplicates-from-sorted-array-ii",
+      "platform": "leetcode",
+      "title": "Remove Duplicates from Sorted Array II",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
+      "solvedAt": "2024-10-27T12:14:38+00:00"
+    },
+    {
+      "id": "lc-remove-duplicates-from-sorted-array",
+      "platform": "leetcode",
+      "title": "Remove Duplicates from Sorted Array",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+      "solvedAt": "2024-10-27T12:07:42+00:00"
+    },
+    {
+      "id": "lc-valid-parentheses",
+      "platform": "leetcode",
+      "title": "Valid Parentheses",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "solvedAt": "2024-10-27T11:50:28+00:00"
+    },
+    {
+      "id": "lc-roman-to-integer",
+      "platform": "leetcode",
+      "title": "Roman to Integer",
+      "category": "Hash Table",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/roman-to-integer/",
+      "solvedAt": "2024-10-27T11:42:52+00:00"
     }
   ]
 }

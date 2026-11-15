@@ -7,7 +7,7 @@
       "kelasHuruf": "A",
       "kelas": "1A-D4",
       "aktif": true,
-      "totalSolved": 65,
+      "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
       "updatedAt": "2026-11-15T00:28:41.472Z",
@@ -15,8 +15,9 @@
       "platforms": {
         "tlx": {
           "handle": "imfachri",
-          "solved": 65,
-          "submissions": 226
+          "solved": 64,
+          "submissions": 226,
+          "rating": 0
         },
         "codeforces": {
           "handle": "imfachri",
@@ -48,7 +49,8 @@
         "tlx": {
           "handle": "Naphoryn",
           "solved": 7,
-          "submissions": 5
+          "submissions": 5,
+          "rating": 0
         },
         "codeforces": {
           "handle": "Naphoryn",
@@ -80,7 +82,8 @@
         "tlx": {
           "handle": "haafiznayyara",
           "solved": 144,
-          "submissions": 259
+          "submissions": 259,
+          "rating": 0
         },
         "codeforces": {
           "handle": "haafiznayyara",
@@ -103,7 +106,7 @@
       "kelasHuruf": "A",
       "kelas": "3A-D3",
       "aktif": true,
-      "totalSolved": 676,
+      "totalSolved": 670,
       "totalSubmissions": 1337,
       "lastSolvedAt": "2026-11-14T11:52:59.000Z",
       "updatedAt": "2026-11-15T00:28:37.959Z",
@@ -111,8 +114,9 @@
       "platforms": {
         "tlx": {
           "handle": "aycaaa",
-          "solved": 469,
-          "submissions": 941
+          "solved": 463,
+          "submissions": 941,
+          "rating": 2150
         },
         "codeforces": {
           "handle": "feeera",
@@ -135,7 +139,7 @@
       "kelasHuruf": "B",
       "kelas": "3B-D4",
       "aktif": true,
-      "totalSolved": 259,
+      "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
       "updatedAt": "2026-11-15T00:28:36.913Z",
@@ -143,8 +147,9 @@
       "platforms": {
         "tlx": {
           "handle": "fnsd",
-          "solved": 119,
-          "submissions": 378
+          "solved": 96,
+          "submissions": 378,
+          "rating": 0
         },
         "codeforces": {
           "handle": "finsidemonkey",

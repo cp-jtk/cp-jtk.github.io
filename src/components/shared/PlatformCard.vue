@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="pcard-solved-badge">
-        <span class="pcard-solved-num">{{ solvedNum }}</span>
+        <span class="pcard-solved-num" :class="solvedNumClass">{{ solvedNum }}</span>
         <span class="pcard-solved-label">{{ solvedLabel }}</span>
       </div>
     </div>
@@ -69,6 +69,7 @@ defineProps<{
   logo: string
   logoLight?: string
   solvedNum: number | string
+  solvedNumClass?: string
   solvedLabel: string
   footerText: string
   url?: string

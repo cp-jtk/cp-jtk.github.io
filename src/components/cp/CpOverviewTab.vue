@@ -13,8 +13,8 @@
         <MetaRow label="Total Submissions:">
           <strong>{{ cpData?.platforms?.tlx?.totalSubmissions ?? 0 }}</strong>
         </MetaRow>
-        <MetaRow label="Accepted Submissions:">
-          <strong>{{ cpData?.platforms?.tlx?.totalAcSubmissions ?? 0 }}</strong>
+        <MetaRow label="Rating:">
+          <strong class="capitalize" :class="tlxRatingClass">{{ tlxRating }}</strong>
         </MetaRow>
       </PlatformCard>
 
@@ -24,6 +24,7 @@
         :handle="platformHandle('codeforces')"
         :logo="CP_PLATFORMS.codeforces.logo"
         :solvedNum="cpData?.platforms?.codeforces?.rating ?? 0"
+        :solvedNumClass="cfRatingClass"
         solvedLabel="rating"
         footerText="Buka profil Codeforces ↗"
         :url="platformProfileUrl('codeforces')">
@@ -31,7 +32,7 @@
           <strong>{{ totalCfSolved }}</strong>
         </MetaRow>
         <MetaRow label="Rank:">
-          <strong class="cf-rank-text capitalize">{{
+          <strong class="capitalize" :class="cfRankClass">{{
             cpData?.platforms?.codeforces?.rank || 'unrated'
           }}</strong>
         </MetaRow>
@@ -130,6 +131,7 @@ import {
   getPlatformHandle,
 } from '../../utils/cp/platforms'
 import { matchesProblemSearch } from '../../utils/cp/search'
+import { getCodeforcesRatingClass, getTlxRatingClass } from '../../utils/cp/ratings'
 import type { CpData, CpPlatformKey, SubmissionItem } from '../../types/cp.types'
 
 const props = withDefaults(
@@ -160,6 +162,19 @@ const platformProfileUrl = (key: CpPlatformKey): string => {
   const handle = platformHandle(key)
   return handle ? CP_PLATFORMS[key].profileUrl(handle) : '#'
 }
+
+const tlxRating = computed(() => {
+  const rating = props.cpData?.platforms?.tlx?.rating
+  return rating && rating > 0 ? rating.toLocaleString('id-ID') : 'unrated'
+})
+
+const tlxRatingClass = computed(() => getTlxRatingClass(props.cpData?.platforms?.tlx?.rating))
+const cfRatingClass = computed(() =>
+  getCodeforcesRatingClass(props.cpData?.platforms?.codeforces?.rating)
+)
+const cfRankClass = computed(() =>
+  getCodeforcesRatingClass(props.cpData?.platforms?.codeforces?.rating)
+)
 
 const leetcodeRanking = computed(() => {
   const ranking = props.cpData?.platforms?.leetcode?.ranking ?? 0
@@ -228,8 +243,140 @@ const {
   color: var(--color-danger);
 }
 
-.cf-rank-text {
-  color: var(--color-info);
+/* Codeforces Rating & Rank Colors */
+:deep(.cf-newbie),
+.cf-newbie {
+  color: #9ca3af !important;
+}
+:deep(.cf-pupil),
+.cf-pupil {
+  color: #22c55e !important;
+}
+:deep(.cf-specialist),
+.cf-specialist {
+  color: #06b6d4 !important;
+}
+:deep(.cf-expert),
+.cf-expert {
+  color: #3b82f6 !important;
+}
+:deep(.cf-candidate-master),
+.cf-candidate-master {
+  color: #a855f7 !important;
+}
+:deep(.cf-master),
+.cf-master {
+  color: #f97316 !important;
+}
+:deep(.cf-grandmaster),
+.cf-grandmaster {
+  color: #ef4444 !important;
+}
+:deep(.cf-unrated),
+.cf-unrated {
+  color: var(--text) !important;
+}
+
+/* TLX Rating Colors */
+:deep(.tlx-gray),
+.tlx-gray {
+  color: #9ca3af !important;
+}
+:deep(.tlx-green),
+.tlx-green {
+  color: #22c55e !important;
+}
+:deep(.tlx-blue),
+.tlx-blue {
+  color: #3b82f6 !important;
+}
+:deep(.tlx-purple),
+.tlx-purple {
+  color: #a855f7 !important;
+}
+:deep(.tlx-orange),
+.tlx-orange {
+  color: #f97316 !important;
+}
+:deep(.tlx-red),
+.tlx-red {
+  color: #ef4444 !important;
+}
+:deep(.tlx-legend),
+.tlx-legend {
+  background: linear-gradient(180deg, #ffffff 48%, #ef4444 52%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block;
+  font-weight: 700;
+}
+:deep(.tlx-unrated),
+.tlx-unrated {
+  color: var(--text) !important;
+}
+
+/* Light Theme Contrast Overrides */
+:root.light :deep(.cf-newbie),
+:root.light .cf-newbie {
+  color: #6b7280 !important;
+}
+:root.light :deep(.cf-pupil),
+:root.light .cf-pupil {
+  color: #16a34a !important;
+}
+:root.light :deep(.cf-specialist),
+:root.light .cf-specialist {
+  color: #0891b2 !important;
+}
+:root.light :deep(.cf-expert),
+:root.light .cf-expert {
+  color: #2563eb !important;
+}
+:root.light :deep(.cf-candidate-master),
+:root.light .cf-candidate-master {
+  color: #9333ea !important;
+}
+:root.light :deep(.cf-master),
+:root.light .cf-master {
+  color: #ea580c !important;
+}
+:root.light :deep(.cf-grandmaster),
+:root.light .cf-grandmaster {
+  color: #dc2626 !important;
+}
+
+:root.light :deep(.tlx-gray),
+:root.light .tlx-gray {
+  color: #6b7280 !important;
+}
+:root.light :deep(.tlx-green),
+:root.light .tlx-green {
+  color: #16a34a !important;
+}
+:root.light :deep(.tlx-blue),
+:root.light .tlx-blue {
+  color: #2563eb !important;
+}
+:root.light :deep(.tlx-purple),
+:root.light .tlx-purple {
+  color: #9333ea !important;
+}
+:root.light :deep(.tlx-orange),
+:root.light .tlx-orange {
+  color: #ea580c !important;
+}
+:root.light :deep(.tlx-red),
+:root.light .tlx-red {
+  color: #dc2626 !important;
+}
+:root.light :deep(.tlx-legend),
+:root.light .tlx-legend {
+  background: linear-gradient(180deg, #ffffff 48%, #dc2626 52%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block;
+  font-weight: 700;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.75));
 }
 
 :root.light .diff-cnt.easy {

@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 259,
+    "totalSolved": 236,
     "totalSubmissions": 656,
     "activePlatforms": 3,
     "heatmap": {
@@ -424,7 +424,7 @@
     "tlx": {
       "handle": "fnsd",
       "url": "https://tlx.toki.id/profiles/fnsd",
-      "totalSolved": 119,
+      "totalSolved": 96,
       "totalSubmissions": 378,
       "totalAcSubmissions": 96,
       "uniqueProblemsSolved": 92,
@@ -1588,7 +1588,8 @@
           "url": "https://tlx.toki.id/submissions/2065726",
           "solvedAt": "2024-06-30T17:21:24.694Z"
         }
-      ]
+      ],
+      "rating": 0
     },
     "codeforces": {
       "handle": "finsidemonkey",
