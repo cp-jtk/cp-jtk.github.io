@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-15T00:28:37.959Z",
+    "updatedAt": "2026-11-15T06:43:03.101Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 670,
+    "totalSolved": 671,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -521,11 +521,15 @@
       "2026-11-14": {
         "tries": 2,
         "ac": 2
+      },
+      "2026-11-15": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 473
+      "count": 578
     }
   },
   "platforms": {
@@ -6055,9 +6059,9 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1295015,
-      "totalSolved": 139,
+      "totalSolved": 140,
       "easySolved": 62,
-      "mediumSolved": 63,
+      "mediumSolved": 64,
       "hardSolved": 14,
       "dailyCalendar": {
         "2026-11-11": {
@@ -6127,9 +6131,23 @@
         "2026-11-14": {
           "tries": 2,
           "ac": 2
+        },
+        "2026-11-15": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1794724025",
+          "platform": "leetcode",
+          "title": "Number of Sub-arrays With Odd Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/",
+          "solvedAt": "2026-11-15T06:27:05.000Z"
+        },
         {
           "id": "lc-1794657179",
           "platform": "leetcode",
@@ -7525,6 +7543,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1794724025",
+      "platform": "leetcode",
+      "title": "Number of Sub-arrays With Odd Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/",
+      "solvedAt": "2026-11-15T06:27:05.000Z"
+    },
     {
       "id": "lc-1794657179",
       "platform": "leetcode",
