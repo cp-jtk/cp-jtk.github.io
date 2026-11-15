@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T00:28:41.485Z",
+  "updatedAt": "2026-11-15T23:53:46.050Z",
   "students": [
     {
       "nim": "261524010",
@@ -10,7 +10,7 @@
       "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
-      "updatedAt": "2026-11-15T00:28:41.472Z",
+      "updatedAt": "2026-11-15T23:53:45.294Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -43,7 +43,7 @@
       "totalSolved": 7,
       "totalSubmissions": 5,
       "lastSolvedAt": "2026-11-14T13:15:17.377Z",
-      "updatedAt": "2026-11-15T00:28:41.099Z",
+      "updatedAt": "2026-11-15T23:53:46.047Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -68,6 +68,39 @@
       }
     },
     {
+      "nim": "261524065",
+      "nama": "Adrian Afiq",
+      "kelasHuruf": "C",
+      "kelas": "1C-D4",
+      "aktif": true,
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "lastSolvedAt": null,
+      "updatedAt": "2026-11-15T23:53:46.036Z",
+      "sync": "empty",
+      "platforms": {
+        "tlx": {
+          "handle": "eepycattt",
+          "solved": 0,
+          "submissions": 0,
+          "rating": 0
+        },
+        "codeforces": {
+          "handle": "eepycatt",
+          "solved": 0,
+          "submissions": 0,
+          "rating": 0,
+          "rank": "unrated"
+        },
+        "leetcode": {
+          "handle": "eepycattt",
+          "solved": 0,
+          "submissions": 0,
+          "ranking": 5000001
+        }
+      }
+    },
+    {
       "nim": "251524112",
       "nama": "Muhammad Haafiz Mawla Nayyara",
       "kelasHuruf": "D",
@@ -76,7 +109,7 @@
       "totalSolved": 144,
       "totalSubmissions": 259,
       "lastSolvedAt": "2026-11-12T14:48:58.324Z",
-      "updatedAt": "2026-11-15T00:28:40.670Z",
+      "updatedAt": "2026-11-15T23:53:45.238Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -106,15 +139,15 @@
       "kelasHuruf": "A",
       "kelas": "3A-D3",
       "aktif": true,
-      "totalSolved": 670,
+      "totalSolved": 681,
       "totalSubmissions": 1337,
-      "lastSolvedAt": "2026-11-14T11:52:59.000Z",
-      "updatedAt": "2026-11-15T00:28:37.959Z",
+      "lastSolvedAt": "2026-11-15T14:21:50.346Z",
+      "updatedAt": "2026-11-15T23:53:41.789Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
           "handle": "aycaaa",
-          "solved": 463,
+          "solved": 466,
           "submissions": 941,
           "rating": 2150
         },
@@ -127,9 +160,9 @@
         },
         "leetcode": {
           "handle": "fsaree",
-          "solved": 139,
+          "solved": 147,
           "submissions": 137,
-          "ranking": 1295015
+          "ranking": 1220219
         }
       }
     },
@@ -142,7 +175,7 @@
       "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
-      "updatedAt": "2026-11-15T00:28:36.913Z",
+      "updatedAt": "2026-11-15T23:53:41.073Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -162,7 +195,7 @@
           "handle": "finsider",
           "solved": 69,
           "submissions": 20,
-          "ranking": 2289573
+          "ranking": 2267872
         }
       }
     }
