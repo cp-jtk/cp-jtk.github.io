@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-16T00:44:24.099Z",
+    "updatedAt": "2026-11-16T08:04:03.669Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 681,
+    "totalSolved": 682,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -525,11 +525,15 @@
       "2026-11-14": {
         "tries": 2,
         "ac": 2
+      },
+      "2026-11-16": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 585
+      "count": 586
     }
   },
   "platforms": {
@@ -6093,8 +6097,8 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1220219,
-      "totalSolved": 147,
-      "easySolved": 62,
+      "totalSolved": 148,
+      "easySolved": 63,
       "mediumSolved": 67,
       "hardSolved": 18,
       "dailyCalendar": {
@@ -6169,9 +6173,23 @@
         "2026-11-15": {
           "tries": 8,
           "ac": 8
+        },
+        "2026-11-16": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1794806833",
+          "platform": "leetcode",
+          "title": "Calculate Digit Sum of a String",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+          "solvedAt": "2026-11-16T05:27:13.000Z"
+        },
         {
           "id": "lc-1794735174",
           "platform": "leetcode",
@@ -7647,6 +7665,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1794806833",
+      "platform": "leetcode",
+      "title": "Calculate Digit Sum of a String",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+      "solvedAt": "2026-11-16T05:27:13.000Z"
+    },
     {
       "id": "tlx-6306041",
       "platform": "tlx",

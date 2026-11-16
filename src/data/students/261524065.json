@@ -1,40 +1,103 @@
 {
   "meta": {
-    "updatedAt": "2026-11-16T00:44:28.096Z",
+    "updatedAt": "2026-11-16T08:04:08.427Z",
     "version": "1",
     "studentNim": "261524065",
     "handles": {
       "tlx": "eepycattt",
-      "codeforces": "eepycatt",
+      "codeforces": "eepycattt",
       "leetcode": "eepycattt"
     }
   },
   "overview": {
-    "totalSolved": 0,
-    "totalSubmissions": 0,
+    "totalSolved": 9,
+    "totalSubmissions": 7,
     "activePlatforms": 3,
-    "heatmap": {},
+    "heatmap": {
+      "2026-11-16": {
+        "tries": 7,
+        "ac": 7
+      }
+    },
     "topLanguage": {
-      "name": "-",
-      "count": 0
+      "name": "C++20",
+      "count": 7
     }
   },
   "platforms": {
     "tlx": {
       "handle": "eepycattt",
       "url": "https://tlx.toki.id/profiles/eepycattt",
-      "totalSolved": 0,
-      "totalSubmissions": 0,
-      "totalAcSubmissions": 0,
-      "uniqueProblemsSolved": 0,
+      "totalSolved": 7,
+      "totalSubmissions": 5,
+      "totalAcSubmissions": 7,
+      "uniqueProblemsSolved": 5,
       "rating": 0,
-      "languages": {},
-      "dailyCalendar": {},
-      "recentSolved": []
+      "languages": {
+        "C++20": 5
+      },
+      "dailyCalendar": {
+        "2026-11-16": {
+          "tries": 5,
+          "ac": 5
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "tlx-6307674",
+          "platform": "tlx",
+          "title": "Mengukur Kandang",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6307674",
+          "solvedAt": "2026-11-16T06:39:00.664Z"
+        },
+        {
+          "id": "tlx-6307662",
+          "platform": "tlx",
+          "title": "Menjumlahkan Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6307662",
+          "solvedAt": "2026-11-16T06:35:01.451Z"
+        },
+        {
+          "id": "tlx-6307661",
+          "platform": "tlx",
+          "title": "Mencetak Bilangan",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6307661",
+          "solvedAt": "2026-11-16T06:34:32.856Z"
+        },
+        {
+          "id": "tlx-6307657",
+          "platform": "tlx",
+          "title": "Mencetak dengan std::cout",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6307657",
+          "solvedAt": "2026-11-16T06:33:47.468Z"
+        },
+        {
+          "id": "tlx-6307649",
+          "platform": "tlx",
+          "title": "Program Pertamaku",
+          "category": "Keluaran dan Ekspresi Sederhana",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6307649",
+          "solvedAt": "2026-11-16T06:32:22.537Z"
+        }
+      ]
     },
     "codeforces": {
-      "handle": "eepycatt",
-      "url": "",
+      "handle": "eepycattt",
+      "url": "https://codeforces.com/profile/eepycattt",
       "totalSolved": 0,
       "totalSubmissions": 0,
       "recentSolved": [],
@@ -46,20 +109,118 @@
       "contestsCount": 0,
       "tagsCount": {},
       "ratingDistribution": {},
-      "languages": {}
+      "languages": {},
+      "totalAcSubmissions": 0
     },
     "leetcode": {
       "handle": "eepycattt",
       "url": "https://leetcode.com/u/eepycattt",
       "ranking": 5000001,
-      "totalSolved": 0,
-      "easySolved": 0,
-      "mediumSolved": 0,
+      "totalSolved": 2,
+      "easySolved": 1,
+      "mediumSolved": 1,
       "hardSolved": 0,
-      "totalSubmissions": 0,
-      "dailyCalendar": {},
-      "recentSolved": []
+      "totalSubmissions": 2,
+      "dailyCalendar": {
+        "2026-11-16": {
+          "tries": 2,
+          "ac": 2
+        }
+      },
+      "recentSolved": [
+        {
+          "id": "lc-1794809896",
+          "platform": "leetcode",
+          "title": "Add Two Numbers",
+          "category": "Linked List",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/add-two-numbers/",
+          "solvedAt": "2026-11-16T06:18:16.000Z"
+        },
+        {
+          "id": "lc-1794809296",
+          "platform": "leetcode",
+          "title": "Two Sum",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/two-sum/",
+          "solvedAt": "2026-11-16T06:08:16.000Z"
+        }
+      ]
     }
   },
-  "recentGlobalFeed": []
+  "recentGlobalFeed": [
+    {
+      "id": "tlx-6307674",
+      "platform": "tlx",
+      "title": "Mengukur Kandang",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6307674",
+      "solvedAt": "2026-11-16T06:39:00.664Z"
+    },
+    {
+      "id": "tlx-6307662",
+      "platform": "tlx",
+      "title": "Menjumlahkan Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6307662",
+      "solvedAt": "2026-11-16T06:35:01.451Z"
+    },
+    {
+      "id": "tlx-6307661",
+      "platform": "tlx",
+      "title": "Mencetak Bilangan",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6307661",
+      "solvedAt": "2026-11-16T06:34:32.856Z"
+    },
+    {
+      "id": "tlx-6307657",
+      "platform": "tlx",
+      "title": "Mencetak dengan std::cout",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6307657",
+      "solvedAt": "2026-11-16T06:33:47.468Z"
+    },
+    {
+      "id": "tlx-6307649",
+      "platform": "tlx",
+      "title": "Program Pertamaku",
+      "category": "Keluaran dan Ekspresi Sederhana",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6307649",
+      "solvedAt": "2026-11-16T06:32:22.537Z"
+    },
+    {
+      "id": "lc-1794809896",
+      "platform": "leetcode",
+      "title": "Add Two Numbers",
+      "category": "Linked List",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "solvedAt": "2026-11-16T06:18:16.000Z"
+    },
+    {
+      "id": "lc-1794809296",
+      "platform": "leetcode",
+      "title": "Two Sum",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "solvedAt": "2026-11-16T06:08:16.000Z"
+    }
+  ]
 }
