@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "updatedAt": "2026-11-16T18:42:14.336Z",
+    "version": "1",
+    "studentNim": "261524021",
+    "handles": {
+      "tlx": null,
+      "codeforces": null,
+      "leetcode": null
+    }
+  },
+  "overview": {
+    "totalSolved": 0,
+    "totalSubmissions": 0,
+    "activePlatforms": 0,
+    "heatmap": {},
+    "topLanguage": {
+      "name": "-",
+      "count": 0
+    }
+  },
+  "platforms": {
+    "tlx": {
+      "handle": "",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "totalAcSubmissions": 0,
+      "uniqueProblemsSolved": 0,
+      "rating": 0,
+      "languages": {}
+    },
+    "codeforces": {
+      "handle": "",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "unrated",
+      "maxRank": "unrated",
+      "contestsCount": 0,
+      "tagsCount": {},
+      "ratingDistribution": {},
+      "languages": {}
+    },
+    "leetcode": {
+      "handle": "",
+      "url": "",
+      "totalSolved": 0,
+      "totalSubmissions": 0,
+      "recentSolved": [],
+      "dailyCalendar": {},
+      "ranking": 0,
+      "easySolved": 0,
+      "mediumSolved": 0,
+      "hardSolved": 0
+    }
+  },
+  "recentGlobalFeed": []
+}
