@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-17T06:54:57.824Z",
+    "updatedAt": "2026-11-17T12:44:27.322Z",
     "version": "1",
     "studentNim": "261524065",
     "handles": {
@@ -10,39 +10,87 @@
     }
   },
   "overview": {
-    "totalSolved": 10,
-    "totalSubmissions": 7,
+    "totalSolved": 17,
+    "totalSubmissions": 13,
     "activePlatforms": 3,
     "heatmap": {
       "2026-11-16": {
         "tries": 7,
         "ac": 7
+      },
+      "2026-11-17": {
+        "tries": 6,
+        "ac": 4
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 7
+      "count": 13
     }
   },
   "platforms": {
     "tlx": {
       "handle": "eepycattt",
       "url": "https://tlx.toki.id/profiles/eepycattt",
-      "totalSolved": 8,
-      "totalSubmissions": 5,
-      "totalAcSubmissions": 8,
-      "uniqueProblemsSolved": 5,
+      "totalSolved": 15,
+      "totalSubmissions": 11,
+      "totalAcSubmissions": 15,
+      "uniqueProblemsSolved": 9,
       "rating": 0,
       "languages": {
-        "C++20": 5
+        "C++20": 11
       },
       "dailyCalendar": {
         "2026-11-16": {
           "tries": 5,
           "ac": 5
+        },
+        "2026-11-17": {
+          "tries": 6,
+          "ac": 4
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6311376",
+          "platform": "tlx",
+          "title": "Jual-Beli Bebek",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6311376",
+          "solvedAt": "2026-11-17T10:28:51.449Z"
+        },
+        {
+          "id": "tlx-6311370",
+          "platform": "tlx",
+          "title": "Perkenalan Tipe Data String",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6311370",
+          "solvedAt": "2026-11-17T10:25:30.183Z"
+        },
+        {
+          "id": "tlx-6311354",
+          "platform": "tlx",
+          "title": "Memperbarui Nilai Variabel",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6311354",
+          "solvedAt": "2026-11-17T10:19:40.097Z"
+        },
+        {
+          "id": "tlx-6311352",
+          "platform": "tlx",
+          "title": "Perkenalan Variabel",
+          "category": "Variabel dan Tipe Data",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6311352",
+          "solvedAt": "2026-11-17T10:18:40.729Z"
+        },
         {
           "id": "tlx-6307674",
           "platform": "tlx",
@@ -152,6 +200,46 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6311376",
+      "platform": "tlx",
+      "title": "Jual-Beli Bebek",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6311376",
+      "solvedAt": "2026-11-17T10:28:51.449Z"
+    },
+    {
+      "id": "tlx-6311370",
+      "platform": "tlx",
+      "title": "Perkenalan Tipe Data String",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6311370",
+      "solvedAt": "2026-11-17T10:25:30.183Z"
+    },
+    {
+      "id": "tlx-6311354",
+      "platform": "tlx",
+      "title": "Memperbarui Nilai Variabel",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6311354",
+      "solvedAt": "2026-11-17T10:19:40.097Z"
+    },
+    {
+      "id": "tlx-6311352",
+      "platform": "tlx",
+      "title": "Perkenalan Variabel",
+      "category": "Variabel dan Tipe Data",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6311352",
+      "solvedAt": "2026-11-17T10:18:40.729Z"
+    },
     {
       "id": "tlx-6307674",
       "platform": "tlx",
