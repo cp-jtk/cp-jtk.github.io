@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T18:42:15.457Z",
+  "updatedAt": "2026-11-17T00:36:06.511Z",
   "students": [
     {
       "nim": "261524010",
@@ -10,7 +10,7 @@
       "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
-      "updatedAt": "2026-11-16T18:42:14.734Z",
+      "updatedAt": "2026-11-17T00:36:05.917Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -43,7 +43,7 @@
       "totalSolved": 0,
       "totalSubmissions": 0,
       "lastSolvedAt": null,
-      "updatedAt": "2026-11-16T18:42:14.336Z",
+      "updatedAt": "2026-11-17T00:36:05.095Z",
       "sync": "unlinked",
       "platforms": {
         "tlx": {
@@ -76,7 +76,7 @@
       "totalSolved": 7,
       "totalSubmissions": 5,
       "lastSolvedAt": "2026-11-14T13:15:17.377Z",
-      "updatedAt": "2026-11-16T18:42:15.061Z",
+      "updatedAt": "2026-11-17T00:36:05.805Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -106,15 +106,15 @@
       "kelasHuruf": "C",
       "kelas": "1C-D4",
       "aktif": true,
-      "totalSolved": 9,
+      "totalSolved": 10,
       "totalSubmissions": 7,
       "lastSolvedAt": "2026-11-16T06:39:00.664Z",
-      "updatedAt": "2026-11-16T18:42:15.453Z",
+      "updatedAt": "2026-11-17T00:36:06.506Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
           "handle": "eepycattt",
-          "solved": 7,
+          "solved": 8,
           "submissions": 5,
           "rating": 0
         },
@@ -142,7 +142,7 @@
       "totalSolved": 144,
       "totalSubmissions": 259,
       "lastSolvedAt": "2026-11-12T14:48:58.324Z",
-      "updatedAt": "2026-11-16T18:42:14.308Z",
+      "updatedAt": "2026-11-17T00:36:05.048Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -175,7 +175,7 @@
       "totalSolved": 682,
       "totalSubmissions": 1337,
       "lastSolvedAt": "2026-11-16T05:27:13.000Z",
-      "updatedAt": "2026-11-16T18:42:11.330Z",
+      "updatedAt": "2026-11-17T00:36:02.302Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -208,7 +208,7 @@
       "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
-      "updatedAt": "2026-11-16T18:42:10.339Z",
+      "updatedAt": "2026-11-17T00:36:00.515Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
