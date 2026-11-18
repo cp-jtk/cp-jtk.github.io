@@ -48,13 +48,14 @@ export const initSidebar = (): void => {
 
   const path = window.location.pathname.replace(/\/$/, '') || '/'
   const hashTarget = window.location.hash.replace('#', '')
+  const navTargets = navLinks.map((link) => link.getAttribute('data-target'))
 
   let pageTarget = ''
-  if (path.startsWith('/students')) pageTarget = 'roster'
+  if (path === '/' || path.startsWith('/students')) pageTarget = 'statistics'
   else if (path === '/learn/references') pageTarget = 'references'
   else if (path === '/learn/platforms') pageTarget = 'platforms'
 
-  const activeTarget = hashTarget || pageTarget
+  const activeTarget = hashTarget && navTargets.includes(hashTarget) ? hashTarget : pageTarget
   if (activeTarget) setActiveNav(activeTarget)
 
   const sectionEntries = navLinks
