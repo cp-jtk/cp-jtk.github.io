@@ -83,7 +83,7 @@ test.describe('sidebar navigation', () => {
     const card = page.locator('.platform-card').first()
     const link = card.locator('a.platform-card__link')
 
-    await expect(link).toHaveAttribute('href', 'https://tlx.toki.id/')
+    await expect(link).toHaveAttribute('href', 'https://tlx.toki.id/courses')
     await expect(link).toHaveAttribute('target', '_blank')
 
     await expect(card.locator('.platform-card__arrow')).toHaveCSS('opacity', '0')
