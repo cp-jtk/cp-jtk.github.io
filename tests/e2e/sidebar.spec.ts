@@ -6,8 +6,8 @@ test.describe('sidebar navigation', () => {
 
     const sidebar = page.locator('.sidebar')
     await expect(sidebar).toBeVisible()
-    await expect(sidebar.locator('[data-nav-link]')).toHaveText(['Beranda', 'Daftar Mahasiswa', 'Referensi Belajar', 'Platform Belajar'])
-    await expect(sidebar.locator('[data-target="beranda"]')).toHaveAttribute('aria-current', 'true')
+    await expect(sidebar.locator('[data-nav-link]')).toHaveText(['Statistik', 'Referensi Belajar', 'Platform Belajar'])
+    await expect(sidebar.locator('[data-target="statistics"]')).toHaveAttribute('aria-current', 'true')
   })
 
   test('opens and closes the mobile drawer', async ({ page }) => {
@@ -32,12 +32,12 @@ test.describe('sidebar navigation', () => {
     await expect(toggle).toHaveAttribute('aria-expanded', 'false')
   })
 
-  test('marks the roster nav item active on a student page', async ({ page }) => {
+  test('marks the statistik nav item active on a student page', async ({ page }) => {
     await page.goto('/students/241511002/')
 
-    const rosterLink = page.locator('.sidebar [data-target="roster"]')
-    await expect(rosterLink).toHaveAttribute('aria-current', 'true')
-    await expect(page.locator('.sidebar [data-target="beranda"]')).not.toHaveAttribute('aria-current', 'true')
+    const statsLink = page.locator('.sidebar [data-target="statistics"]')
+    await expect(statsLink).toHaveAttribute('aria-current', 'true')
+    await expect(page.locator('.sidebar [data-target="references"]')).not.toHaveAttribute('aria-current', 'true')
   })
 
   test('serves the learning pages as separate routes', async ({ page }) => {
@@ -49,7 +49,7 @@ test.describe('sidebar navigation', () => {
     await page.goto('/learn/platforms')
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Platform Belajar')
     await expect(page.locator('.sidebar [data-target="platforms"]')).toHaveAttribute('aria-current', 'true')
-    await expect(page.getByRole('heading', { name: 'Dipantau' })).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Rekomendasi Utama' })).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Rekomendasi lainnya' })).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Codeforces' })).toBeVisible()
     await expect(page.getByRole('heading', { name: 'CSES Problem Set' })).toBeVisible()
@@ -59,7 +59,7 @@ test.describe('sidebar navigation', () => {
     await page.goto('/learn/platforms')
 
     const cards = page.locator('.platform-card')
-    await expect(cards.nth(0).locator('.platform-chip')).toHaveText(['Bahasa Indonesia'])
+    await expect(cards.nth(0).locator('.platform-chip')).toHaveText(['Bahasa Indonesia', 'English'])
     await expect(cards.nth(1).locator('.platform-chip')).toHaveText(['English'])
     await expect(cards.nth(2).locator('.platform-chip')).toHaveText(['English'])
     await expect(cards.nth(5).locator('.platform-chip')).toHaveText(['Jepang', 'English'])
@@ -75,6 +75,20 @@ test.describe('sidebar navigation', () => {
     expect(box).not.toBeNull()
     expect(viewport).not.toBeNull()
     expect(box!.y + box!.height).toBeGreaterThanOrEqual(viewport!.height - 2)
+  })
+
+  test('links each platform card directly to its site', async ({ page }) => {
+    await page.goto('/learn/platforms')
+
+    const card = page.locator('.platform-card').first()
+    const link = card.locator('a.platform-card__link')
+
+    await expect(link).toHaveAttribute('href', 'https://tlx.toki.id/')
+    await expect(link).toHaveAttribute('target', '_blank')
+
+    await expect(card.locator('.platform-card__arrow')).toHaveCSS('opacity', '0')
+    await card.hover()
+    await expect(card.locator('.platform-card__arrow')).toHaveCSS('opacity', '1')
   })
 
   test('expands a platform accordion to reveal the details', async ({ page }) => {
