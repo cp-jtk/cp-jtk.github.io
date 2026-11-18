@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://cp-jtk.netlify.app',
+  site: process.env.SITE_URL || 'https://cp-jtk.github.io',
   integrations: [vue(), sitemap()],
   output: 'static',
   compressHTML: true,

@@ -4,5 +4,5 @@ export const site = {
   description: 'Monitoring latihan competitive programming mahasiswa JTK.',
   locale: 'id',
   themeStorageKey: 'cp-jtk-theme',
-  defaultSiteUrl: 'https://cp-jtk.netlify.app',
+  defaultSiteUrl: 'https://cp-jtk.github.io',
 } as const
