@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-18T06:52:58.976Z",
+    "updatedAt": "2026-11-18T12:49:44.158Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -533,11 +533,15 @@
       "2026-11-17": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-18": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 587
+      "count": 588
     }
   },
   "platforms": {
@@ -6100,7 +6104,7 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1213205,
+      "ranking": 1197365,
       "totalSolved": 149,
       "easySolved": 63,
       "mediumSolved": 67,
@@ -6185,9 +6189,23 @@
         "2026-11-17": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-18": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1794976794",
+          "platform": "leetcode",
+          "title": "Minimum Number of Changes to Make Binary String Beautiful",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/",
+          "solvedAt": "2026-11-18T04:39:54.000Z"
+        },
         {
           "id": "lc-1794915793",
           "platform": "leetcode",
@@ -7683,6 +7701,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1794976794",
+      "platform": "leetcode",
+      "title": "Minimum Number of Changes to Make Binary String Beautiful",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/",
+      "solvedAt": "2026-11-18T04:39:54.000Z"
+    },
     {
       "id": "lc-1794915793",
       "platform": "leetcode",
