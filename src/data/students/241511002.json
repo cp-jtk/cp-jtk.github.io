@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-19T00:45:18.586Z",
+    "updatedAt": "2026-11-19T06:53:35.593Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 684,
+    "totalSolved": 685,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -537,11 +537,15 @@
       "2026-11-18": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-19": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 588
+      "count": 589
     }
   },
   "platforms": {
@@ -6105,9 +6109,9 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1197365,
-      "totalSolved": 150,
+      "totalSolved": 151,
       "easySolved": 63,
-      "mediumSolved": 68,
+      "mediumSolved": 69,
       "hardSolved": 19,
       "dailyCalendar": {
         "2026-11-11": {
@@ -6193,9 +6197,23 @@
         "2026-11-18": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-19": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795068252",
+          "platform": "leetcode",
+          "title": "Minimum Score by Changing Two Elements",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
+          "solvedAt": "2026-11-19T06:04:12.000Z"
+        },
         {
           "id": "lc-1794976794",
           "platform": "leetcode",
@@ -7701,6 +7719,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795068252",
+      "platform": "leetcode",
+      "title": "Minimum Score by Changing Two Elements",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
+      "solvedAt": "2026-11-19T06:04:12.000Z"
+    },
     {
       "id": "lc-1794976794",
       "platform": "leetcode",

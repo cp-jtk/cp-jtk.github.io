@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-19T00:45:23.280Z",
+    "updatedAt": "2026-11-19T06:53:40.310Z",
     "version": "1",
     "studentNim": "261524065",
     "handles": {
@@ -10,8 +10,8 @@
     }
   },
   "overview": {
-    "totalSolved": 17,
-    "totalSubmissions": 13,
+    "totalSolved": 26,
+    "totalSubmissions": 29,
     "activePlatforms": 3,
     "heatmap": {
       "2026-11-16": {
@@ -21,24 +21,28 @@
       "2026-11-17": {
         "tries": 6,
         "ac": 4
+      },
+      "2026-11-19": {
+        "tries": 16,
+        "ac": 6
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 13
+      "count": 29
     }
   },
   "platforms": {
     "tlx": {
       "handle": "eepycattt",
       "url": "https://tlx.toki.id/profiles/eepycattt",
-      "totalSolved": 15,
-      "totalSubmissions": 11,
-      "totalAcSubmissions": 15,
-      "uniqueProblemsSolved": 9,
+      "totalSolved": 24,
+      "totalSubmissions": 27,
+      "totalAcSubmissions": 24,
+      "uniqueProblemsSolved": 15,
       "rating": 0,
       "languages": {
-        "C++20": 11
+        "C++20": 27
       },
       "dailyCalendar": {
         "2026-11-16": {
@@ -48,9 +52,73 @@
         "2026-11-17": {
           "tries": 6,
           "ac": 4
+        },
+        "2026-11-19": {
+          "tries": 16,
+          "ac": 6
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6315381",
+          "platform": "tlx",
+          "title": "Jual-Beli Bebek II",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315381",
+          "solvedAt": "2026-11-19T01:28:23.682Z"
+        },
+        {
+          "id": "tlx-6315357",
+          "platform": "tlx",
+          "title": "Membeli Kandang IV",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315357",
+          "solvedAt": "2026-11-19T01:21:36.114Z"
+        },
+        {
+          "id": "tlx-6315349",
+          "platform": "tlx",
+          "title": "Membeli Kandang III",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315349",
+          "solvedAt": "2026-11-19T01:19:06.317Z"
+        },
+        {
+          "id": "tlx-6315334",
+          "platform": "tlx",
+          "title": "Membeli Kandang II",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315334",
+          "solvedAt": "2026-11-19T01:14:13.832Z"
+        },
+        {
+          "id": "tlx-6315312",
+          "platform": "tlx",
+          "title": "Perkenalan While",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315312",
+          "solvedAt": "2026-11-19T01:08:17.884Z"
+        },
+        {
+          "id": "tlx-6315290",
+          "platform": "tlx",
+          "title": "Membeli Kandang",
+          "category": "Perulangan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6315290",
+          "solvedAt": "2026-11-19T01:03:26.725Z"
+        },
         {
           "id": "tlx-6311376",
           "platform": "tlx",
@@ -200,6 +268,66 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6315381",
+      "platform": "tlx",
+      "title": "Jual-Beli Bebek II",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315381",
+      "solvedAt": "2026-11-19T01:28:23.682Z"
+    },
+    {
+      "id": "tlx-6315357",
+      "platform": "tlx",
+      "title": "Membeli Kandang IV",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315357",
+      "solvedAt": "2026-11-19T01:21:36.114Z"
+    },
+    {
+      "id": "tlx-6315349",
+      "platform": "tlx",
+      "title": "Membeli Kandang III",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315349",
+      "solvedAt": "2026-11-19T01:19:06.317Z"
+    },
+    {
+      "id": "tlx-6315334",
+      "platform": "tlx",
+      "title": "Membeli Kandang II",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315334",
+      "solvedAt": "2026-11-19T01:14:13.832Z"
+    },
+    {
+      "id": "tlx-6315312",
+      "platform": "tlx",
+      "title": "Perkenalan While",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315312",
+      "solvedAt": "2026-11-19T01:08:17.884Z"
+    },
+    {
+      "id": "tlx-6315290",
+      "platform": "tlx",
+      "title": "Membeli Kandang",
+      "category": "Perulangan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6315290",
+      "solvedAt": "2026-11-19T01:03:26.725Z"
+    },
     {
       "id": "tlx-6311376",
       "platform": "tlx",
