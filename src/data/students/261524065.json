@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-20T00:36:38.229Z",
+    "updatedAt": "2026-11-20T06:53:11.608Z",
     "version": "1",
     "studentNim": "261524065",
     "handles": {
@@ -11,7 +11,7 @@
   },
   "overview": {
     "totalSolved": 36,
-    "totalSubmissions": 35,
+    "totalSubmissions": 41,
     "activePlatforms": 3,
     "heatmap": {
       "2026-11-16": {
@@ -23,13 +23,17 @@
         "ac": 4
       },
       "2026-11-19": {
-        "tries": 22,
+        "tries": 23,
         "ac": 12
+      },
+      "2026-11-20": {
+        "tries": 5,
+        "ac": 0
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 35
+      "count": 41
     }
   },
   "platforms": {
@@ -37,12 +41,12 @@
       "handle": "eepycattt",
       "url": "https://tlx.toki.id/profiles/eepycattt",
       "totalSolved": 34,
-      "totalSubmissions": 33,
+      "totalSubmissions": 39,
       "totalAcSubmissions": 34,
       "uniqueProblemsSolved": 21,
       "rating": 0,
       "languages": {
-        "C++20": 33
+        "C++20": 39
       },
       "dailyCalendar": {
         "2026-11-16": {
@@ -54,8 +58,12 @@
           "ac": 4
         },
         "2026-11-19": {
-          "tries": 22,
+          "tries": 23,
           "ac": 12
+        },
+        "2026-11-20": {
+          "tries": 5,
+          "ac": 0
         }
       },
       "recentSolved": [
