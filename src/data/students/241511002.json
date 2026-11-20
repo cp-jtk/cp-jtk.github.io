@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-20T06:53:07.322Z",
+    "updatedAt": "2026-11-20T12:49:31.230Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -6112,7 +6112,7 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1189198,
+      "ranking": 1181005,
       "totalSolved": 152,
       "easySolved": 63,
       "mediumSolved": 69,
