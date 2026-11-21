@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-21T06:50:01.771Z",
+    "updatedAt": "2026-11-21T12:36:57.401Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 687,
+    "totalSolved": 688,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -386,6 +386,10 @@
         "tries": 12,
         "ac": 11
       },
+      "2026-11-21": {
+        "tries": 5,
+        "ac": 2
+      },
       "2026-08-25": {
         "tries": 1,
         "ac": 0
@@ -545,10 +549,6 @@
       "2026-11-20": {
         "tries": 1,
         "ac": 1
-      },
-      "2026-11-21": {
-        "tries": 1,
-        "ac": 1
       }
     },
     "topLanguage": {
@@ -561,9 +561,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 466,
+      "totalSolved": 467,
       "uniqueProblemsSolved": 240,
-      "totalAcSubmissions": 466,
+      "totalAcSubmissions": 467,
       "languages": {
         "C++20": 386,
         "Pascal": 5,
@@ -944,9 +944,23 @@
         "2026-11-15": {
           "tries": 4,
           "ac": 3
+        },
+        "2026-11-21": {
+          "tries": 4,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6327296",
+          "platform": "tlx",
+          "title": "Scrambled Scrabble",
+          "category": "ICPC Jakarta 2024",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6327296",
+          "solvedAt": "2026-11-21T11:23:23.862Z"
+        },
         {
           "id": "tlx-6306041",
           "platform": "tlx",
@@ -6116,7 +6130,7 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1181005,
+      "ranking": 1173310,
       "totalSolved": 153,
       "easySolved": 63,
       "mediumSolved": 70,
@@ -7755,6 +7769,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6327296",
+      "platform": "tlx",
+      "title": "Scrambled Scrabble",
+      "category": "ICPC Jakarta 2024",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6327296",
+      "solvedAt": "2026-11-21T11:23:23.862Z"
+    },
     {
       "id": "lc-1795240301",
       "platform": "leetcode",
