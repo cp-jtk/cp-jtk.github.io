@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-21T00:39:01.116Z",
+    "updatedAt": "2026-11-21T06:50:01.771Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 686,
+    "totalSolved": 687,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -545,11 +545,15 @@
       "2026-11-20": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-21": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 590
+      "count": 591
     }
   },
   "platforms": {
@@ -6113,9 +6117,9 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1181005,
-      "totalSolved": 152,
+      "totalSolved": 153,
       "easySolved": 63,
-      "mediumSolved": 69,
+      "mediumSolved": 70,
       "hardSolved": 20,
       "dailyCalendar": {
         "2026-11-11": {
@@ -6209,9 +6213,23 @@
         "2026-11-20": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-21": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795240301",
+          "platform": "leetcode",
+          "title": "Find Subtree Sizes After Changes",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/find-subtree-sizes-after-changes/",
+          "solvedAt": "2026-11-21T05:51:41.000Z"
+        },
         {
           "id": "lc-1795148386",
           "platform": "leetcode",
@@ -7737,6 +7755,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795240301",
+      "platform": "leetcode",
+      "title": "Find Subtree Sizes After Changes",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-subtree-sizes-after-changes/",
+      "solvedAt": "2026-11-21T05:51:41.000Z"
+    },
     {
       "id": "lc-1795148386",
       "platform": "leetcode",
