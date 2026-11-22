@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-22T06:48:09.361Z",
+    "updatedAt": "2026-11-22T12:35:45.767Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 692,
+    "totalSolved": 694,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -549,11 +549,15 @@
       "2026-11-20": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-22": {
+        "tries": 2,
+        "ac": 2
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 593
+      "count": 595
     }
   },
   "platforms": {
@@ -6170,9 +6174,9 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1173310,
-      "totalSolved": 153,
-      "easySolved": 63,
+      "ranking": 1158144,
+      "totalSolved": 155,
+      "easySolved": 65,
       "mediumSolved": 70,
       "hardSolved": 20,
       "dailyCalendar": {
@@ -6271,9 +6275,33 @@
         "2026-11-21": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-22": {
+          "tries": 2,
+          "ac": 2
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795341894",
+          "platform": "leetcode",
+          "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/",
+          "solvedAt": "2026-11-22T10:04:54.000Z"
+        },
+        {
+          "id": "lc-1795339475",
+          "platform": "leetcode",
+          "title": "Check if All A's Appears Before All B's",
+          "category": "String",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+          "solvedAt": "2026-11-22T09:24:35.000Z"
+        },
         {
           "id": "lc-1795240301",
           "platform": "leetcode",
@@ -7809,6 +7837,26 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795341894",
+      "platform": "leetcode",
+      "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/",
+      "solvedAt": "2026-11-22T10:04:54.000Z"
+    },
+    {
+      "id": "lc-1795339475",
+      "platform": "leetcode",
+      "title": "Check if All A's Appears Before All B's",
+      "category": "String",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+      "solvedAt": "2026-11-22T09:24:35.000Z"
+    },
     {
       "id": "tlx-6327920",
       "platform": "tlx",
