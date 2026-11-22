@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T18:28:26.676Z",
+  "updatedAt": "2026-11-22T00:31:40.498Z",
   "students": [
     {
       "nim": "261524010",
@@ -10,7 +10,7 @@
       "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
-      "updatedAt": "2026-11-21T18:28:25.564Z",
+      "updatedAt": "2026-11-22T00:31:39.055Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -43,7 +43,7 @@
       "totalSolved": 0,
       "totalSubmissions": 0,
       "lastSolvedAt": null,
-      "updatedAt": "2026-11-21T18:28:25.573Z",
+      "updatedAt": "2026-11-22T00:31:39.072Z",
       "sync": "unlinked",
       "platforms": {
         "tlx": {
@@ -76,7 +76,7 @@
       "totalSolved": 7,
       "totalSubmissions": 5,
       "lastSolvedAt": "2026-11-14T13:15:17.377Z",
-      "updatedAt": "2026-11-21T18:28:26.336Z",
+      "updatedAt": "2026-11-22T00:31:39.901Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -109,7 +109,7 @@
       "totalSolved": 37,
       "totalSubmissions": 41,
       "lastSolvedAt": "2026-11-19T14:47:49.761Z",
-      "updatedAt": "2026-11-21T18:28:26.671Z",
+      "updatedAt": "2026-11-22T00:31:40.490Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -142,7 +142,7 @@
       "totalSolved": 144,
       "totalSubmissions": 259,
       "lastSolvedAt": "2026-11-12T14:48:58.324Z",
-      "updatedAt": "2026-11-21T18:28:25.646Z",
+      "updatedAt": "2026-11-22T00:31:39.347Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -175,7 +175,7 @@
       "totalSolved": 692,
       "totalSubmissions": 1337,
       "lastSolvedAt": "2026-11-21T15:47:26.162Z",
-      "updatedAt": "2026-11-21T18:28:22.026Z",
+      "updatedAt": "2026-11-22T00:31:34.846Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -208,7 +208,7 @@
       "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
-      "updatedAt": "2026-11-21T18:28:21.726Z",
+      "updatedAt": "2026-11-22T00:31:35.250Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
