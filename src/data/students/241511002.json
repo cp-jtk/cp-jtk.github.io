@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-23T12:53:16.481Z",
+    "updatedAt": "2026-11-23T18:43:48.177Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 702,
+    "totalSolved": 706,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -391,8 +391,8 @@
         "ac": 7
       },
       "2026-11-23": {
-        "tries": 19,
-        "ac": 7
+        "tries": 23,
+        "ac": 11
       },
       "2026-11-22": {
         "tries": 4,
@@ -569,9 +569,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 478,
-      "uniqueProblemsSolved": 233,
-      "totalAcSubmissions": 478,
+      "totalSolved": 482,
+      "uniqueProblemsSolved": 234,
+      "totalAcSubmissions": 482,
       "languages": {
         "C++20": 388,
         "Pascal": 5,
@@ -958,8 +958,8 @@
           "ac": 6
         },
         "2026-11-23": {
-          "tries": 18,
-          "ac": 6
+          "tries": 22,
+          "ac": 10
         },
         "2026-11-22": {
           "tries": 2,
@@ -967,6 +967,46 @@
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6333634",
+          "platform": "tlx",
+          "title": "Djio and Combo",
+          "category": "BNPCHS 2023 - Penyisihan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6333634",
+          "solvedAt": "2026-11-23T14:29:55.806Z"
+        },
+        {
+          "id": "tlx-6333579",
+          "platform": "tlx",
+          "title": "Djio and Fruit Stand",
+          "category": "BNPCHS 2023 - Penyisihan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6333579",
+          "solvedAt": "2026-11-23T14:07:18.812Z"
+        },
+        {
+          "id": "tlx-6333539",
+          "platform": "tlx",
+          "title": "Djio and Agents",
+          "category": "BNPCHS 2023 - Penyisihan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6333539",
+          "solvedAt": "2026-11-23T13:48:26.857Z"
+        },
+        {
+          "id": "tlx-6333424",
+          "platform": "tlx",
+          "title": "Djio and Domino Effect",
+          "category": "BNPCHS 2023 - Penyisihan",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6333424",
+          "solvedAt": "2026-11-23T12:55:30.930Z"
+        },
         {
           "id": "tlx-6333316",
           "platform": "tlx",
@@ -7933,6 +7973,46 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6333634",
+      "platform": "tlx",
+      "title": "Djio and Combo",
+      "category": "BNPCHS 2023 - Penyisihan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6333634",
+      "solvedAt": "2026-11-23T14:29:55.806Z"
+    },
+    {
+      "id": "tlx-6333579",
+      "platform": "tlx",
+      "title": "Djio and Fruit Stand",
+      "category": "BNPCHS 2023 - Penyisihan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6333579",
+      "solvedAt": "2026-11-23T14:07:18.812Z"
+    },
+    {
+      "id": "tlx-6333539",
+      "platform": "tlx",
+      "title": "Djio and Agents",
+      "category": "BNPCHS 2023 - Penyisihan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6333539",
+      "solvedAt": "2026-11-23T13:48:26.857Z"
+    },
+    {
+      "id": "tlx-6333424",
+      "platform": "tlx",
+      "title": "Djio and Domino Effect",
+      "category": "BNPCHS 2023 - Penyisihan",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6333424",
+      "solvedAt": "2026-11-23T12:55:30.930Z"
+    },
     {
       "id": "tlx-6333316",
       "platform": "tlx",
