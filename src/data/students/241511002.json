@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-22T18:29:59.454Z",
+    "updatedAt": "2026-11-23T00:36:40.370Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 694,
+    "totalSolved": 698,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -390,6 +390,14 @@
         "tries": 12,
         "ac": 7
       },
+      "2026-11-23": {
+        "tries": 6,
+        "ac": 3
+      },
+      "2026-11-22": {
+        "tries": 4,
+        "ac": 3
+      },
       "2026-08-25": {
         "tries": 1,
         "ac": 0
@@ -549,15 +557,11 @@
       "2026-11-20": {
         "tries": 1,
         "ac": 1
-      },
-      "2026-11-22": {
-        "tries": 2,
-        "ac": 2
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 595
+      "count": 596
     }
   },
   "platforms": {
@@ -565,9 +569,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 471,
-      "uniqueProblemsSolved": 239,
-      "totalAcSubmissions": 471,
+      "totalSolved": 474,
+      "uniqueProblemsSolved": 238,
+      "totalAcSubmissions": 474,
       "languages": {
         "C++20": 388,
         "Pascal": 5,
@@ -952,9 +956,47 @@
         "2026-11-21": {
           "tries": 11,
           "ac": 6
+        },
+        "2026-11-23": {
+          "tries": 5,
+          "ac": 2
+        },
+        "2026-11-22": {
+          "tries": 2,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6330677",
+          "platform": "tlx",
+          "title": "Triangle Construction",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6330677",
+          "solvedAt": "2026-11-23T00:31:59.479Z"
+        },
+        {
+          "id": "tlx-6330635",
+          "platform": "tlx",
+          "title": "Maximize The Value",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6330635",
+          "solvedAt": "2026-11-23T00:19:51.323Z"
+        },
+        {
+          "id": "tlx-6330627",
+          "platform": "tlx",
+          "title": "Easy As ABC",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6330627",
+          "solvedAt": "2026-11-22T23:10:31.350Z"
+        },
         {
           "id": "tlx-6327920",
           "platform": "tlx",
@@ -6175,9 +6217,9 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1158144,
-      "totalSolved": 155,
+      "totalSolved": 156,
       "easySolved": 65,
-      "mediumSolved": 70,
+      "mediumSolved": 71,
       "hardSolved": 20,
       "dailyCalendar": {
         "2026-11-11": {
@@ -6279,9 +6321,23 @@
         "2026-11-22": {
           "tries": 2,
           "ac": 2
+        },
+        "2026-11-23": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795393349",
+          "platform": "leetcode",
+          "title": "Product of the Last K Numbers",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/product-of-the-last-k-numbers/",
+          "solvedAt": "2026-11-23T00:22:29.000Z"
+        },
         {
           "id": "lc-1795341894",
           "platform": "leetcode",
@@ -7837,6 +7893,46 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6330677",
+      "platform": "tlx",
+      "title": "Triangle Construction",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6330677",
+      "solvedAt": "2026-11-23T00:31:59.479Z"
+    },
+    {
+      "id": "lc-1795393349",
+      "platform": "leetcode",
+      "title": "Product of the Last K Numbers",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/product-of-the-last-k-numbers/",
+      "solvedAt": "2026-11-23T00:22:29.000Z"
+    },
+    {
+      "id": "tlx-6330635",
+      "platform": "tlx",
+      "title": "Maximize The Value",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6330635",
+      "solvedAt": "2026-11-23T00:19:51.323Z"
+    },
+    {
+      "id": "tlx-6330627",
+      "platform": "tlx",
+      "title": "Easy As ABC",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6330627",
+      "solvedAt": "2026-11-22T23:10:31.350Z"
+    },
     {
       "id": "lc-1795341894",
       "platform": "leetcode",

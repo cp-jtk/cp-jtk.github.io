@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:30:05.590Z",
+  "updatedAt": "2026-11-23T00:36:44.461Z",
   "students": [
     {
       "nim": "261524010",
@@ -10,7 +10,7 @@
       "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
-      "updatedAt": "2026-11-22T18:30:04.296Z",
+      "updatedAt": "2026-11-23T00:36:43.503Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -43,7 +43,7 @@
       "totalSolved": 0,
       "totalSubmissions": 0,
       "lastSolvedAt": null,
-      "updatedAt": "2026-11-22T18:30:04.109Z",
+      "updatedAt": "2026-11-23T00:36:43.464Z",
       "sync": "unlinked",
       "platforms": {
         "tlx": {
@@ -76,7 +76,7 @@
       "totalSolved": 7,
       "totalSubmissions": 5,
       "lastSolvedAt": "2026-11-14T13:15:17.377Z",
-      "updatedAt": "2026-11-22T18:30:05.318Z",
+      "updatedAt": "2026-11-23T00:36:44.184Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -109,7 +109,7 @@
       "totalSolved": 37,
       "totalSubmissions": 41,
       "lastSolvedAt": "2026-11-19T14:47:49.761Z",
-      "updatedAt": "2026-11-22T18:30:05.578Z",
+      "updatedAt": "2026-11-23T00:36:44.456Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -142,7 +142,7 @@
       "totalSolved": 144,
       "totalSubmissions": 259,
       "lastSolvedAt": "2026-11-12T14:48:58.324Z",
-      "updatedAt": "2026-11-22T18:30:04.065Z",
+      "updatedAt": "2026-11-23T00:36:43.437Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -172,15 +172,15 @@
       "kelasHuruf": "A",
       "kelas": "3A-D3",
       "aktif": true,
-      "totalSolved": 694,
+      "totalSolved": 698,
       "totalSubmissions": 1337,
-      "lastSolvedAt": "2026-11-22T10:04:54.000Z",
-      "updatedAt": "2026-11-22T18:29:59.454Z",
+      "lastSolvedAt": "2026-11-23T00:31:59.479Z",
+      "updatedAt": "2026-11-23T00:36:40.370Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
           "handle": "aycaaa",
-          "solved": 471,
+          "solved": 474,
           "submissions": 941,
           "rating": 2150
         },
@@ -193,7 +193,7 @@
         },
         "leetcode": {
           "handle": "fsaree",
-          "solved": 155,
+          "solved": 156,
           "submissions": 137,
           "ranking": 1158144
         }
@@ -208,7 +208,7 @@
       "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
-      "updatedAt": "2026-11-22T18:29:59.084Z",
+      "updatedAt": "2026-11-23T00:36:39.872Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
