@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-23T00:36:40.370Z",
+    "updatedAt": "2026-11-23T07:03:06.100Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 698,
+    "totalSolved": 699,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -391,8 +391,8 @@
         "ac": 7
       },
       "2026-11-23": {
-        "tries": 6,
-        "ac": 3
+        "tries": 7,
+        "ac": 4
       },
       "2026-11-22": {
         "tries": 4,
@@ -569,9 +569,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 474,
-      "uniqueProblemsSolved": 238,
-      "totalAcSubmissions": 474,
+      "totalSolved": 475,
+      "uniqueProblemsSolved": 239,
+      "totalAcSubmissions": 475,
       "languages": {
         "C++20": 388,
         "Pascal": 5,
@@ -958,8 +958,8 @@
           "ac": 6
         },
         "2026-11-23": {
-          "tries": 5,
-          "ac": 2
+          "tries": 6,
+          "ac": 3
         },
         "2026-11-22": {
           "tries": 2,
@@ -967,6 +967,16 @@
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6331103",
+          "platform": "tlx",
+          "title": "Palindromic Parentheses",
+          "category": "ICPC Jakarta 2023",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6331103",
+          "solvedAt": "2026-11-23T01:16:50.006Z"
+        },
         {
           "id": "tlx-6330677",
           "platform": "tlx",
@@ -7893,6 +7903,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6331103",
+      "platform": "tlx",
+      "title": "Palindromic Parentheses",
+      "category": "ICPC Jakarta 2023",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6331103",
+      "solvedAt": "2026-11-23T01:16:50.006Z"
+    },
     {
       "id": "tlx-6330677",
       "platform": "tlx",
