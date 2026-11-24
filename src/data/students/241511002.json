@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-24T06:51:10.818Z",
+    "updatedAt": "2026-11-24T12:53:23.568Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 707,
+    "totalSolved": 709,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -398,6 +398,10 @@
         "tries": 4,
         "ac": 3
       },
+      "2026-11-24": {
+        "tries": 5,
+        "ac": 2
+      },
       "2026-08-25": {
         "tries": 1,
         "ac": 0
@@ -569,9 +573,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 483,
+      "totalSolved": 485,
       "uniqueProblemsSolved": 235,
-      "totalAcSubmissions": 483,
+      "totalAcSubmissions": 485,
       "languages": {
         "C++20": 388,
         "Pascal": 5,
@@ -964,9 +968,33 @@
         "2026-11-22": {
           "tries": 2,
           "ac": 1
+        },
+        "2026-11-24": {
+          "tries": 5,
+          "ac": 2
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6335667",
+          "platform": "tlx",
+          "title": "Nightmare Brother",
+          "category": "ICPC Jakarta 2022",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6335667",
+          "solvedAt": "2026-11-24T12:50:36.172Z"
+        },
+        {
+          "id": "tlx-6335136",
+          "platform": "tlx",
+          "title": "Penyebaran Hoaks",
+          "category": "OSN Informatika 2019",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6335136",
+          "solvedAt": "2026-11-24T08:36:40.750Z"
+        },
         {
           "id": "tlx-6333832",
           "platform": "tlx",
@@ -7983,6 +8011,26 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6335667",
+      "platform": "tlx",
+      "title": "Nightmare Brother",
+      "category": "ICPC Jakarta 2022",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6335667",
+      "solvedAt": "2026-11-24T12:50:36.172Z"
+    },
+    {
+      "id": "tlx-6335136",
+      "platform": "tlx",
+      "title": "Penyebaran Hoaks",
+      "category": "OSN Informatika 2019",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6335136",
+      "solvedAt": "2026-11-24T08:36:40.750Z"
+    },
     {
       "id": "tlx-6333832",
       "platform": "tlx",
