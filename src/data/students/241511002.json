@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-23T18:43:48.177Z",
+    "updatedAt": "2026-11-24T00:40:41.364Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 706,
+    "totalSolved": 707,
     "totalSubmissions": 1337,
     "activePlatforms": 3,
     "heatmap": {
@@ -391,8 +391,8 @@
         "ac": 7
       },
       "2026-11-23": {
-        "tries": 23,
-        "ac": 11
+        "tries": 24,
+        "ac": 12
       },
       "2026-11-22": {
         "tries": 4,
@@ -569,9 +569,9 @@
       "handle": "aycaaa",
       "url": "https://tlx.toki.id/profiles/aycaaa",
       "totalSubmissions": 941,
-      "totalSolved": 482,
-      "uniqueProblemsSolved": 234,
-      "totalAcSubmissions": 482,
+      "totalSolved": 483,
+      "uniqueProblemsSolved": 235,
+      "totalAcSubmissions": 483,
       "languages": {
         "C++20": 388,
         "Pascal": 5,
@@ -958,8 +958,8 @@
           "ac": 6
         },
         "2026-11-23": {
-          "tries": 22,
-          "ac": 10
+          "tries": 23,
+          "ac": 11
         },
         "2026-11-22": {
           "tries": 2,
@@ -967,6 +967,16 @@
         }
       },
       "recentSolved": [
+        {
+          "id": "tlx-6333832",
+          "platform": "tlx",
+          "title": "Kereta Rel Listrik",
+          "category": "OSN Informatika 2024",
+          "language": "C++20",
+          "difficulty": "-",
+          "url": "https://tlx.toki.id/submissions/6333832",
+          "solvedAt": "2026-11-23T23:05:29.294Z"
+        },
         {
           "id": "tlx-6333634",
           "platform": "tlx",
@@ -7973,6 +7983,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "tlx-6333832",
+      "platform": "tlx",
+      "title": "Kereta Rel Listrik",
+      "category": "OSN Informatika 2024",
+      "language": "C++20",
+      "difficulty": "-",
+      "url": "https://tlx.toki.id/submissions/6333832",
+      "solvedAt": "2026-11-23T23:05:29.294Z"
+    },
     {
       "id": "tlx-6333634",
       "platform": "tlx",
