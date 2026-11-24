@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-24T12:53:22.993Z",
+    "updatedAt": "2026-11-24T18:42:41.660Z",
     "version": "1",
     "studentNim": "241524051",
     "handles": {
@@ -2567,7 +2567,7 @@
     "leetcode": {
       "handle": "finsider",
       "url": "https://leetcode.com/u/finsider",
-      "ranking": 2274706,
+      "ranking": 2275499,
       "totalSolved": 69,
       "easySolved": 33,
       "mediumSolved": 28,

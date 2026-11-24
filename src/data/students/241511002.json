@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-24T12:53:23.568Z",
+    "updatedAt": "2026-11-24T18:42:41.273Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,8 +10,8 @@
     }
   },
   "overview": {
-    "totalSolved": 709,
-    "totalSubmissions": 1337,
+    "totalSolved": 714,
+    "totalSubmissions": 1343,
     "activePlatforms": 3,
     "heatmap": {
       "2026-11-13": {
@@ -399,8 +399,8 @@
         "ac": 3
       },
       "2026-11-24": {
-        "tries": 5,
-        "ac": 2
+        "tries": 12,
+        "ac": 7
       },
       "2026-08-25": {
         "tries": 1,
@@ -565,7 +565,7 @@
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 596
+      "count": 597
     }
   },
   "platforms": {
@@ -5406,9 +5406,9 @@
       "rank": "expert",
       "maxRank": "expert",
       "contestsCount": 5,
-      "totalSubmissions": 259,
-      "totalSolved": 68,
-      "totalAcSubmissions": 74,
+      "totalSubmissions": 265,
+      "totalSolved": 72,
+      "totalAcSubmissions": 78,
       "tagsCount": {
         "binary search": 3,
         "brute force": 11,
@@ -5450,7 +5450,7 @@
         "2600": 1
       },
       "languages": {
-        "C++23": 193,
+        "C++23": 199,
         "C++20": 65,
         "Rust": 1
       },
@@ -5578,9 +5578,57 @@
         "2024-10-29": {
           "tries": 16,
           "ac": 10
+        },
+        "2026-11-24": {
+          "tries": 6,
+          "ac": 4
         }
       },
       "recentSolved": [
+        {
+          "id": "cf-399728757",
+          "platform": "codeforces",
+          "title": "Max Cut Min Flow (106262G)",
+          "category": "Problem Solving",
+          "tags": [],
+          "language": "C++23",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106262/problem/G",
+          "solvedAt": "2026-11-24T17:20:39.000Z"
+        },
+        {
+          "id": "cf-399727018",
+          "platform": "codeforces",
+          "title": "Long Distance Examination (106262E)",
+          "category": "Problem Solving",
+          "tags": [],
+          "language": "C++23",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106262/problem/E",
+          "solvedAt": "2026-11-24T17:01:03.000Z"
+        },
+        {
+          "id": "cf-399711726",
+          "platform": "codeforces",
+          "title": "Trace of Product of Sparse Square Matrices (106262L)",
+          "category": "Problem Solving",
+          "tags": [],
+          "language": "C++23",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106262/problem/L",
+          "solvedAt": "2026-11-24T14:30:34.000Z"
+        },
+        {
+          "id": "cf-399709779",
+          "platform": "codeforces",
+          "title": "Alphabet Chocolate (106262A)",
+          "category": "Problem Solving",
+          "tags": [],
+          "language": "C++23",
+          "difficulty": "800",
+          "url": "https://codeforces.com/contest/106262/problem/A",
+          "solvedAt": "2026-11-24T14:12:25.000Z"
+        },
         {
           "id": "cf-393994284",
           "platform": "codeforces",
@@ -6334,9 +6382,9 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1151080,
-      "totalSolved": 156,
-      "easySolved": 65,
+      "ranking": 1151591,
+      "totalSolved": 157,
+      "easySolved": 66,
       "mediumSolved": 71,
       "hardSolved": 20,
       "dailyCalendar": {
@@ -6443,9 +6491,23 @@
         "2026-11-23": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-24": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795527680",
+          "platform": "leetcode",
+          "title": "Maximum Subarray With Equal Products",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/maximum-subarray-with-equal-products/",
+          "solvedAt": "2026-11-24T13:41:20.000Z"
+        },
         {
           "id": "lc-1795393349",
           "platform": "leetcode",
@@ -8011,6 +8073,60 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "cf-399728757",
+      "platform": "codeforces",
+      "title": "Max Cut Min Flow (106262G)",
+      "category": "Problem Solving",
+      "tags": [],
+      "language": "C++23",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106262/problem/G",
+      "solvedAt": "2026-11-24T17:20:39.000Z"
+    },
+    {
+      "id": "cf-399727018",
+      "platform": "codeforces",
+      "title": "Long Distance Examination (106262E)",
+      "category": "Problem Solving",
+      "tags": [],
+      "language": "C++23",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106262/problem/E",
+      "solvedAt": "2026-11-24T17:01:03.000Z"
+    },
+    {
+      "id": "cf-399711726",
+      "platform": "codeforces",
+      "title": "Trace of Product of Sparse Square Matrices (106262L)",
+      "category": "Problem Solving",
+      "tags": [],
+      "language": "C++23",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106262/problem/L",
+      "solvedAt": "2026-11-24T14:30:34.000Z"
+    },
+    {
+      "id": "cf-399709779",
+      "platform": "codeforces",
+      "title": "Alphabet Chocolate (106262A)",
+      "category": "Problem Solving",
+      "tags": [],
+      "language": "C++23",
+      "difficulty": "800",
+      "url": "https://codeforces.com/contest/106262/problem/A",
+      "solvedAt": "2026-11-24T14:12:25.000Z"
+    },
+    {
+      "id": "lc-1795527680",
+      "platform": "leetcode",
+      "title": "Maximum Subarray With Equal Products",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/maximum-subarray-with-equal-products/",
+      "solvedAt": "2026-11-24T13:41:20.000Z"
+    },
     {
       "id": "tlx-6335667",
       "platform": "tlx",
