@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-25T12:56:36.318Z",
+    "updatedAt": "2026-11-25T18:37:54.957Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 714,
+    "totalSolved": 715,
     "totalSubmissions": 1343,
     "activePlatforms": 3,
     "heatmap": {
@@ -561,11 +561,15 @@
       "2026-11-20": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-25": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 597
+      "count": 598
     }
   },
   "platforms": {
@@ -6382,11 +6386,11 @@
     "leetcode": {
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
-      "ranking": 1151591,
-      "totalSolved": 157,
+      "ranking": 1137174,
+      "totalSolved": 158,
       "easySolved": 66,
       "mediumSolved": 71,
-      "hardSolved": 20,
+      "hardSolved": 21,
       "dailyCalendar": {
         "2026-11-11": {
           "tries": 1,
@@ -6495,9 +6499,23 @@
         "2026-11-24": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-25": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795586899",
+          "platform": "leetcode",
+          "title": "Smallest Unique Subarray",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Hard",
+          "url": "https://leetcode.com/problems/smallest-unique-subarray/",
+          "solvedAt": "2026-11-25T06:08:19.000Z"
+        },
         {
           "id": "lc-1795527680",
           "platform": "leetcode",
@@ -8073,6 +8091,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795586899",
+      "platform": "leetcode",
+      "title": "Smallest Unique Subarray",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/smallest-unique-subarray/",
+      "solvedAt": "2026-11-25T06:08:19.000Z"
+    },
     {
       "id": "cf-399728757",
       "platform": "codeforces",

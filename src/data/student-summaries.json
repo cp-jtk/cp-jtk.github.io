@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T12:56:41.595Z",
+  "updatedAt": "2026-11-25T18:38:00.700Z",
   "students": [
     {
       "nim": "261524010",
@@ -10,7 +10,7 @@
       "totalSolved": 64,
       "totalSubmissions": 226,
       "lastSolvedAt": "2025-06-22T08:19:01.864Z",
-      "updatedAt": "2026-11-25T12:56:40.319Z",
+      "updatedAt": "2026-11-25T18:37:59.234Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -43,7 +43,7 @@
       "totalSolved": 0,
       "totalSubmissions": 0,
       "lastSolvedAt": null,
-      "updatedAt": "2026-11-25T12:56:40.337Z",
+      "updatedAt": "2026-11-25T18:37:59.252Z",
       "sync": "unlinked",
       "platforms": {
         "tlx": {
@@ -76,7 +76,7 @@
       "totalSolved": 7,
       "totalSubmissions": 5,
       "lastSolvedAt": "2026-11-14T13:15:17.377Z",
-      "updatedAt": "2026-11-25T12:56:41.178Z",
+      "updatedAt": "2026-11-25T18:38:00.089Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -109,7 +109,7 @@
       "totalSolved": 37,
       "totalSubmissions": 41,
       "lastSolvedAt": "2026-11-19T14:47:49.761Z",
-      "updatedAt": "2026-11-25T12:56:41.587Z",
+      "updatedAt": "2026-11-25T18:38:00.693Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -142,7 +142,7 @@
       "totalSolved": 144,
       "totalSubmissions": 259,
       "lastSolvedAt": "2026-11-12T14:48:58.324Z",
-      "updatedAt": "2026-11-25T12:56:40.435Z",
+      "updatedAt": "2026-11-25T18:37:59.559Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -172,10 +172,10 @@
       "kelasHuruf": "A",
       "kelas": "3A-D3",
       "aktif": true,
-      "totalSolved": 714,
+      "totalSolved": 715,
       "totalSubmissions": 1343,
-      "lastSolvedAt": "2026-11-24T17:20:39.000Z",
-      "updatedAt": "2026-11-25T12:56:36.318Z",
+      "lastSolvedAt": "2026-11-25T06:08:19.000Z",
+      "updatedAt": "2026-11-25T18:37:54.957Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -193,9 +193,9 @@
         },
         "leetcode": {
           "handle": "fsaree",
-          "solved": 157,
+          "solved": 158,
           "submissions": 137,
-          "ranking": 1151591
+          "ranking": 1137174
         }
       }
     },
@@ -208,7 +208,7 @@
       "totalSolved": 236,
       "totalSubmissions": 656,
       "lastSolvedAt": "2026-11-14T11:34:30.000Z",
-      "updatedAt": "2026-11-25T12:56:36.001Z",
+      "updatedAt": "2026-11-25T18:37:55.123Z",
       "sync": "ok",
       "platforms": {
         "tlx": {
@@ -228,7 +228,7 @@
           "handle": "finsider",
           "solved": 69,
           "submissions": 20,
-          "ranking": 2275499
+          "ranking": 2276257
         }
       }
     }
