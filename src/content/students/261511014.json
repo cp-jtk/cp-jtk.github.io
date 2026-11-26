@@ -5,7 +5,7 @@
   "kelas": "1A-D3",
   "aktif": true,
   "platforms": {
-    "tlx": null,
+    "tlx": "kyuris",
     "leetcode": null,
     "codeforces": null
   }

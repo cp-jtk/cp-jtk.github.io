@@ -1,10 +1,10 @@
 {
   "meta": {
-    "updatedAt": "2026-11-26T06:52:58.139Z",
+    "updatedAt": "2026-11-26T12:56:12.562Z",
     "version": "1",
     "studentNim": "261511014",
     "handles": {
-      "tlx": null,
+      "tlx": "kyuris",
       "codeforces": null,
       "leetcode": null
     }
@@ -12,7 +12,7 @@
   "overview": {
     "totalSolved": 0,
     "totalSubmissions": 0,
-    "activePlatforms": 0,
+    "activePlatforms": 1,
     "heatmap": {},
     "topLanguage": {
       "name": "-",
@@ -21,8 +21,8 @@
   },
   "platforms": {
     "tlx": {
-      "handle": "",
-      "url": "",
+      "handle": "kyuris",
+      "url": "https://tlx.toki.id/profiles/kyuris",
       "totalSolved": 0,
       "totalSubmissions": 0,
       "recentSolved": [],
