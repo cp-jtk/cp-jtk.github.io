@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-26T00:43:34.811Z",
+    "updatedAt": "2026-11-26T06:52:57.975Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 715,
+    "totalSolved": 716,
     "totalSubmissions": 1343,
     "activePlatforms": 3,
     "heatmap": {
@@ -565,11 +565,15 @@
       "2026-11-25": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-26": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 598
+      "count": 599
     }
   },
   "platforms": {
@@ -6387,8 +6391,8 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1137174,
-      "totalSolved": 158,
-      "easySolved": 66,
+      "totalSolved": 159,
+      "easySolved": 67,
       "mediumSolved": 71,
       "hardSolved": 21,
       "dailyCalendar": {
@@ -6503,9 +6507,23 @@
         "2026-11-25": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-26": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795658176",
+          "platform": "leetcode",
+          "title": "Stone Removal Game",
+          "category": "Math",
+          "language": "C++20",
+          "difficulty": "Easy",
+          "url": "https://leetcode.com/problems/stone-removal-game/",
+          "solvedAt": "2026-11-26T01:56:16.000Z"
+        },
         {
           "id": "lc-1795586899",
           "platform": "leetcode",
@@ -8091,6 +8109,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795658176",
+      "platform": "leetcode",
+      "title": "Stone Removal Game",
+      "category": "Math",
+      "language": "C++20",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/stone-removal-game/",
+      "solvedAt": "2026-11-26T01:56:16.000Z"
+    },
     {
       "id": "lc-1795586899",
       "platform": "leetcode",
