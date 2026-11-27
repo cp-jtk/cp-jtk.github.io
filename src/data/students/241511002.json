@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-11-27T00:47:45.134Z",
+    "updatedAt": "2026-11-27T06:55:38.042Z",
     "version": "1",
     "studentNim": "241511002",
     "handles": {
@@ -10,7 +10,7 @@
     }
   },
   "overview": {
-    "totalSolved": 716,
+    "totalSolved": 717,
     "totalSubmissions": 1343,
     "activePlatforms": 3,
     "heatmap": {
@@ -569,11 +569,15 @@
       "2026-11-26": {
         "tries": 1,
         "ac": 1
+      },
+      "2026-11-27": {
+        "tries": 1,
+        "ac": 1
       }
     },
     "topLanguage": {
       "name": "C++20",
-      "count": 599
+      "count": 600
     }
   },
   "platforms": {
@@ -6391,9 +6395,9 @@
       "handle": "fsaree",
       "url": "https://leetcode.com/u/fsaree",
       "ranking": 1130408,
-      "totalSolved": 159,
+      "totalSolved": 160,
       "easySolved": 67,
-      "mediumSolved": 71,
+      "mediumSolved": 72,
       "hardSolved": 21,
       "dailyCalendar": {
         "2026-11-11": {
@@ -6511,9 +6515,23 @@
         "2026-11-26": {
           "tries": 1,
           "ac": 1
+        },
+        "2026-11-27": {
+          "tries": 1,
+          "ac": 1
         }
       },
       "recentSolved": [
+        {
+          "id": "lc-1795752456",
+          "platform": "leetcode",
+          "title": "Maximum Number of Items From Sale I",
+          "category": "Array",
+          "language": "C++20",
+          "difficulty": "Medium",
+          "url": "https://leetcode.com/problems/maximum-number-of-items-from-sale-i/",
+          "solvedAt": "2026-11-27T04:07:36.000Z"
+        },
         {
           "id": "lc-1795658176",
           "platform": "leetcode",
@@ -8109,6 +8127,16 @@
     }
   },
   "recentGlobalFeed": [
+    {
+      "id": "lc-1795752456",
+      "platform": "leetcode",
+      "title": "Maximum Number of Items From Sale I",
+      "category": "Array",
+      "language": "C++20",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-number-of-items-from-sale-i/",
+      "solvedAt": "2026-11-27T04:07:36.000Z"
+    },
     {
       "id": "lc-1795658176",
       "platform": "leetcode",
